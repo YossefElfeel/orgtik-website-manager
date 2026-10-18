@@ -12,3 +12,4 @@ mock/identity/
 .turbo/
 storybook-static/
 
+mock/public/

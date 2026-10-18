@@ -2,7 +2,7 @@
   "name": "orgtik-local-dev",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
+  "main": "server.js",
   "description": "Mock backend for the Website Manager and the website (SOS sign-in, admin, WM APIs).",
   "scripts": {
     "dev": "node server.js --only wm",

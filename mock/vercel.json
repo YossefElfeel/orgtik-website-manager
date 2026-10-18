@@ -17,9 +17,8 @@
       "destination": "/api/index"
     }
   ],
-  "installCommand": "node ../tools/vercel/validate-env.cjs mock && cd .. && npx --yes pnpm@11.3.0 install --frozen-lockfile",
-  "ignoreCommand": "cd .. && npx --yes turbo@2.11.7 query affected --packages orgtik-local-dev --exit-code --base \"${VERCEL_GIT_PREVIOUS_SHA:-HEAD^}\"",
-  "git": {
-    "deploymentEnabled": false
-  }
+  "installCommand": "cd .. && npx --yes pnpm@11.3.0 install --frozen-lockfile",
+  "framework": null,
+  "buildCommand": "node -e \"require('fs').mkdirSync('public',{recursive:true})\"",
+  "outputDirectory": "public"
 }
