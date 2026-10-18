@@ -1,0 +1,17 @@
+"use client";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Select as BaseSelect } from "@base-ui/react/select";
+import { CaretDown, Check } from "@phosphor-icons/react";
+import { cn } from "../lib/cn.js";
+import { controlFrame } from "../lib/control.js";
+import { useStrings } from "../provider/OrgtikProvider.js";
+const isGroup = (o) => "options" in o;
+/** Picks one value from a short list. Past about 12 options, or for search, use a Combobox. */
+export function Select({ options, value, defaultValue, onValueChange, placeholder, label, size, className, "aria-label": ariaLabel, ...props }) {
+    const t = useStrings();
+    const visibleLabel = label ?? (value === "all" ? ariaLabel : undefined);
+    const flat = options.flatMap((o) => (isGroup(o) ? o.options : [o]));
+    const item = (o) => (_jsxs(BaseSelect.Item, { value: o.value, disabled: o.disabled, className: "flex h-control-sm cursor-default items-center gap-2 rounded-field ps-2 pe-3 text-body text-fg outline-none select-none data-[disabled]:opacity-50 data-[highlighted]:bg-hover", children: [_jsx("span", { className: "grid size-4 shrink-0 place-items-center text-fg-brand", children: _jsx(BaseSelect.ItemIndicator, { children: _jsx(Check, { weight: "bold", className: "size-3.5" }) }) }), _jsx(BaseSelect.ItemText, { className: "truncate", children: o.label })] }, o.value));
+    return (_jsxs(BaseSelect.Root, { items: flat.map((o) => ({ value: o.value, label: o.label })), value: value, defaultValue: defaultValue, onValueChange: (v) => onValueChange?.(v), ...props, children: [_jsxs(BaseSelect.Trigger, { "aria-label": ariaLabel ?? (typeof label === "string" ? label : undefined), className: cn(controlFrame({ size }), "flex cursor-default items-center justify-between gap-2 ps-3 pe-2 text-start outline-none select-none data-[popup-open]:border-focus", className), children: [_jsxs("span", { className: "flex min-w-0 items-center gap-1.5", children: [visibleLabel ? _jsxs("span", { className: "shrink-0 text-fg-muted", children: [visibleLabel, ":"] }) : null, _jsx(BaseSelect.Value, { placeholder: placeholder ?? t("selectPlaceholder"), className: "truncate data-[placeholder]:text-fg-subtle" })] }), _jsx(BaseSelect.Icon, { className: "grid shrink-0 place-items-center text-fg-muted", children: _jsx(CaretDown, { "aria-hidden": "true", className: "size-4" }) })] }), _jsx(BaseSelect.Portal, { children: _jsx(BaseSelect.Positioner, { sideOffset: 6, alignItemWithTrigger: false, className: "z-50 outline-none", children: _jsx(BaseSelect.Popup, { className: cn("max-h-[min(var(--available-height),22rem)] min-w-(--anchor-width) overflow-y-auto rounded-overlay border border-line bg-overlay p-1 shadow-overlay outline-none", "origin-(--transform-origin) transition-[opacity,scale] duration-(--ot-duration-fast) ease-ot-out", "data-[starting-style]:scale-95 data-[starting-style]:opacity-0 data-[ending-style]:scale-95 data-[ending-style]:opacity-0"), children: _jsxs(BaseSelect.List, { children: [flat.length === 0 ? _jsx("div", { className: "px-3 py-2 text-body-sm text-fg-subtle", children: t("noOptions") }) : null, options.map((o, i) => isGroup(o) ? (_jsxs(BaseSelect.Group, { className: "py-1 first:pt-0", children: [_jsx(BaseSelect.GroupLabel, { className: "px-2 pt-1 pb-1 text-caption font-semibold text-fg-subtle", children: o.label }), o.options.map(item)] }, i)) : (item(o)))] }) }) }) })] }));
+}
+//# sourceMappingURL=Select.js.map

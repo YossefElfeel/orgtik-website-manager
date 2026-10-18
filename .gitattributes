@@ -1,0 +1,26 @@
+# One line ending in the repository (LF); Windows checkouts may still show CRLF in the editor.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tgz binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.mp4 binary
+*.webm binary
+*.docx binary
+
+# HLS transport-stream segments use .ts but contain binary media, never TypeScript.
+mock/apps/files/assets/hls/**/*.ts binary
+
+# Historical financial reducers are fixtures pinned to their original Git blob bytes.
+mock/apps/admin/legacy-v1/* -text

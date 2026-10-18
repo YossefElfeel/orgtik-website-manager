@@ -1,0 +1,14 @@
+Orgtik Files - release notes v3.2.0 (2026-09-15)
+
+New
+- External share links: view-only or download, optional password, expiry date and download limit.
+- Public share page with previews for images, PDFs, Office documents and HLS video.
+- Folder uploads keep the full directory tree; large uploads continue in the background.
+
+Improved
+- Dashboard overview loads 40% faster.
+- Archive: restore folders together with their files; bulk restore and bulk permanent delete.
+
+Fixed
+- Arabic file names are no longer garbled on download.
+- Moving a folder into its own sub-folder is now blocked with a clear message.

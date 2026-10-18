@@ -1,0 +1,11 @@
+# Cart workspace refinement — 2026-09-30
+
+The user asked for a substantial further cart enhancement after the initial interaction pass. The working assumption is a full layout and usability upgrade; no narrower preference was received. This extends the existing OrgTik surface rather than replacing its visual identity.
+
+Operate mode. Preserve the paper/lilac/plum palette, official horizontal logo, Montserrat headings and controls, Arial supporting text, pill CTAs and circular arrows. All enquiries remain local previews; CMS delivery remains deferred. Retain the existing service/software catalogue and actual estimate calculations.
+
+The first viewport shows a compact cart heading and count, All items/Software/Services filters, a continuous item list and an estimate panel. Item names, plans, durations and prices have distinct hierarchy. Monthly and project estimates remain separate, with a software/service breakdown. The cart overview prefixes billing-period totals containing priced services, and each service breakdown, with “From”. Filtering changes visibility only; the overview and checkout include all cart items.
+
+The signature interaction is progressive item detail: native disclosures reveal included products/services and longer commitments. Editing opens the existing configuration, keeps the original item until a new option is saved, replaces it in place and avoids duplicates. A clear editing banner offers cancellation; leaving the matching service/software route ends the temporary edit. Removing or clearing selections uses inline feedback with undo. Clearing all items requires an inline confirmation; “Keep items” cancels it and returns focus to “Clear cart”. Mobile retains checkout and a direct estimate link. Motion is limited to short control-state transitions; no entrance choreography or decorative imagery.
+
+Verification targets: 1440px desktop, 390px mobile and 320px narrow mobile; expanded details, estimate access, filtered empty state, editing/save/cancel, clear/undo, keyboard focus, refresh persistence and checkout handoff. Captures are viewport images because full-page capture is unavailable in the browser session. No generated comp, new visual world or durable design-system change is in scope.

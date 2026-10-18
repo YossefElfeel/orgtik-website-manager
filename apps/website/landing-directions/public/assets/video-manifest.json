@@ -1,0 +1,18 @@
+[
+  {
+    "file": "cinematic-desktop.mp4",
+    "source": "brand-glass.webp",
+    "type": "Animated placeholder; original PDF artwork with periodic camera movement",
+    "bytes": 369166,
+    "dimensions": [1280, 720],
+    "duration": 12
+  },
+  {
+    "file": "cinematic-mobile.mp4",
+    "source": "brand-glass.webp",
+    "type": "Animated placeholder; original PDF artwork with periodic camera movement",
+    "bytes": 218694,
+    "dimensions": [540, 720],
+    "duration": 12
+  }
+]

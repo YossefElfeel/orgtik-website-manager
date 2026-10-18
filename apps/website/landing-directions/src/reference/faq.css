@@ -1,0 +1,206 @@
+/* The same dark canvas, lavender accents and type rhythm as Home and Legal. */
+.faq-page {
+  color: #f6f1fa;
+  background: #0d0814;
+  min-height: 100svh;
+  isolation: isolate;
+}
+.faq-page .commerce-header {
+  max-width: 1312px;
+  margin-inline: auto;
+  border-color: transparent;
+  background: #0d0814c9;
+  box-shadow: none;
+  border-radius: 0;
+  padding-inline: 0;
+}
+.faq-content {
+  position: relative;
+  max-width: 1312px;
+  margin-inline: auto;
+  padding: 164px 0 100px;
+}
+.faq-content::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 auto 20%;
+  height: 640px;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 85% 20%, #54277e42, transparent 65%);
+}
+.faq-intro {
+  max-width: 850px;
+  margin-bottom: 64px;
+}
+.faq-kicker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #bba4ca;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.16em;
+}
+.faq-kicker > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c9a0f3;
+  box-shadow: 0 0 0 5px #a566e51a;
+}
+.faq-intro h1 {
+  margin: 26px 0 24px;
+  max-width: 840px;
+  font-size: clamp(38px, 4.8vw, 68px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+.faq-intro > p:last-child {
+  max-width: 600px;
+  color: #cfc2db;
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: clamp(16px, 1.5vw, 18px);
+  line-height: 1.75;
+}
+.faq-questions {
+  max-width: 1090px;
+  margin-inline-start: auto;
+}
+.home-faq {
+  padding: 64px clamp(20px, 4.4vw, 64px);
+  background: #0d0814;
+  color: #f6f1fa;
+}
+.home-faq-inner {
+  max-width: 1312px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: clamp(32px, 5vw, 80px);
+}
+.home-faq h2 {
+  font-size: var(--section-title-size);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+.faq-item {
+  border-top: 1px solid #d8b8ed26;
+}
+.faq-item:last-child {
+  border-bottom: 1px solid #d8b8ed26;
+}
+.faq-item summary {
+  display: grid;
+  grid-template-columns: 38px 1fr 42px;
+  align-items: center;
+  gap: 26px;
+  padding: 28px 0;
+  list-style: none;
+  cursor: pointer;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-number {
+  color: #967ca9;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.faq-question {
+  font-size: clamp(17px, 1.6vw, 22px);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+.faq-toggle {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #cba8e05c;
+  border-radius: 50%;
+  color: #d2b8e6;
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  transition:
+    transform 200ms,
+    background 200ms,
+    color 200ms;
+}
+.faq-item summary:hover .faq-toggle,
+.faq-item[open] .faq-toggle {
+  background: #eee3f7;
+  color: #28123b;
+}
+.faq-item[open] .faq-toggle {
+  transform: rotate(45deg);
+}
+.faq-item[open] .faq-question {
+  color: #c9a0f3;
+}
+.faq-item summary:focus-visible {
+  outline: 2px solid #c9a0f3;
+  outline-offset: 6px;
+  border-radius: 4px;
+}
+.faq-answer {
+  padding: 0 68px 32px 64px;
+  max-width: 870px;
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  color: #cfc2db;
+  font-size: 17px;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+[dir="rtl"] .faq-answer {
+  padding: 0 64px 32px 68px;
+}
+[dir="rtl"] .faq-intro h1 {
+  letter-spacing: 0;
+  line-height: 1.45;
+}
+@media (max-width: 1440px) {
+  .faq-content {
+    margin-inline: clamp(20px, 6vw, 64px);
+  }
+  .faq-page .commerce-header {
+    inset-inline: clamp(20px, 6vw, 64px);
+  }
+}
+@media (max-width: 760px) {
+  .home-faq-inner {
+    grid-template-columns: 1fr;
+  }
+  .faq-content {
+    padding-block: 130px 64px;
+  }
+  .faq-intro {
+    margin-bottom: 40px;
+  }
+  .faq-item summary {
+    grid-template-columns: 22px 1fr 36px;
+    gap: 12px;
+    padding-block: 22px;
+  }
+  .faq-toggle {
+    width: 36px;
+    height: 36px;
+  }
+  .faq-answer,
+  [dir="rtl"] .faq-answer {
+    padding: 0 0 26px;
+    padding-inline-start: 34px;
+    font-size: 16px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .faq-toggle {
+    transition: none;
+  }
+}

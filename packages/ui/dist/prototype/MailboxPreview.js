@@ -1,0 +1,8 @@
+"use client";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { EmptyState } from "../components/States.js";
+import { SimulatedTag } from "../demo/DemoPanel.js";
+export function MailboxPreview({ title, description, emptyTitle, entries, embedded = false }) {
+    return _jsxs("section", { className: embedded ? "border-t border-line pt-4" : "rounded-panel border border-line bg-raised p-4", children: [_jsxs("div", { className: "mb-3 flex flex-wrap items-center gap-2", children: [_jsx("h2", { className: "text-title-sm font-semibold", children: title }), _jsx(SimulatedTag, {})] }), _jsx("p", { className: "mb-4 max-w-prose text-body-sm text-fg-muted", children: description }), entries.length ? _jsx("ul", { className: "divide-y divide-line", children: entries.map(entry => _jsxs("li", { className: "flex flex-col gap-2 py-3", children: [_jsx("p", { className: "text-body font-semibold", dir: "auto", children: entry.subject }), entry.recipient ? _jsx("p", { className: "break-words text-body-sm text-fg-muted", children: _jsx("bdi", { children: entry.recipient }) }) : null, entry.body ? _jsx("p", { className: "max-w-prose whitespace-pre-wrap break-words text-body-sm", dir: "auto", children: entry.body }) : null, entry.at ? _jsx("p", { className: "text-caption text-fg-muted", children: _jsx("bdi", { children: entry.at }) }) : null] }, entry.id)) }) : _jsx(EmptyState, { size: "compact", title: emptyTitle })] });
+}
+//# sourceMappingURL=MailboxPreview.js.map

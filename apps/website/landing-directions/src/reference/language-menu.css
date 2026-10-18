@@ -1,0 +1,144 @@
+.language-menu {
+  position: relative;
+  flex-shrink: 0;
+  color: #f6f1fa;
+}
+
+.language-menu__trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 84px;
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid #ffffff30;
+  border-radius: 999px;
+  background: #ffffff0b;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.language-menu__trigger:hover,
+.language-menu__trigger[aria-expanded="true"] {
+  background: #ffffff1a;
+  border-color: #d4b7ec8c;
+}
+
+.language-menu__trigger:focus-visible,
+.language-menu__option:focus-visible {
+  outline: 2px solid #d4b7ec;
+  outline-offset: 3px;
+}
+
+.language-menu__trigger .ph-globe {
+  font-size: 17px;
+  color: #d4b7ec;
+}
+
+.language-menu__chevron {
+  font-size: 12px;
+  transition: transform 0.2s ease;
+}
+
+.language-menu__trigger[aria-expanded="true"] .language-menu__chevron {
+  transform: rotate(180deg);
+}
+
+.language-menu__panel {
+  position: absolute;
+  top: calc(100% + 12px);
+  inset-inline-end: 0;
+  width: 252px;
+  padding: 14px;
+  border: 1px solid #ffffff25;
+  border-radius: 18px;
+  background: #21132d;
+  box-shadow: 0 20px 50px #0d0814a6;
+  z-index: 100;
+}
+
+.language-menu__heading {
+  margin: 2px 8px 12px;
+  color: #bca9ce;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.language-menu__options {
+  display: grid;
+  gap: 4px;
+}
+
+.language-menu__option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 44px;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  text-align: start;
+}
+
+.language-menu__option:hover,
+.language-menu__option[aria-pressed="true"] {
+  background: #d4b7ec20;
+}
+
+.language-menu__option-code {
+  margin-inline-start: auto;
+  color: #baa7ca;
+  font-size: 11px;
+}
+
+.language-menu__option .ph-check {
+  color: #d4b7ec;
+  font-size: 15px;
+}
+
+.language-menu--compact {
+  margin-inline-start: auto;
+}
+
+.language-menu--compact .language-menu__trigger {
+  height: 46px;
+  min-width: 70px;
+  gap: 5px;
+  padding: 0 8px;
+}
+
+@media (max-width: 380px) {
+  .site-header > a img[alt="OrgTik"] {
+    width: 80px !important;
+  }
+
+  .language-menu--compact .language-menu__trigger {
+    min-width: 52px;
+    gap: 5px;
+    padding: 0 10px;
+  }
+
+  .language-menu--compact .language-menu__panel {
+    inset-inline-end: -16px;
+  }
+
+  .language-menu--compact .language-menu__code,
+  .site-menu-trigger__label {
+    display: none;
+  }
+
+  .site-menu-trigger {
+    width: 46px;
+    padding: 0 !important;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "title": "Digital studio + business software | OrgTik",
+      "heading": "Build the\nbusiness.\nRun it better.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/services",
+      "title": "services | OrgTik",
+      "heading": "Good ideas deserve\ngreat execution.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/software",
+      "title": "software | OrgTik",
+      "heading": "One workspace.\nSix systems.\nBuilt to work together.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/work",
+      "title": "work | OrgTik",
+      "heading": "Every project,\nclearly labelled.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/about",
+      "title": "about | OrgTik",
+      "heading": "One direction for the business\nand the work behind it.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/insights",
+      "title": "insights | OrgTik",
+      "heading": "Practical notes\nfor better decisions.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/contact",
+      "title": "contact | OrgTik",
+      "heading": "Make the next move matter.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/roadmap",
+      "title": "roadmap | OrgTik",
+      "heading": "See what moved —\nand what is moving next.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/legal",
+      "title": "legal | OrgTik",
+      "heading": "Imprint",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/sign-in",
+      "title": "sign in | OrgTik",
+      "heading": "Sign in",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/software#/product/hr",
+      "title": "software | OrgTik",
+      "heading": "A little less admin. A lot more human.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/services#/family/design",
+      "title": "services | OrgTik",
+      "heading": "Web design services Identity and experiences with one clear direction.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/services#/service/design/brand-development",
+      "title": "services | OrgTik",
+      "heading": "Brand development and corporate branding Make it unmistakably yours.",
+      "overflow": false,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "links": 0
+    },
+    {
+      "route": "/",
+      "title": "Digital studio + business software | OrgTik",
+      "heading": "Build the\nbusiness.\nRun it better.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/services",
+      "title": "services | OrgTik",
+      "heading": "Good ideas deserve\ngreat execution.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/software",
+      "title": "software | OrgTik",
+      "heading": "One workspace.\nSix systems.\nBuilt to work together.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/work",
+      "title": "work | OrgTik",
+      "heading": "Every project,\nclearly labelled.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/about",
+      "title": "about | OrgTik",
+      "heading": "One direction for the business\nand the work behind it.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/insights",
+      "title": "insights | OrgTik",
+      "heading": "Practical notes\nfor better decisions.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/contact",
+      "title": "contact | OrgTik",
+      "heading": "Make the next move matter.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/roadmap",
+      "title": "roadmap | OrgTik",
+      "heading": "See what moved —\nand what is moving next.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/legal",
+      "title": "legal | OrgTik",
+      "heading": "Imprint",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/sign-in",
+      "title": "sign in | OrgTik",
+      "heading": "Sign in",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/software#/product/hr",
+      "title": "software | OrgTik",
+      "heading": "A little less admin. A lot more human.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/services#/family/design",
+      "title": "services | OrgTik",
+      "heading": "Web design services Identity and experiences with one clear direction.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    },
+    {
+      "route": "/services#/service/design/brand-development",
+      "title": "services | OrgTik",
+      "heading": "Brand development and corporate branding Make it unmistakably yours.",
+      "overflow": false,
+      "width": 390,
+      "scrollWidth": 375,
+      "links": 0
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

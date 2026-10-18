@@ -1,0 +1,3 @@
+import type { ReactNode } from "react";
+import { Sparkle } from "@phosphor-icons/react";
+export function UpsellCard({ title, description, action }: { title: string; description: string; action: ReactNode }) { return <section className="flex flex-wrap items-center gap-4 rounded-card border border-line bg-raised p-5 shadow-xs"><span aria-hidden="true" className="grid size-10 shrink-0 place-items-center rounded-field bg-brand-subtle text-fg-brand"><Sparkle className="size-6" /></span><div className="min-w-0 flex-1"><h3 className="text-body font-semibold">{title}</h3><p className="mt-1 text-body-sm text-fg-muted">{description}</p></div>{action}</section>; }

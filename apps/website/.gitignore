@@ -1,0 +1,32 @@
+# Installed dependencies and local runtimes
+node_modules/
+landing-directions/tools/python/
+__pycache__/
+*.py[cod]
+
+# Generated builds, logs, and local process state
+dist/
+*.log
+*.pid
+landing-directions/tools/preview.pid
+
+# Local working files and downloadable archives
+/tmp/
+*.zip
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!landing-directions/.env.development
+.npmrc
+.codex/
+.agents/
+
+# Unused hosting infrastructure inherited from the starter
+landing-directions/.openai/
+landing-directions/worker/
+landing-directions/scripts/prepare-sites-build.mjs
+landing-directions/tests/sites-worker.test.mjs

@@ -1,0 +1,2697 @@
+{
+  "out": [
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "Build thebusiness.Run it better.",
+          "height": 900,
+          "padding": "0px"
+        },
+        {
+          "id": "two-sides",
+          "title": "One partner.Both sides of your business.",
+          "height": 1131,
+          "padding": "100.8px 86.4px"
+        },
+        {
+          "id": "",
+          "height": 236,
+          "padding": "0px 100.8px"
+        },
+        {
+          "id": "work",
+          "title": "We don’t chase attention.We attract it.",
+          "height": 1397,
+          "padding": "0px 100.8px"
+        },
+        {
+          "id": "services",
+          "title": "Good ideas deservegreat execution.",
+          "height": 1506,
+          "padding": "100.8px"
+        },
+        {
+          "id": "software",
+          "title": "Six systems.One bigger picture.",
+          "height": 1057,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A shared direction.At every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 743,
+          "padding": "57.6px"
+        },
+        {
+          "id": "contact",
+          "title": "What could webuild together?",
+          "height": 660,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "Good ideas deservegreat execution.",
+          "height": 900,
+          "padding": "0px"
+        },
+        {
+          "id": "families",
+          "title": "One studio.Every way forward.",
+          "height": 973,
+          "padding": "100.8px"
+        },
+        {
+          "id": "all-services",
+          "title": "Every service,one clear overview.",
+          "height": 1216,
+          "padding": "100.8px"
+        },
+        {
+          "id": "svc-builder",
+          "title": "Combine any services.Across every department.",
+          "height": 1589,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "One engagement,clearly shaped.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 723,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "What could webuild together?",
+          "height": 657,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "One workspace.Six systems.Built to work together.",
+          "height": 900,
+          "padding": "0px"
+        },
+        {
+          "id": "workspace",
+          "title": "Let the context movewith the work.",
+          "height": 1177,
+          "padding": "100.8px"
+        },
+        {
+          "id": "plan-builder",
+          "title": "Pick what you need.We’ll apply the savings.",
+          "height": 1114,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 723,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "Talk it throughwith the team.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/work",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "projects",
+          "title": "Every project,clearly labelled.",
+          "height": 937,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Want to bethe next story?",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "We connect the workbehind progress.",
+          "height": 900,
+          "padding": "0px"
+        },
+        {
+          "id": "purpose",
+          "title": "One direction for the businessand the work behind it.",
+          "height": 1185,
+          "padding": "156px 100.8px"
+        },
+        {
+          "id": "journey",
+          "title": "From one useful questionto a system that keeps improving.",
+          "height": 863,
+          "padding": "100.8px"
+        },
+        {
+          "id": "capabilities",
+          "title": "Build the experience.Connect the business behind it.",
+          "height": 1455,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 743,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "Bring the wholeproblem.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/insights",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "articles",
+          "title": "Practical notesfor better decisions.",
+          "height": 1317,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Ask the peoplewho write these.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "enquiry",
+          "title": "Let’s find yourfirst useful step.",
+          "height": 1214,
+          "padding": "32px 100.8px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/roadmap",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "From first committo what’s next.",
+          "height": 900,
+          "padding": "0px"
+        },
+        {
+          "id": "timeline",
+          "title": "See what moved —and what is moving next.",
+          "height": 1045,
+          "padding": "100.8px"
+        },
+        {
+          "id": "community",
+          "title": "The communityroadmap.",
+          "height": 1102,
+          "padding": "100.8px"
+        },
+        {
+          "id": "submit-idea",
+          "title": "Put the useful questionon the map.",
+          "height": 836,
+          "padding": "100.8px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/legal",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "legal",
+          "title": "Imprint",
+          "height": 699,
+          "padding": "32px 100.8px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/sign-in",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "signin",
+          "title": "Sign in",
+          "height": 668,
+          "padding": "32px 100.8px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/design",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "3 focused services.One connected team.",
+          "height": 1205,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/design/graphic-design",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 609,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/design/brand-development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1229,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 609,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/design/web-and-app-design",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1229,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 609,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "2 focused services.One connected team.",
+          "height": 1089,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1180,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/development/web-development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1229,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 516,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/development/custom-app-development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 516,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/marketing",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "3 focused services.One connected team.",
+          "height": 1205,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/marketing/social-media-marketing",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 609,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/marketing/digital-advertising-switzerland",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1229,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 609,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/marketing/seo-services",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 609,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/it-support",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "2 focused services.One connected team.",
+          "height": 1124,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1180,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/it-support/website-management",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 516,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/it-support/software-support",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1229,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 516,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/hosting",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "One focused service.One connected team.",
+          "height": 1008,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1150,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/hosting/managed-hosting",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 978,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 1210,
+          "padding": "100.8px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 648,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Other wayswe can help.",
+          "height": 795,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/hr",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Bring your people and their work together.HR, made clear.",
+          "height": 1133,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 926,
+          "padding": "100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightHR plan.",
+          "height": 1228,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 410,
+          "padding": "86.4px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 793,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Put HRin your workspace.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/crm",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Keep relationships moving forward.CRM, made clear.",
+          "height": 1133,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 926,
+          "padding": "100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightCRM plan.",
+          "height": 1228,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 410,
+          "padding": "86.4px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 793,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Put CRMin your workspace.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/files",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Give your business knowledge a home.Files, made clear.",
+          "height": 1133,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 926,
+          "padding": "100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightFiles plan.",
+          "height": 1228,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 410,
+          "padding": "86.4px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 793,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Filesin your workspace.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/tasks",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Turn priorities into progress.Tasks, made clear.",
+          "height": 970,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 926,
+          "padding": "100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightTasks plan.",
+          "height": 1228,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 410,
+          "padding": "86.4px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 793,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Tasksin your workspace.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/marketing",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Make your next move more intentional.Marketing, made clear.",
+          "height": 1133,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 926,
+          "padding": "100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightMarketing plan.",
+          "height": 1228,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 410,
+          "padding": "86.4px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 793,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Marketingin your workspace.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/website",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Make your website easier to manage.Website Manager, made clear.",
+          "height": 1133,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 926,
+          "padding": "100.8px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightWebsite Manager plan.",
+          "height": 1228,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 410,
+          "padding": "86.4px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 793,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Website Managerin your workspace.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/orgtik-identity-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 467,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 987,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 790,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 623,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 657,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/connected-platform-concept",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 467,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 987,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 790,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 657,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 657,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/managed-digital-presence",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 495,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 987,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 790,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 657,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 657,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/campaign-growth-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 495,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 987,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 790,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 657,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 657,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/support-continuity-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 495,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 987,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 790,
+          "padding": "100.8px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 657,
+          "padding": "57.6px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 657,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/software#/plans/complete/monthly/hr,crm,files,projects,invoicing,inventory",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "plans-section",
+          "title": "3 products,three ways forward.",
+          "height": 1062,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 410,
+          "padding": "86.4px"
+        },
+        {
+          "id": "closing",
+          "title": "Bring it into oneuseful conversation.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/insights#/article/connected-digital-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "article",
+          "height": 1636,
+          "padding": "32px 100.8px"
+        },
+        {
+          "id": "",
+          "title": "More ideasworth your time.",
+          "height": 830,
+          "padding": "100.8px"
+        },
+        {
+          "id": "closing",
+          "title": "Turn this intoyour next step.",
+          "height": 685,
+          "padding": "120.96px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "Build thebusiness.Run it better.",
+          "height": 844,
+          "padding": "0px"
+        },
+        {
+          "id": "two-sides",
+          "title": "One partner.Both sides of your business.",
+          "height": 1791,
+          "padding": "72px 64px"
+        },
+        {
+          "id": "",
+          "height": 207,
+          "padding": "0px 72px"
+        },
+        {
+          "id": "work",
+          "title": "We don’t chase attention.We attract it.",
+          "height": 1804,
+          "padding": "0px 72px"
+        },
+        {
+          "id": "services",
+          "title": "Good ideas deservegreat execution.",
+          "height": 1752,
+          "padding": "72px"
+        },
+        {
+          "id": "software",
+          "title": "Six systems.One bigger picture.",
+          "height": 1270,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A shared direction.At every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 792,
+          "padding": "56px"
+        },
+        {
+          "id": "contact",
+          "title": "What could webuild together?",
+          "height": 462,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "Good ideas deservegreat execution.",
+          "height": 844,
+          "padding": "0px"
+        },
+        {
+          "id": "families",
+          "title": "One studio.Every way forward.",
+          "height": 2640,
+          "padding": "72px"
+        },
+        {
+          "id": "all-services",
+          "title": "Every service,one clear overview.",
+          "height": 2503,
+          "padding": "72px"
+        },
+        {
+          "id": "svc-builder",
+          "title": "Combine any services.Across every department.",
+          "height": 3333,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "One engagement,clearly shaped.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 772,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "What could webuild together?",
+          "height": 547,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "One workspace.Six systems.Built to work together.",
+          "height": 844,
+          "padding": "0px"
+        },
+        {
+          "id": "workspace",
+          "title": "Let the context movewith the work.",
+          "height": 1936,
+          "padding": "72px"
+        },
+        {
+          "id": "plan-builder",
+          "title": "Pick what you need.We’ll apply the savings.",
+          "height": 2322,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 735,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "Talk it throughwith the team.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/work",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "projects",
+          "title": "Every project,clearly labelled.",
+          "height": 1756,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "closing",
+          "title": "Want to bethe next story?",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "We connect the workbehind progress.",
+          "height": 844,
+          "padding": "0px"
+        },
+        {
+          "id": "purpose",
+          "title": "One direction for the businessand the work behind it.",
+          "height": 1588,
+          "padding": "128px 72px"
+        },
+        {
+          "id": "journey",
+          "title": "From one useful questionto a system that keeps improving.",
+          "height": 1698,
+          "padding": "72px"
+        },
+        {
+          "id": "capabilities",
+          "title": "Build the experience.Connect the business behind it.",
+          "height": 2715,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 792,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "Bring the wholeproblem.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/insights",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "articles",
+          "title": "Practical notesfor better decisions.",
+          "height": 2576,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "closing",
+          "title": "Ask the peoplewho write these.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "enquiry",
+          "title": "Let’s find yourfirst useful step.",
+          "height": 2295,
+          "padding": "32px 72px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/roadmap",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "",
+          "title": "From first committo what’s next.",
+          "height": 844,
+          "padding": "0px"
+        },
+        {
+          "id": "timeline",
+          "title": "See what moved —and what is moving next.",
+          "height": 1590,
+          "padding": "72px"
+        },
+        {
+          "id": "community",
+          "title": "The communityroadmap.",
+          "height": 1223,
+          "padding": "72px"
+        },
+        {
+          "id": "submit-idea",
+          "title": "Put the useful questionon the map.",
+          "height": 1611,
+          "padding": "72px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/legal",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "legal",
+          "title": "Imprint",
+          "height": 1076,
+          "padding": "32px 72px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/sign-in",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "signin",
+          "title": "Sign in",
+          "height": 659,
+          "padding": "32px 72px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/design",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "3 focused services.One connected team.",
+          "height": 1686,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2737,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/design/graphic-design",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2658,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 726,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/design/brand-development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2785,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 661,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/design/web-and-app-design",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2785,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 661,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "2 focused services.One connected team.",
+          "height": 1509,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2637,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/development/web-development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2764,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 529,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/development/custom-app-development",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2696,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 529,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/marketing",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "3 focused services.One connected team.",
+          "height": 1587,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2658,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/marketing/social-media-marketing",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2696,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 639,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/marketing/digital-advertising-switzerland",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2715,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 639,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/marketing/seo-services",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2658,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 682,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/it-support",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "2 focused services.One connected team.",
+          "height": 1464,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2599,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/it-support/website-management",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2696,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 529,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/it-support/software-support",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2715,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Works wellalongside it.",
+          "height": 529,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/hosting",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "One focused service.One connected team.",
+          "height": 1439,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2540,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/hosting/managed-hosting",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "services-list",
+          "title": "Built aroundthe result.",
+          "height": 1507,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the engagementthat fits the work.",
+          "height": 2696,
+          "padding": "72px"
+        },
+        {
+          "id": "approach",
+          "title": "A practical path,at every step.",
+          "height": 1372,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Other wayswe can help.",
+          "height": 840,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Let’s shape yourfirst step.",
+          "height": 598,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/hr",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Bring your people and their work together.HR, made clear.",
+          "height": 1390,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 1363,
+          "padding": "72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightHR plan.",
+          "height": 2460,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 716,
+          "padding": "60px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 1065,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Put HRin your workspace.",
+          "height": 616,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/crm",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Keep relationships moving forward.CRM, made clear.",
+          "height": 1378,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 1348,
+          "padding": "72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightCRM plan.",
+          "height": 2460,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 716,
+          "padding": "60px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 1065,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Put CRMin your workspace.",
+          "height": 616,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/files",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Give your business knowledge a home.Files, made clear.",
+          "height": 1400,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 1370,
+          "padding": "72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightFiles plan.",
+          "height": 2460,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 716,
+          "padding": "60px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 1065,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Filesin your workspace.",
+          "height": 616,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/tasks",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Turn priorities into progress.Tasks, made clear.",
+          "height": 1356,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 1348,
+          "padding": "72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightTasks plan.",
+          "height": 2460,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 716,
+          "padding": "60px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 1065,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Tasksin your workspace.",
+          "height": 616,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/marketing",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Make your next move more intentional.Marketing, made clear.",
+          "height": 1416,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 1363,
+          "padding": "72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightMarketing plan.",
+          "height": 2487,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 716,
+          "padding": "60px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 1065,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Marketingin your workspace.",
+          "height": 642,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/website",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "capabilities",
+          "title": "Make your website easier to manage.Website Manager, made clear.",
+          "height": 1484,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "demo",
+          "title": "See the work move.One scenario at a time.",
+          "height": 1363,
+          "padding": "72px"
+        },
+        {
+          "id": "plans-section",
+          "title": "Choose the rightWebsite Manager plan.",
+          "height": 2545,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 716,
+          "padding": "60px"
+        },
+        {
+          "id": "",
+          "title": "Connect the modulesaround the work.",
+          "height": 1065,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Put Website Managerin your workspace.",
+          "height": 685,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/orgtik-identity-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 701,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 1058,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 983,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 742,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/connected-platform-concept",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 701,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 1058,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 983,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 742,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/managed-digital-presence",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 729,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 1058,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 983,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 742,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/campaign-growth-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 729,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 1058,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 983,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 742,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/support-continuity-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "story",
+          "height": 729,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "gallery",
+          "title": "The work,up close.",
+          "height": 1058,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "Keepexploring.",
+          "height": 983,
+          "padding": "72px"
+        },
+        {
+          "id": "",
+          "title": "In our clients’ words.",
+          "height": 742,
+          "padding": "56px"
+        },
+        {
+          "id": "closing",
+          "title": "Make the nextstory yours.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/software#/plans/complete/monthly/hr,crm,files,projects,invoicing,inventory",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "plans-section",
+          "title": "3 products,three ways forward.",
+          "height": 2372,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "",
+          "title": "Choose. Review. Discuss.",
+          "height": 716,
+          "padding": "60px"
+        },
+        {
+          "id": "closing",
+          "title": "Bring it into oneuseful conversation.",
+          "height": 616,
+          "padding": "84px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/insights#/article/connected-digital-system",
+      "overflow": false,
+      "sections": [
+        {
+          "id": "article",
+          "height": 2460,
+          "padding": "32px 72px"
+        },
+        {
+          "id": "",
+          "title": "More ideasworth your time.",
+          "height": 1251,
+          "padding": "72px"
+        },
+        {
+          "id": "closing",
+          "title": "Turn this intoyour next step.",
+          "height": 573,
+          "padding": "84px"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,31 @@
+const copy = {
+    usage: ["Usage", "الاستخدام", "Nutzung", "Utilisation", "Utilizzo"],
+    usedOf: ["used of", "مستخدم من", "genutzt von", "utilisés sur", "utilizzati su"],
+    approaching: ["Approaching the limit", "قريب من الحد", "Limit fast erreicht", "Limite proche", "Limite quasi raggiunto"],
+    reached: ["Limit reached", "تم بلوغ الحد", "Limit erreicht", "Limite atteinte", "Limite raggiunto"],
+    audit: ["Activity history", "سجل النشاط", "Aktivitätsverlauf", "Historique d’activité", "Cronologia attività"],
+    search: ["Search activity", "البحث في النشاط", "Aktivität suchen", "Rechercher une activité", "Cerca attività"],
+    actor: ["Actor", "المنفّذ", "Person", "Auteur", "Autore"],
+    action: ["Action", "الإجراء", "Aktion", "Action", "Azione"],
+    target: ["Item", "العنصر", "Element", "Élément", "Elemento"],
+    when: ["Time", "الوقت", "Zeit", "Date", "Data"],
+    noActivity: ["No matching activity", "لا يوجد نشاط مطابق", "Keine passende Aktivität", "Aucune activité correspondante", "Nessuna attività corrispondente"],
+    twoFactor: ["Verification demonstration", "عرض التحقق", "Verifizierungsdemo", "Démonstration de vérification", "Dimostrazione verifica"],
+    twoFactorNote: ["A fixed code demonstrates the setup flow. Account sign-in is unchanged.", "الكود الثابت يوضح خطوات الإعداد. تسجيل الدخول لا يتغير.", "Ein fester Code zeigt den Einrichtungsablauf. Die Anmeldung bleibt unverändert.", "Un code fixe montre la configuration. La connexion au compte reste inchangée.", "Un codice fisso mostra la configurazione. L’accesso all’account resta invariato."],
+    enabled: ["Enabled in this scene", "مفعّل في هذا السيناريو", "In dieser Szene aktiviert", "Activée dans cette scène", "Attiva in questa scena"],
+    disabled: ["Not set up", "لم يتم الإعداد", "Nicht eingerichtet", "Non configurée", "Non configurata"],
+    setup: ["Start setup", "بدء الإعداد", "Einrichtung starten", "Commencer", "Avvia configurazione"],
+    disable: ["Turn off in this scene", "إيقاف في السيناريو", "In dieser Szene deaktivieren", "Désactiver dans cette scène", "Disattiva in questa scena"],
+    code: ["Demo code", "كود العرض", "Democode", "Code de démonstration", "Codice demo"],
+    codeHelp: ["Enter 123456 to demonstrate verification.", "أدخل 123456 لعرض التحقق.", "123456 eingeben, um die Verifizierung zu zeigen.", "Saisissez 123456 pour montrer la vérification.", "Inserisci 123456 per mostrare la verifica."],
+    codeError: ["That code does not match. Use the displayed demo code.", "الكود غير مطابق. استخدم كود العرض الظاهر.", "Der Code stimmt nicht. Angezeigten Democode verwenden.", "Ce code ne correspond pas. Utilisez le code de démonstration affiché.", "Il codice non corrisponde. Usa il codice demo mostrato."],
+    verify: ["Verify demo code", "التحقق من كود العرض", "Democode prüfen", "Vérifier le code", "Verifica codice demo"],
+    cancel: ["Cancel", "إلغاء", "Abbrechen", "Annuler", "Annulla"],
+    recovery: ["Example recovery codes", "أكواد استرداد نموذجية", "Beispiel-Wiederherstellungscodes", "Exemples de codes de récupération", "Esempi di codici di recupero"],
+    recoveryHelp: ["These examples carry no account access. They demonstrate the handoff to the user.", "هذه الأمثلة لا تمنح وصولًا للحساب. توضح تسليم الأكواد للمستخدم.", "Diese Beispiele gewähren keinen Kontozugriff. Sie zeigen die Übergabe an die Person.", "Ces exemples ne donnent aucun accès au compte. Ils montrent la remise à l’utilisateur.", "Questi esempi non danno accesso all’account. Mostrano la consegna all’utente."],
+    download: ["Download example codes", "تحميل الأكواد النموذجية", "Beispielcodes herunterladen", "Télécharger les exemples", "Scarica codici di esempio"],
+    done: ["Done", "تم", "Fertig", "Terminé", "Fine"],
+};
+const index = { en: 0, ar: 1, de: 2, fr: 3, it: 4 };
+export const prototypeWord = (locale, key) => copy[key][index[locale]];
+//# sourceMappingURL=strings.js.map

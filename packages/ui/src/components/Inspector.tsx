@@ -1,0 +1,4 @@
+"use client";
+import type { ReactNode } from "react";
+import { Sheet, SheetContent, DialogTitle, DialogDescription } from "./Dialog.js";
+export function Inspector({ open, onOpenChange, title, description, children, footer }: { open: boolean; onOpenChange: (open: boolean) => void; title: string; description?: string; children: ReactNode; footer?: ReactNode }) { return <Sheet open={open} onOpenChange={onOpenChange}><SheetContent className="[--sheet-width:480px]"><header className="border-b border-line px-6 py-5 pe-14"><DialogTitle>{title}</DialogTitle>{description ? <DialogDescription className="mt-1">{description}</DialogDescription> : null}</header><div className="min-h-0 flex-1 overflow-y-auto p-6">{children}</div>{footer ? <footer className="border-t border-line bg-raised px-6 py-4">{footer}</footer> : null}</SheetContent></Sheet>; }

@@ -1,0 +1,5 @@
+"use client";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Sheet, SheetContent, DialogTitle, DialogDescription } from "./Dialog.js";
+export function Inspector({ open, onOpenChange, title, description, children, footer }) { return _jsx(Sheet, { open: open, onOpenChange: onOpenChange, children: _jsxs(SheetContent, { className: "[--sheet-width:480px]", children: [_jsxs("header", { className: "border-b border-line px-6 py-5 pe-14", children: [_jsx(DialogTitle, { children: title }), description ? _jsx(DialogDescription, { className: "mt-1", children: description }) : null] }), _jsx("div", { className: "min-h-0 flex-1 overflow-y-auto p-6", children: children }), footer ? _jsx("footer", { className: "border-t border-line bg-raised px-6 py-4", children: footer }) : null] }) }); }
+//# sourceMappingURL=Inspector.js.map

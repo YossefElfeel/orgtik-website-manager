@@ -1,0 +1,97 @@
+"use client";
+import React, { forwardRef, useState, type ReactNode } from "react";
+import { Input as BaseInput } from "@base-ui/react/input";
+import { Field as BaseField } from "@base-ui/react/field";
+import type { VariantProps } from "class-variance-authority";
+import { Eye, EyeSlash } from "@phosphor-icons/react";
+import { cn } from "../lib/cn.js";
+import { controlFrame } from "../lib/control.js";
+import { useStrings } from "../provider/OrgtikProvider.js";
+
+// Addresses, links, phone numbers and numbers read left to right in every language, so their
+// inputs stay LTR inside an RTL page (plan: bidi-safe inputs).
+const LTR_TYPES = new Set(["email", "url", "tel", "number"]);
+
+export type InputProps = Omit<BaseInput.Props, "size" | "className" | "render"> &
+  VariantProps<typeof controlFrame> & {
+    className?: string;
+    /** An icon at the reading start, e.g. a magnifier in a search box. */
+    startIcon?: ReactNode;
+    /** Something at the reading end: a unit, a clear button, the password toggle. */
+    endSlot?: ReactNode;
+  };
+
+export const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
+  { className, size, startIcon, endSlot, type = "text", dir, ...props },
+  ref,
+) {
+  return (
+    <div className={cn(controlFrame({ size }), "flex items-center gap-2 px-3", endSlot ? "pe-1" : null, className)}>
+      {startIcon ? (
+        <span aria-hidden="true" className="grid shrink-0 place-items-center text-fg-subtle">
+          {startIcon}
+        </span>
+      ) : null}
+      <BaseInput
+        ref={ref}
+        type={type}
+        dir={dir ?? (LTR_TYPES.has(type) ? "ltr" : undefined)}
+        className="h-full min-w-0 flex-1 bg-transparent text-start outline-none placeholder:text-fg-subtle disabled:cursor-not-allowed"
+        {...props}
+      />
+      {endSlot ? <span className="flex shrink-0 items-center">{endSlot}</span> : null}
+    </div>
+  );
+});
+
+export type PasswordInputProps = Omit<InputProps, "type" | "endSlot">;
+
+/** A password input with a show/hide toggle. The toggle is a real button with a spoken label. */
+export const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>(function PasswordInput(props, ref) {
+  const t = useStrings();
+  const [visible, setVisible] = useState(false);
+  return (
+    <Input
+      ref={ref}
+      {...props}
+      type={visible ? "text" : "password"}
+      autoComplete={props.autoComplete ?? "current-password"}
+      endSlot={
+        <button
+          type="button"
+          onClick={() => setVisible((v) => !v)}
+          aria-pressed={visible}
+          aria-label={visible ? t("hidePassword") : t("showPassword")}
+          title={visible ? t("hidePassword") : t("showPassword")}
+          disabled={props.disabled}
+          className="grid size-8 place-items-center rounded-pill text-fg-muted transition-colors hover:bg-hover hover:text-fg focus-visible:outline-2 focus-visible:outline-focus disabled:pointer-events-none"
+        >
+          {visible ? <EyeSlash aria-hidden="true" className="size-[1.15em]" /> : <Eye aria-hidden="true" className="size-[1.15em]" />}
+        </button>
+      }
+    />
+  );
+});
+
+export type TextareaProps = Omit<React.TextareaHTMLAttributes<HTMLTextAreaElement>, "className"> & {
+  className?: string;
+  /** Grow with the text up to this many rows (CSS field-sizing), then scroll. */
+  maxRows?: number;
+};
+
+/** Multi-line text. It grows with its content where the browser supports field-sizing. */
+export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(function Textarea({ className, rows = 3, maxRows = 12, style, ...props }, ref) {
+  return (
+    // Rendered through Field.Control, so a surrounding Field's label and messages describe it.
+    <BaseField.Control
+      render={<textarea ref={ref} rows={rows} {...props} />}
+      style={{ maxHeight: `calc(${maxRows} * 1.55em + 1rem)`, ...style }}
+      className={cn(
+        controlFrame({ size: null }),
+        "block min-h-20 resize-y px-3 py-2 text-body leading-[1.55] [field-sizing:content] placeholder:text-fg-subtle",
+        "outline-hidden focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-focus read-only:bg-sunken disabled:cursor-not-allowed disabled:opacity-50",
+        className,
+      )}
+    />
+  );
+});

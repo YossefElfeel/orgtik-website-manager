@@ -1,0 +1,78 @@
+[
+  {
+    "file": "brand-cards.webp",
+    "source": "ORGTIK.pdf page 17, original embedded image",
+    "size": [
+      1920,
+      1072
+    ],
+    "role": "Brand application, not a SaaS product capture"
+  },
+  {
+    "file": "brand-phone.webp",
+    "source": "ORGTIK.pdf page 18, original embedded image",
+    "size": [
+      1920,
+      1072
+    ],
+    "role": "Brand application, not a SaaS product capture"
+  },
+  {
+    "file": "brand-glass.webp",
+    "source": "ORGTIK.pdf page 19, original embedded image",
+    "size": [
+      1920,
+      1072
+    ],
+    "role": "Brand application, not a SaaS product capture"
+  },
+  {
+    "file": "brand-tablet.webp",
+    "source": "ORGTIK.pdf page 20, original embedded image",
+    "size": [
+      1920,
+      1072
+    ],
+    "role": "Brand application, not a SaaS product capture"
+  },
+  {
+    "file": "logo/orgtik-lockup-color.svg",
+    "source": "../assits/LOGO/ORGTIK-01.svg",
+    "role": "Official full-color OrgTik lockup"
+  },
+  {
+    "file": "logo/orgtik-lockup-black.svg",
+    "source": "../assits/LOGO/ORGTIK-02.svg",
+    "role": "Official black OrgTik lockup"
+  },
+  {
+    "file": "logo/orgtik-lockup-white.svg",
+    "source": "../assits/LOGO/ORGTIK-03.svg",
+    "role": "Official white OrgTik lockup"
+  },
+  {
+    "file": "logo/orgtik-wordmark-black.svg",
+    "source": "../assits/LOGO/ORGTIK-04.svg",
+    "role": "Official black OrgTik wordmark"
+  },
+  {
+    "file": "logo/orgtik-wordmark-white.svg",
+    "source": "../assits/LOGO/ORGTIK-05.svg",
+    "role": "Official white OrgTik wordmark"
+  },
+  {
+    "file": "logo/orgtik-mark-black.svg",
+    "source": "../assits/LOGO/ORGTIK-06.svg",
+    "role": "Official black OrgTik mark"
+  },
+  {
+    "file": "logo/orgtik-mark-white.svg",
+    "source": "../assits/LOGO/ORGTIK-07.svg",
+    "role": "Official white OrgTik mark"
+  },
+  {
+    "file": "logo/orgtik-app-icon.svg",
+    "source": "../assits/LOGO/1svg-01.svg",
+    "role": "Official OrgTik app icon"
+  }
+]

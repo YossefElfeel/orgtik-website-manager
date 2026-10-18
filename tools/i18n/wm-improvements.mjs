@@ -1,0 +1,153 @@
+import fs from 'node:fs';
+const locales = ['en', 'ar', 'de', 'fr', 'it'];
+const copy = {
+  faqQuestions: ["Questions and answers", "الأسئلة والإجابات", "Fragen und Antworten", "Questions et réponses", "Domande e risposte"],
+  name: ['Name', 'الاسم', 'Name', 'Nom', 'Nome'],
+  firstName: ['First name', 'الاسم الأول', 'Vorname', 'Prénom', 'Nome'],
+  lastName: ['Last name', 'اسم العائلة', 'Nachname', 'Nom de famille', 'Cognome'],
+  email: ['Email', 'البريد الإلكتروني', 'E-Mail', 'E-mail', 'Email'],
+  initialPassword: ['Initial password (at least 8 characters)', 'كلمة المرور الأولية (8 أحرف على الأقل)', 'Anfangspasswort (mindestens 8 Zeichen)', 'Mot de passe initial (8 caractères minimum)', 'Password iniziale (almeno 8 caratteri)'],
+  active: ['Active', 'نشط', 'Aktiv', 'Actif', 'Attivo'],
+  inactive: ['Inactive', 'غير نشط', 'Inaktiv', 'Inactif', 'Inattivo'],
+  activeAccount: ['Active suite account', 'حساب نشط في المنصة', 'Aktives Suite-Konto', 'Compte de suite actif', 'Account suite attivo'],
+  noAccess: ['No access', 'لا يوجد وصول', 'Kein Zugriff', 'Aucun accès', 'Nessun accesso'],
+  noResults: ['No matching records', 'لا توجد سجلات مطابقة', 'Keine passenden Einträge', 'Aucune entrée correspondante', 'Nessuna voce corrispondente'],
+  websiteRoles: ['Website Manager roles', 'أدوار إدارة الموقع', 'Rollen im Website Manager', 'Rôles du gestionnaire de site', 'Ruoli di Website Manager'],
+  websiteRolesHelp: ['Grant access to Website Manager. Other app roles are managed centrally. Removing all roles removes Website Manager access.', 'امنح الوصول لإدارة الموقع. تُدار أدوار التطبيقات الأخرى مركزيًا. إزالة كل الأدوار تلغي الوصول لإدارة الموقع.', 'Gewähren Sie Zugriff auf den Website Manager. Andere App-Rollen werden zentral verwaltet. Ohne Rollen entfällt der Zugriff.', 'Accordez l’accès au gestionnaire de site. Les autres rôles sont gérés au niveau central. Sans rôle, l’accès est retiré.', 'Concedi l’accesso a Website Manager. Gli altri ruoli sono gestiti centralmente. Senza ruoli, l’accesso viene rimosso.'],
+  newAccount: ['Create account', 'إنشاء حساب', 'Konto erstellen', 'Créer un compte', 'Crea account'],
+  editAccount: ['Edit account & access', 'تعديل الحساب والوصول', 'Konto und Zugriff bearbeiten', 'Modifier le compte et l’accès', 'Modifica account e accesso'],
+  centralUsers: ['Central user management', 'إدارة المستخدمين المركزية', 'Zentrale Benutzerverwaltung', 'Gestion centrale des utilisateurs', 'Gestione centrale degli utenti'],
+  centralAccountsHelp: ['Your role can manage website access. Central administrators manage suite account details and activation.', 'يمكن لدورك إدارة الوصول للموقع. يدير مسؤولو المنصة تفاصيل الحساب وتنشيطه.', 'Ihre Rolle verwaltet den Website-Zugriff. Zentrale Administratoren verwalten Kontodaten und Aktivierung.', 'Votre rôle gère l’accès au site. Les administrateurs centraux gèrent les comptes et leur activation.', 'Il tuo ruolo gestisce l’accesso al sito. Gli amministratori centrali gestiscono i dati e l’attivazione degli account.'],
+  userManagementHelp: ['Manage central suite accounts and Website Manager access. Account changes apply across the suite.', 'إدارة حسابات المنصة والوصول لإدارة الموقع. تسري تعديلات الحساب على المنصة بالكامل.', 'Verwalten Sie zentrale Konten und Website-Zugriff. Kontoänderungen gelten in der gesamten Suite.', 'Gérez les comptes centraux et l’accès au site. Les changements de compte s’appliquent à toute la suite.', 'Gestisci account centrali e accesso al sito. Le modifiche agli account si applicano all’intera suite.'],
+  accountStale: ['This account changed. Close and reopen it before saving.', 'تغير هذا الحساب. أغلقه وافتحه مجددًا قبل الحفظ.', 'Dieses Konto wurde geändert. Öffnen Sie es vor dem Speichern erneut.', 'Ce compte a changé. Fermez-le et rouvrez-le avant de sauvegarder.', 'Questo account è cambiato. Chiudilo e riaprilo prima di salvare.'],
+  accountInvalid: ['Check the names, unique email address, and password length.', 'تحقق من الأسماء وعدم تكرار البريد الإلكتروني وطول كلمة المرور.', 'Prüfen Sie Namen, eindeutige E-Mail-Adresse und Passwortlänge.', 'Vérifiez les noms, l’unicité de l’e-mail et la longueur du mot de passe.', 'Controlla nomi, email univoca e lunghezza della password.'],
+  selfLockout: ['You cannot remove your own administration access.', 'لا يمكنك إزالة وصولك الإداري.', 'Sie können Ihren eigenen Administratorzugriff nicht entfernen.', 'Vous ne pouvez pas retirer votre propre accès administrateur.', 'Non puoi rimuovere il tuo accesso amministrativo.'],
+  internalMemberRequired: ['Restore active internal membership in central user management first.', 'استعد العضوية الداخلية النشطة من إدارة المستخدمين المركزية أولًا.', 'Stellen Sie zuerst die aktive interne Mitgliedschaft zentral wieder her.', 'Rétablissez d’abord l’adhésion interne active dans la gestion centrale.', 'Ripristina prima l’appartenenza interna attiva nella gestione centrale.'],
+  approve: ['Approve', 'اعتماد', 'Freigeben', 'Approuver', 'Approva'],
+  manage: ['Manage', 'إدارة', 'Verwalten', 'Gérer', 'Gestisci'],
+  personalData: ['Read personal data', 'قراءة البيانات الشخصية', 'Personenbezogene Daten lesen', 'Lire les données personnelles', 'Leggi dati personali'],
+  enableLanguages: ['Enable languages', 'تفعيل اللغات', 'Sprachen aktivieren', 'Activer des langues', 'Abilita lingue'],
+  structuredData: ['Edit structured data', 'تعديل البيانات المنظمة', 'Strukturierte Daten bearbeiten', 'Modifier les données structurées', 'Modifica dati strutturati'],
+  capability: ['Capability group', 'مجموعة الصلاحيات', 'Berechtigungsgruppe', 'Groupe de capacités', 'Gruppo di capacità'],
+  roleComparison: ['Role comparison', 'مقارنة الأدوار', 'Rollenvergleich', 'Comparaison des rôles', 'Confronto dei ruoli'],
+  roleComparisonHelp: ['Compare what each role can view, edit, and approve. These capabilities follow the existing publishing and access rules.', 'قارن ما يمكن لكل دور عرضه وتعديله واعتماده. تتبع الصلاحيات قواعد النشر والوصول الحالية.', 'Vergleichen Sie Ansichts-, Bearbeitungs- und Freigaberechte. Es gelten die bestehenden Veröffentlichungs- und Zugriffsregeln.', 'Comparez les droits de lecture, modification et validation. Les règles de publication et d’accès existantes s’appliquent.', 'Confronta i diritti di lettura, modifica e approvazione. Si applicano le regole di pubblicazione e accesso esistenti.'],
+  viewData: ['View data table', 'عرض جدول البيانات', 'Datentabelle anzeigen', 'Voir le tableau de données', 'Visualizza tabella dati'],
+  softwareSystem: ['Software System', 'نظام البرمجيات', 'Softwaresystem', 'Système logiciel', 'Sistema software'],
+  queueHelp: ['Pending work across all managed content types.', 'العمل المعلق عبر جميع أنواع المحتوى المُدار.', 'Offene Arbeit für alle verwalteten Inhaltstypen.', 'Travail en attente pour tous les types de contenu gérés.', 'Lavoro in sospeso per tutti i tipi di contenuto gestiti.'],
+  enableLanguageHelp: ['Enable a supported language for editing. Public availability is controlled in Site Settings.', 'فعّل لغة مدعومة للتحرير. تتحكم إعدادات الموقع في إتاحتها للزوار.', 'Aktivieren Sie eine unterstützte Sprache zur Bearbeitung. Die Veröffentlichung steuern Sie in den Website-Einstellungen.', 'Activez une langue prise en charge pour la modifier. Sa publication se règle dans les paramètres du site.', 'Abilita una lingua supportata per modificarla. La disponibilità pubblica si controlla nelle impostazioni del sito.'],
+  allLanguagesEnabled: ['All five supported languages are already enabled.', 'اللغات الخمس المدعومة مفعّلة بالفعل.', 'Alle fünf unterstützten Sprachen sind bereits aktiviert.', 'Les cinq langues prises en charge sont déjà activées.', 'Le cinque lingue supportate sono già abilitate.'],
+  identityHelp: ['Controls the website name used in shared branding and metadata.', 'يتحكم في اسم الموقع المستخدم في الهوية المشتركة والبيانات الوصفية.', 'Steuert den Websitenamen in Branding und Metadaten.', 'Définit le nom du site dans l’identité visuelle et les métadonnées.', 'Controlla il nome del sito usato nell’identità e nei metadati.'],
+  searchSocial: ['Search & Social Defaults', 'إعدادات البحث والمشاركة الافتراضية', 'Vorgaben für Suche und Social Media', 'Valeurs par défaut de recherche et partage', 'Valori predefiniti per ricerca e social'],
+  searchSocialHelp: ['Fallback title, description, and image for pages without their own SEO values.', 'العنوان والوصف والصورة الافتراضية للصفحات التي لا تحتوي على قيم SEO خاصة بها.', 'Standardtitel, Beschreibung und Bild für Seiten ohne eigene SEO-Werte.', 'Titre, description et image utilisés pour les pages sans valeurs SEO propres.', 'Titolo, descrizione e immagine per le pagine senza valori SEO propri.'],
+  formsHelp: ['Controls whether public contact forms deliver enquiries to the Leads inbox or remain in preview mode.', 'يتحكم في إرسال استفسارات نماذج الاتصال إلى العملاء المحتملين أو بقائها في وضع المعاينة.', 'Steuert, ob Kontaktformulare Anfragen an Leads senden oder im Vorschaumodus bleiben.', 'Détermine si les formulaires envoient les demandes aux prospects ou restent en aperçu.', 'Controlla se i moduli inviano richieste ai lead o rimangono in anteprima.'],
+  kind: ['Kind', 'النوع', 'Art', 'Catégorie', 'Categoria'],
+  history: ['History', 'السجل', 'Verlauf', 'Historique', 'Cronologia'],
+  indexing: ['Indexing policy', 'سياسة الفهرسة', 'Indexierungsregel', 'Règle d’indexation', 'Regola di indicizzazione'],
+  siteIndexing: ['Allow indexing across the website', 'السماح بفهرسة الموقع بالكامل', 'Indexierung der gesamten Website erlauben', 'Autoriser l’indexation du site entier', 'Consenti l’indicizzazione dell’intero sito'],
+  canonical: ['Canonical URL', 'الرابط الأساسي', 'Kanonische URL', 'URL canonique', 'URL canonico'],
+  sitemap: ['Sitemap', 'خريطة الموقع', 'Sitemap', 'Plan du site', 'Mappa del sito'],
+  included: ['Included', 'مُدرج', 'Enthalten', 'Inclus', 'Incluso'],
+  excluded: ['Excluded', 'مستبعد', 'Ausgeschlossen', 'Exclu', 'Escluso'],
+  siteOverride: ['Site-wide override', 'إعداد الموقع العام', 'Websiteweite Einstellung', 'Réglage global du site', 'Impostazione globale del sito'],
+  pagePolicy: ['Page SEO setting', 'إعداد SEO للصفحة', 'SEO-Einstellung der Seite', 'Réglage SEO de la page', 'Impostazione SEO della pagina'],
+  allowed: ['Indexing allowed', 'الفهرسة مسموحة', 'Indexierung erlaubt', 'Indexation autorisée', 'Indicizzazione consentita'],
+  indexingHelp: ['This shows the policy sent to search engines. Actual Google indexing must be checked in Search Console.', 'تعرض هذه الصفحة السياسة المرسلة لمحركات البحث. تحقّق من الفهرسة الفعلية في Google عبر Search Console.', 'Hier sehen Sie die an Suchmaschinen gesendete Regel. Prüfen Sie die tatsächliche Google-Indexierung in der Search Console.', 'Cette page affiche la règle envoyée aux moteurs. Vérifiez l’indexation réelle de Google dans Search Console.', 'Qui trovi la regola inviata ai motori. Verifica l’indicizzazione effettiva di Google in Search Console.'],
+  sitemapHelp: ['The sitemap lists URLs for discovery. Excluding a URL does not itself prevent indexing.', 'تساعد خريطة الموقع على اكتشاف الروابط. استبعاد رابط منها لا يمنع فهرسته وحده.', 'Die Sitemap hilft beim Entdecken von URLs. Ein Ausschluss verhindert allein keine Indexierung.', 'Le plan du site facilite la découverte des URL. Une exclusion seule n’empêche pas l’indexation.', 'La mappa del sito facilita la scoperta degli URL. L’esclusione da sola non impedisce l’indicizzazione.'],
+  canonicalHelp: ['The canonical URL identifies the preferred address when content is duplicated.', 'يحدد الرابط الأساسي العنوان المفضل عند تكرار المحتوى.', 'Die kanonische URL bezeichnet die bevorzugte Adresse bei doppelten Inhalten.', 'L’URL canonique indique l’adresse préférée en cas de contenu dupliqué.', 'L’URL canonico indica l’indirizzo preferito per contenuti duplicati.'],
+  robotsHelp: ['Robots instructions control crawling. Crawlers must access a page to read its noindex rule. The site-wide switch overrides each page’s indexing policy.', 'تتحكم تعليمات robots في الزحف. يجب السماح بالوصول للصفحة لقراءة noindex. يتجاوز مفتاح الموقع سياسة فهرسة كل صفحة.', 'Robots-Regeln steuern das Crawling. Crawler müssen eine Seite erreichen, um noindex zu lesen. Der globale Schalter überschreibt die Seitenregeln.', 'Les règles robots contrôlent l’exploration. Les robots doivent accéder à une page pour lire noindex. Le réglage global prévaut sur chaque page.', 'Le regole robots controllano la scansione. I crawler devono accedere alla pagina per leggere noindex. L’interruttore globale prevale sulle singole pagine.'],
+  googleGuidance: ['Google indexing guidance', 'إرشادات Google للفهرسة', 'Google-Leitfaden zur Indexierung', 'Guide Google sur l’indexation', 'Guida Google all’indicizzazione'],
+  order: ['Order', 'الترتيب', 'Reihenfolge', 'Ordre', 'Ordine'],
+  relatedEntry: ['Related service or software', 'خدمة أو برنامج مرتبط', 'Zugehörige Leistung oder Software', 'Service ou logiciel associé', 'Servizio o software correlato'],
+  actions: ['Actions', 'الإجراءات', 'Aktionen', 'Actions', 'Azioni'],
+  view: ['View', 'عرض', 'Ansehen', 'Voir', 'Visualizza'],
+  edit: ['Edit', 'تعديل', 'Bearbeiten', 'Modifier', 'Modifica'],
+  delete: ['Delete', 'حذف', 'Löschen', 'Supprimer', 'Elimina'],
+  all: ['All', 'الكل', 'Alle', 'Tous', 'Tutti'],
+  year: ['Year', 'السنة', 'Jahr', 'Année', 'Anno'],
+  missingLanguages: ['Missing languages', 'لغات غير مكتملة', 'Fehlende Sprachen', 'Langues manquantes', 'Lingue mancanti'],
+  deliveryStatus: ['Delivery status', 'حالة التنفيذ', 'Umsetzungsstatus', 'État de réalisation', 'Stato di realizzazione'],
+  protectedDelete: ['Fixed or published content cannot be deleted. Archive eligible published records from their editor.', 'لا يمكن حذف المحتوى الثابت أو المنشور. يمكن أرشفة السجلات المؤهلة من المحرر.', 'Feste oder veröffentlichte Inhalte können nicht gelöscht werden. Archivieren Sie geeignete Einträge im Editor.', 'Les contenus fixes ou publiés ne peuvent pas être supprimés. Archivez les entrées admissibles dans leur éditeur.', 'I contenuti fissi o pubblicati non possono essere eliminati. Archivia le voci idonee nel loro editor.'],
+  deleteName: ['Delete {name}?', 'حذف {name}؟', '{name} löschen?', 'Supprimer {name} ?', 'Eliminare {name}?'],
+  deleteImpact: ['This removes the unpublished record and its draft history.', 'سيُحذف السجل غير المنشور وسجل مسوداته.', 'Der unveröffentlichte Eintrag und sein Entwurfsverlauf werden entfernt.', 'Cette action supprime cette entrée non publiée et son historique de brouillons.', 'Questa azione elimina la voce non pubblicata e la cronologia delle bozze.'],
+  formattedPreview: ['Formatted preview', 'معاينة النص', 'Formatierte Vorschau', 'Aperçu du texte', 'Anteprima del testo'],
+  formattingProtected: ['Formatting and dynamic values are preserved automatically.', 'يتم الاحتفاظ بالتنسيق والقيم الديناميكية تلقائيًا.', 'Formatierung und dynamische Werte bleiben automatisch erhalten.', 'La mise en forme et les valeurs dynamiques sont conservées automatiquement.', 'La formattazione e i valori dinamici vengono conservati automaticamente.'],
+  sharedCopy: ['Shared website copy', 'نصوص الموقع المشتركة', 'Gemeinsame Website-Texte', 'Textes partagés du site', 'Testi condivisi del sito'],
+  sharedCopyHint: ['These texts are shared with commerce and account screens. Saved edits follow the existing review and publishing workflow.', 'تُستخدم هذه النصوص في شاشات التجارة والحساب. تخضع التعديلات للمراجعة والنشر المعتادين.', 'Diese Texte werden von Shop- und Kontoseiten gemeinsam genutzt. Änderungen durchlaufen den bestehenden Prüf- und Veröffentlichungsprozess.', 'Ces textes sont partagés avec les écrans de commerce et de compte. Les modifications suivent le processus de révision et de publication existant.', 'Questi testi sono condivisi con le schermate commerciali e dell’account. Le modifiche seguono il processo di revisione e pubblicazione esistente.'],
+  customCursor: ['Custom Cursor', 'المؤشر المخصص', 'Eigener Mauszeiger', 'Curseur personnalisé', 'Cursore personalizzato'],
+  text: ['Text', 'النص', 'Text', 'Texte', 'Testo'],
+  link: ['Link', 'الرابط', 'Link', 'Lien', 'Link'],
+  media: ['Media', 'الوسائط', 'Medien', 'Médias', 'Media'],
+  replaceMedia: ['Replace media', 'استبدال الوسائط', 'Medien ersetzen', 'Remplacer le média', 'Sostituisci media'],
+  image: ['Image', 'صورة', 'Bild', 'Image', 'Immagine'],
+  video: ['Video', 'فيديو', 'Video', 'Vidéo', 'Video'],
+  noMediaResults: ['No matching media. Try another search or upload a file.', 'لا توجد وسائط مطابقة. جرب بحثًا آخر أو ارفع ملفًا.', 'Keine passenden Medien. Ändern Sie die Suche oder laden Sie eine Datei hoch.', 'Aucun média correspondant. Modifiez la recherche ou importez un fichier.', 'Nessun media corrispondente. Cambia ricerca o carica un file.'],
+  noMediaAttached: ['No media attached to this section.', 'لا توجد وسائط مرفقة بهذا القسم.', 'Diesem Abschnitt sind keine Medien zugeordnet.', 'Aucun média joint à cette section.', 'Nessun media allegato a questa sezione.'],
+  mediaPermission: ['Your role cannot select or upload media.', 'لا يملك دورك صلاحية اختيار الوسائط أو رفعها.', 'Ihre Rolle darf keine Medien auswählen oder hochladen.', 'Votre rôle ne permet pas de choisir ou importer des médias.', 'Il tuo ruolo non può selezionare o caricare media.'],
+  mediaViewHelp: ['Select Edit to attach, replace, or upload media.', 'اختر تعديل لإرفاق الوسائط أو استبدالها أو رفعها.', 'Wählen Sie Bearbeiten, um Medien hinzuzufügen, zu ersetzen oder hochzuladen.', 'Choisissez Modifier pour joindre, remplacer ou importer des médias.', 'Seleziona Modifica per allegare, sostituire o caricare media.'],
+  mediaLanguageHelp: ['Media is shared across languages. Select English to change it.', 'الوسائط مشتركة بين اللغات. اختر الإنجليزية لتغييرها.', 'Medien gelten für alle Sprachen. Wählen Sie Englisch, um sie zu ändern.', 'Les médias sont partagés entre les langues. Choisissez l’anglais pour les modifier.', 'I media sono condivisi tra le lingue. Seleziona Inglese per modificarli.'],
+  viewModeHelp: ['You are viewing this record. Select Edit to change its content and media.', 'أنت في وضع عرض السجل. اختر تعديل لتغيير المحتوى والوسائط.', 'Sie betrachten diesen Eintrag. Wählen Sie Bearbeiten, um Inhalt und Medien zu ändern.', 'Vous consultez cette entrée. Choisissez Modifier pour changer le contenu et les médias.', 'Stai visualizzando questa voce. Seleziona Modifica per cambiarne contenuto e media.'],
+  viewOnlyHelp: ['This content is read-only for your role or managed in its source system.', 'هذا المحتوى للعرض فقط حسب دورك أو يُدار في نظامه الأصلي.', 'Dieser Inhalt ist für Ihre Rolle schreibgeschützt oder wird im Quellsystem verwaltet.', 'Ce contenu est en lecture seule pour votre rôle ou géré dans son système source.', 'Questo contenuto è di sola lettura per il tuo ruolo o gestito nel sistema di origine.'],
+  addSection: ['Add section', 'إضافة قسم', 'Abschnitt hinzufügen', 'Ajouter une section', 'Aggiungi sezione'],
+  addText: ['Add text', 'إضافة نص', 'Text hinzufügen', 'Ajouter du texte', 'Aggiungi testo'],
+  addImage: ['Add image', 'إضافة صورة', 'Bild hinzufügen', 'Ajouter une image', 'Aggiungi immagine'],
+  addVideo: ['Add video', 'إضافة فيديو', 'Video hinzufügen', 'Ajouter une vidéo', 'Aggiungi video'],
+  insertHere: ['Insert content here', 'إدراج محتوى هنا', 'Hier Inhalt einfügen', 'Insérer du contenu ici', 'Inserisci contenuto qui'],
+  dragSection: ['Drag to reorder section', 'اسحب لترتيب القسم', 'Ziehen, um den Abschnitt zu verschieben', 'Glisser pour déplacer la section', 'Trascina per riordinare la sezione'],
+  dragBlock: ['Drag to reorder content', 'اسحب لترتيب المحتوى', 'Ziehen, um den Inhalt zu verschieben', 'Glisser pour déplacer le contenu', 'Trascina per riordinare il contenuto'],
+  altText: ['Alternative text', 'النص البديل', 'Alternativtext', 'Texte alternatif', 'Testo alternativo'],
+  caption: ['Caption', 'التسمية التوضيحية', 'Bildunterschrift', 'Légende', 'Didascalia'],
+  articleBodyHelp: ['Add sections and insert text, images, or videos between paragraphs. Drag to reorder, or use Move up and Move down. Save the draft before previewing.', 'أضف أقسامًا وأدرج نصوصًا أو صورًا أو فيديوهات بين الفقرات. اسحب لإعادة الترتيب أو استخدم نقل لأعلى ولأسفل. احفظ المسودة قبل المعاينة.', 'Fügen Sie Abschnitte und Text, Bilder oder Videos zwischen Absätzen hinzu. Ziehen Sie zum Sortieren oder nutzen Sie die Pfeile. Speichern Sie vor der Vorschau.', 'Ajoutez des sections et du texte, des images ou des vidéos entre les paragraphes. Glissez pour réordonner ou utilisez les flèches. Enregistrez avant l’aperçu.', 'Aggiungi sezioni e inserisci testo, immagini o video tra i paragrafi. Trascina o usa le frecce per riordinare. Salva la bozza prima dell’anteprima.'],
+  articleLanguageHelp: ['Translate the text, alternative text, and captions here. Add media and arrange sections in English; the arrangement is shared across languages.', 'ترجم النص والنص البديل والتسميات هنا. أضف الوسائط ورتب الأقسام بالإنجليزية؛ الترتيب مشترك بين اللغات.', 'Übersetzen Sie hier Text, Alternativtext und Bildunterschriften. Medien und Reihenfolge werden auf Englisch für alle Sprachen festgelegt.', 'Traduisez ici les textes, textes alternatifs et légendes. Les médias et l’ordre sont définis en anglais pour toutes les langues.', 'Traduci qui testi, testi alternativi e didascalie. Media e ordine sono definiti in inglese per tutte le lingue.'],
+  noArticleSections: ['No article sections yet. Add a section to start writing.', 'لا توجد أقسام للمقال بعد. أضف قسمًا لبدء الكتابة.', 'Noch keine Artikelabschnitte. Fügen Sie einen Abschnitt hinzu.', 'Aucune section pour cet article. Ajoutez une section pour commencer.', 'Nessuna sezione dell’articolo. Aggiungi una sezione per iniziare.'],
+  articleInvalid: ['Check the article sections and media. Add missing files before publishing; structure and media are changed in English.', 'تحقق من أقسام المقال والوسائط. أضف الملفات الناقصة قبل النشر؛ تُغير البنية والوسائط بالإنجليزية.', 'Prüfen Sie Abschnitte und Medien. Fügen Sie vor der Veröffentlichung fehlende Dateien hinzu; Struktur und Medien werden auf Englisch geändert.', 'Vérifiez les sections et médias. Ajoutez les fichiers manquants avant publication ; structure et médias se modifient en anglais.', 'Controlla sezioni e media. Aggiungi i file mancanti prima della pubblicazione; struttura e media si modificano in inglese.'],
+  partners: ['Partners', 'الشركاء', 'Partner', 'Partenaires', 'Partner'],
+  seoHealth: ['SEO Health', 'حالة SEO', 'SEO-Zustand', 'État SEO', 'Stato SEO'],
+  description: ['Description', 'الوصف', 'Beschreibung', 'Description', 'Descrizione'],
+  tags: ['Tags', 'الوسوم', 'Tags', 'Étiquettes', 'Tag'],
+  upload: ['Upload image or video', 'رفع صورة أو فيديو', 'Bild oder Video hochladen', 'Importer une image ou une vidéo', 'Carica immagine o video'],
+  remove: ['Remove', 'إزالة', 'Entfernen', 'Retirer', 'Rimuovi'],
+  selectMedia: ['Select media', 'اختيار وسائط', 'Medien auswählen', 'Choisir un média', 'Seleziona media'],
+  sections: ['Section order', 'ترتيب الأقسام', 'Abschnittsreihenfolge', 'Ordre des sections', 'Ordine delle sezioni'],
+  moveUp: ['Move up', 'نقل لأعلى', 'Nach oben', 'Monter', 'Sposta su'],
+  moveDown: ['Move down', 'نقل لأسفل', 'Nach unten', 'Descendre', 'Sposta giù'],
+  type: ['Type', 'النوع', 'Typ', 'Type', 'Tipo'],
+  status: ['Status', 'الحالة', 'Status', 'Statut', 'Stato'],
+  search: ['Search', 'بحث', 'Suchen', 'Rechercher', 'Cerca'],
+  allPages: ['All Pages', 'كل الصفحات', 'Alle Seiten', 'Toutes les pages', 'Tutte le pagine'],
+  addLanguage: ['Add New Language', 'إضافة لغة جديدة', 'Neue Sprache hinzufügen', 'Ajouter une langue', 'Aggiungi lingua'],
+  reviews: ['Reviews', 'التقييمات', 'Bewertungen', 'Avis', 'Recensioni'],
+  sample: ['Sample review', 'تقييم تجريبي', 'Beispielbewertung', 'Avis de démonstration', 'Recensione dimostrativa'],
+  opened: ['Opened', 'مفتوح', 'Offen', 'Ouvert', 'Aperto'],
+  userManagement: ['User Management', 'إدارة المستخدمين', 'Benutzerverwaltung', 'Gestion des utilisateurs', 'Gestione utenti'],
+  activityLog: ['Activity Log', 'سجل النشاط', 'Aktivitätsprotokoll', 'Journal d’activité', 'Registro attività'],
+};
+for (const [index, locale] of locales.entries()) {
+  const path = new URL(`../../apps/wm/messages/${locale}.json`, import.meta.url);
+  const messages = JSON.parse(fs.readFileSync(path, 'utf8'));
+  messages.Improvements = { ...messages.Improvements, ...Object.fromEntries(Object.entries(copy).map(([key, values]) => [key, values[index]])) };
+  messages.Nav.library = copy.media[index];
+  messages.Nav.audit = copy.activityLog[index];
+  messages.Media.title = copy.media[index];
+  messages.Media.issues.attention = ['Needs attention','يحتاج إلى اهتمام','Prüfung erforderlich','À vérifier','Da verificare'][index];
+  messages.Audit.actions.sample_revision = ['Added sample revision','إضافة مراجعة تجريبية','Beispielrevision hinzugefügt','Révision de démonstration ajoutée','Revisione dimostrativa aggiunta'][index];
+  messages.Types.serviceFamily.many = ['Service Families','عائلات الخدمات','Leistungsgruppen','Familles de services','Famiglie di servizi'][index];
+  messages.Localization.allTypes = copy.allPages[index];
+  messages.Localization.filters.gaps = ['Missing or outdated','غير مكتمل أو قديم','Fehlend oder veraltet','Manquant ou obsolète','Mancante o obsoleto'][index];
+  messages.Ideas.log.edit = ['Edited idea','تم تعديل الفكرة','Idee bearbeitet','Idée modifiée','Idea modificata'][index];
+  messages.Seo.fromArchive = ['Archived content','محتوى مؤرشف','Archivierter Inhalt','Contenu archivé','Contenuto archiviato'][index];
+  messages.Improvements.capabilityGroups = Object.fromEntries(Object.entries({ overview: messages.Nav.overview, content: messages.Nav.sections.content, pages: messages.Nav.pages, media: copy.media[index], seo: messages.Nav.sections.seo, marketing: messages.Nav.sections.marketing, localization: messages.Nav.translations, settings: messages.Nav.sections.settings, legal: messages.Nav.legal, claims: ['Claims and evidence','الادعاءات والأدلة','Aussagen und Nachweise','Affirmations et preuves','Affermazioni e prove'][index], pricing: messages.Nav.pricing, leads: messages.Nav.leads, site: messages.Nav.site, locales: messages.Site.languages, users: copy.userManagement[index] }));
+  messages.Audit.title = copy.activityLog[index];
+  messages.Audit.kinds.user = copy.userManagement[index];
+  for (const [key, values] of Object.entries({user_create:['Created account','إنشاء حساب','Konto erstellt','Compte créé','Account creato'],user_update:['Updated account','تحديث حساب','Konto aktualisiert','Compte mis à jour','Account aggiornato'],user_roles:['Changed website roles','تغيير أدوار الموقع','Website-Rollen geändert','Rôles du site modifiés','Ruoli del sito modificati']})) messages.Audit.actions[key] = values[index];
+  const review = [
+    {one:'Review',many:'Reviews',search:'Search reviews',empty:'No reviews yet',emptyBody:'Add a testimonial, then send it for review before publishing.',noMatch:'No matching reviews',notFound:'This review does not exist',new:'New review'},
+    {one:'تقييم',many:'التقييمات',search:'بحث في التقييمات',empty:'لا توجد تقييمات',emptyBody:'أضف تقييمًا ثم أرسله للمراجعة قبل النشر.',noMatch:'لا توجد نتائج مطابقة',notFound:'هذا التقييم غير موجود',new:'تقييم جديد'},
+    {one:'Bewertung',many:'Bewertungen',search:'Bewertungen suchen',empty:'Noch keine Bewertungen',emptyBody:'Fügen Sie eine Bewertung hinzu und lassen Sie sie vor der Veröffentlichung prüfen.',noMatch:'Keine passenden Bewertungen',notFound:'Diese Bewertung existiert nicht',new:'Neue Bewertung'},
+    {one:'Avis',many:'Avis',search:'Rechercher des avis',empty:'Aucun avis',emptyBody:'Ajoutez un témoignage puis soumettez-le à validation avant publication.',noMatch:'Aucun avis correspondant',notFound:'Cet avis n’existe pas',new:'Nouvel avis'},
+    {one:'Recensione',many:'Recensioni',search:'Cerca recensioni',empty:'Nessuna recensione',emptyBody:'Aggiungi una testimonianza e inviala in revisione prima della pubblicazione.',noMatch:'Nessuna recensione corrispondente',notFound:'Questa recensione non esiste',new:'Nuova recensione'},
+  ][index];
+  messages.Types.review = review;
+  messages.Areas.reviews = { title: review.many, description: review.emptyBody };
+  for (const [key, values] of Object.entries({ reviewAuthor: ['Author','الكاتب','Autor','Auteur','Autore'], reviewRole: ['Role','المنصب','Position','Fonction','Ruolo'], reviewCompany: ['Company','الشركة','Unternehmen','Entreprise','Azienda'], reviewQuote: ['Quote','نص التقييم','Zitat','Témoignage','Testimonianza'] })) messages.Fields[key] = values[index];
+  fs.writeFileSync(path, JSON.stringify(messages, null, 2) + '\n');
+}

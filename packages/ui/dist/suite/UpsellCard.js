@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Sparkle } from "@phosphor-icons/react";
+export function UpsellCard({ title, description, action }) { return _jsxs("section", { className: "flex flex-wrap items-center gap-4 rounded-card border border-line bg-raised p-5 shadow-xs", children: [_jsx("span", { "aria-hidden": "true", className: "grid size-10 shrink-0 place-items-center rounded-field bg-brand-subtle text-fg-brand", children: _jsx(Sparkle, { className: "size-6" }) }), _jsxs("div", { className: "min-w-0 flex-1", children: [_jsx("h3", { className: "text-body font-semibold", children: title }), _jsx("p", { className: "mt-1 text-body-sm text-fg-muted", children: description })] }), action] }); }
+//# sourceMappingURL=UpsellCard.js.map

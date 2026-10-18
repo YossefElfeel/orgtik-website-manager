@@ -1,0 +1,559 @@
+{
+  "pg_home": {
+    "editor": [
+      "hero",
+      "heroWords",
+      "two-sides",
+      "partners",
+      "work",
+      "services",
+      "software",
+      "approach",
+      "faqs",
+      "reviews",
+      "closing"
+    ],
+    "labels": {
+      "hero": "Hero",
+      "heroWords": "Rotating words"
+    },
+    "fields": {
+      "hero": {
+        "label": "Hero",
+        "fields": [
+          {
+            "record": "pg_home",
+            "path": "hero.div",
+            "label": "description"
+          },
+          {
+            "record": "pg_home",
+            "path": "hero.h1",
+            "label": "header",
+            "initial": "Build the business.",
+            "template": true
+          },
+          {
+            "record": "pg_home",
+            "path": "hero.p",
+            "label": "subheading"
+          },
+          {
+            "record": "pg_home",
+            "path": "hero.a",
+            "label": "button1"
+          },
+          {
+            "record": "pg_home",
+            "path": "hero.button1Href",
+            "label": "button1Link",
+            "initial": "/contact",
+            "link": true,
+            "template": true
+          },
+          {
+            "record": "pg_home",
+            "path": "hero.a-2",
+            "label": "button2"
+          },
+          {
+            "record": "pg_home",
+            "path": "hero.button2Href",
+            "label": "button2Link",
+            "initial": "/software",
+            "link": true,
+            "template": true
+          },
+          {
+            "record": "pg_home",
+            "path": "hero.a-3",
+            "label": "caption"
+          }
+        ]
+      }
+    },
+    "groups": {
+      "services": [
+        "services",
+        "homeServices"
+      ]
+    },
+    "references": {
+      "partners": "/content/pages/pg_partners",
+      "reviews": "/content/reviews"
+    }
+  },
+  "pg_services": {
+    "editor": [
+      "hero",
+      "families",
+      "all-services",
+      "ready-made-bundles",
+      "bundle",
+      "department-bundles",
+      "reviews",
+      "rotation-words"
+    ],
+    "labels": {
+      "hero": "Hero"
+    },
+    "fields": {
+      "hero": {
+        "label": "Hero",
+        "fields": [
+          {
+            "record": "st_services",
+            "path": "b1.s10",
+            "label": "description"
+          },
+          {
+            "record": "st_services",
+            "path": "b1.s11",
+            "label": "header"
+          },
+          {
+            "record": "st_services",
+            "path": "b1.s12",
+            "label": "headerAccent"
+          },
+          {
+            "record": "st_services",
+            "path": "b1.s13",
+            "label": "subheading"
+          },
+          {
+            "record": "st_services",
+            "path": "b1.s14",
+            "label": "button1"
+          },
+          {
+            "record": "pg_services",
+            "path": "hero.button1Href",
+            "label": "button1Link",
+            "initial": "#families",
+            "link": true,
+            "template": true
+          },
+          {
+            "record": "st_services",
+            "path": "b1.s15",
+            "label": "button2"
+          },
+          {
+            "record": "pg_services",
+            "path": "hero.button2Href",
+            "label": "button2Link",
+            "initial": "/plans?type=services",
+            "link": true,
+            "template": true
+          }
+        ]
+      },
+      "bundle": {
+        "label": "Build your bundle",
+        "fields": [
+          {
+            "record": "st_commerce",
+            "path": "b3.s6",
+            "label": "description"
+          },
+          {
+            "record": "st_commerce",
+            "path": "b3.s8",
+            "label": "header"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-section-1.PurchaseHeading",
+            "label": "subheading"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-hero.PurchaseAction",
+            "label": "button"
+          }
+        ]
+      },
+      "department-bundles": {
+        "label": "Department bundles",
+        "fields": [
+          {
+            "record": "st_commerce",
+            "path": "b4.s2",
+            "label": "description"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-plans-section.PurchaseHeading@title-2",
+            "label": "header"
+          },
+          {
+            "record": "st_commerce",
+            "path": "b4.s3",
+            "label": "headerAccent"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-plans-section.PurchaseHeading-2",
+            "label": "subheading"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-plans-section.PurchaseAction-2",
+            "label": "button"
+          }
+        ]
+      },
+      "rotation-words": {
+        "label": "Rotating words",
+        "fields": []
+      },
+      "ready-made-bundles": {
+        "label": "Ready-made bundles",
+        "fields": [
+          {
+            "record": "st_commerce",
+            "path": "b3.s5",
+            "label": "description"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-hero.PurchaseHeading@title",
+            "label": "header"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-hero.PurchaseHeading",
+            "label": "subheading"
+          }
+        ]
+      }
+    },
+    "references": {
+      "reviews": "/content/reviews"
+    },
+    "collections": {
+      "all-services": "service"
+    },
+    "rotationSource": "service"
+  },
+  "pg_software": {
+    "editor": [
+      "hero",
+      "workspace",
+      "ready-made-bundles",
+      "bundle",
+      "capabilities",
+      "reviews",
+      "rotation-words"
+    ],
+    "labels": {
+      "hero": "Hero",
+      "capabilities": "Built for the everyday work"
+    },
+    "fields": {
+      "hero": {
+        "label": "Hero",
+        "fields": [
+          {
+            "record": "st_software",
+            "path": "b1.s17",
+            "label": "description"
+          },
+          {
+            "record": "st_software",
+            "path": "b1.s13",
+            "label": "header"
+          },
+          {
+            "record": "st_software",
+            "path": "b1.s18",
+            "label": "headerAccent"
+          },
+          {
+            "record": "st_software",
+            "path": "b1.s19",
+            "label": "subheading"
+          },
+          {
+            "record": "st_software",
+            "path": "b1.s20",
+            "label": "button1"
+          },
+          {
+            "record": "pg_software",
+            "path": "hero.button1Href",
+            "label": "button1Link",
+            "initial": "/plans?type=software",
+            "link": true,
+            "template": true
+          },
+          {
+            "record": "st_software",
+            "path": "b1.s21",
+            "label": "button2"
+          },
+          {
+            "record": "pg_software",
+            "path": "hero.button2Href",
+            "label": "button2Link",
+            "initial": "#workspace",
+            "link": true,
+            "template": true
+          }
+        ]
+      },
+      "bundle": {
+        "label": "Build your bundle",
+        "fields": [
+          {
+            "record": "st_commerce",
+            "path": "b3.s6",
+            "label": "description"
+          },
+          {
+            "record": "st_commerce",
+            "path": "b3.s7",
+            "label": "header"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-section-1.PurchaseHeading",
+            "label": "subheading"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-hero.PurchaseAction",
+            "label": "button"
+          }
+        ]
+      },
+      "rotation-words": {
+        "label": "Rotating words",
+        "fields": []
+      },
+      "ready-made-bundles": {
+        "label": "Ready-made bundles",
+        "fields": [
+          {
+            "record": "st_commerce",
+            "path": "b3.s5",
+            "label": "description"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-hero.PurchaseHeading@title",
+            "label": "header"
+          },
+          {
+            "record": "gl_commerce",
+            "path": "purchaseUI-hero.PurchaseHeading",
+            "label": "subheading"
+          }
+        ]
+      }
+    },
+    "groups": {
+      "workspace": [
+        "workspace",
+        "context",
+        "flow"
+      ]
+    },
+    "references": {
+      "reviews": "/content/reviews"
+    },
+    "rotationSource": "softwareModule"
+  },
+  "pg_work": {
+    "editor": [
+      "projects",
+      "status-card",
+      "reviews",
+      "rotation-words"
+    ],
+    "fields": {
+      "status-card": {
+        "label": "Status card",
+        "fields": [
+          {
+            "record": "st_work",
+            "path": "b2.s5",
+            "label": "title"
+          },
+          {
+            "record": "st_work",
+            "path": "b2.s6",
+            "label": "caption"
+          }
+        ]
+      },
+      "rotation-words": {
+        "label": "Rotating words",
+        "fields": []
+      }
+    },
+    "references": {
+      "reviews": "/content/reviews"
+    },
+    "collections": {
+      "projects": "caseStudy"
+    },
+    "rotationSource": "caseStudy"
+  },
+  "pg_about": {
+    "editor": [
+      "hero",
+      "purpose",
+      "journey",
+      "reviews",
+      "rotation-words"
+    ],
+    "labels": {
+      "hero": "Hero"
+    },
+    "fields": {
+      "hero": {
+        "label": "Hero",
+        "fields": [
+          {
+            "record": "st_about",
+            "path": "b3.s1",
+            "label": "description"
+          },
+          {
+            "record": "st_about",
+            "path": "b3.s2",
+            "label": "header"
+          },
+          {
+            "record": "st_about",
+            "path": "b3.s3",
+            "label": "headerAccent"
+          },
+          {
+            "record": "st_about",
+            "path": "b3.s4",
+            "label": "subheading"
+          },
+          {
+            "record": "st_about",
+            "path": "b3.s5",
+            "label": "button1"
+          },
+          {
+            "record": "pg_about",
+            "path": "hero.button1Href",
+            "label": "button1Link",
+            "initial": "#purpose",
+            "link": true,
+            "template": true
+          },
+          {
+            "record": "st_shared",
+            "path": "repeats.s2",
+            "label": "button2"
+          },
+          {
+            "record": "pg_about",
+            "path": "hero.button2Href",
+            "label": "button2Link",
+            "initial": "/contact",
+            "link": true,
+            "template": true
+          },
+          {
+            "record": "st_about",
+            "path": "b3.s13",
+            "label": "caption"
+          }
+        ]
+      },
+      "rotation-words": {
+        "label": "Rotating words",
+        "fields": [
+          {
+            "record": "st_about",
+            "path": "b3.s18",
+            "label": "rotationWord"
+          },
+          {
+            "record": "st_about",
+            "path": "b3.s19",
+            "label": "rotationWord"
+          },
+          {
+            "record": "st_about",
+            "path": "b3.s20",
+            "label": "rotationWord"
+          }
+        ]
+      }
+    },
+    "groups": {
+      "journey": [
+        "journey",
+        "journeySteps"
+      ]
+    },
+    "references": {
+      "reviews": "/content/reviews"
+    },
+    "staticRotation": [
+      "Strategy",
+      "Design",
+      "Operations"
+    ]
+  },
+  "pg_insights": {
+    "editor": [
+      "articles",
+      "rotation-words"
+    ],
+    "collections": {
+      "articles": "article"
+    },
+    "headerOnly": [
+      "articles"
+    ],
+    "rotationSource": "article",
+    "fields": {
+      "rotation-words": {
+        "label": "Rotating words",
+        "fields": []
+      }
+    }
+  },
+  "pg_contact": {
+    "editor": [
+      "hero",
+      "rotation-words"
+    ],
+    "fields": {
+      "rotation-words": {
+        "label": "Rotating words",
+        "fields": [
+          {
+            "record": "st_shared",
+            "path": "repeats.s1",
+            "label": "rotationWord"
+          },
+          {
+            "record": "st_shared",
+            "path": "repeats.s2",
+            "label": "rotationWord"
+          },
+          {
+            "record": "st_contact",
+            "path": "b1.s14",
+            "label": "rotationWord"
+          }
+        ]
+      }
+    },
+    "staticRotation": [
+      "Explore software",
+      "Get ongoing care"
+    ]
+  }
+}

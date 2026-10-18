@@ -1,0 +1,112 @@
+.service-builder-filter {
+  margin: 22px 0 16px;
+  padding-top: 18px;
+  border-top: 1px solid #190b251a;
+}
+.service-builder-filter__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.service-builder-filter__heading p:first-child {
+  color: #190b25;
+  font-weight: 600;
+}
+.service-builder-filter__heading p:last-child {
+  color: #4a3a57;
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+}
+.service-builder-filter__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.service-builder-filter__options button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 9px 13px;
+  border: 1px solid #190b2526;
+  border-radius: 999px;
+  background: transparent;
+  color: #4a3a57;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition:
+    background 180ms ease,
+    color 180ms ease;
+}
+.service-builder-filter__options button:hover {
+  background: #eee3f7;
+}
+.service-builder-filter__options button[aria-pressed="true"] {
+  background: #190b25;
+  border-color: #190b25;
+  color: #f6f1fa;
+}
+.service-builder-filter__options button:focus-visible {
+  outline: 2px solid #6c3caa;
+  outline-offset: 3px;
+}
+.service-builder-filter__options button span {
+  font-size: 11px;
+  font-weight: 500;
+}
+#svc-builder .service-duration {
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+#svc-builder .service-duration + .service-builder-filter {
+  margin-top: 16px;
+  padding-top: 0;
+  border-top: 0;
+}
+.service-builder-period-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.service-builder-period-summary span {
+  color: #b5a6c4;
+}
+.service-builder-period-summary strong {
+  color: #d4b7ec;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  .service-builder-filter__options {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 4px 3px 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #c9b6db transparent;
+  }
+  .service-builder-filter__options button {
+    flex-shrink: 0;
+  }
+}
+.service-builder-plan__badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #6c3caa1f;
+  color: #5a2f92;
+  font-size: 11px;
+  font-weight: 600;
+}
+[aria-pressed="true"] .service-builder-plan__badge {
+  background: #eee3f7;
+  color: #28123b;
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-builder-filter__options button {
+    transition: none;
+  }
+}

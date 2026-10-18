@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "Desktop navigation and browser Back",
+    "Six-product bundle and billing flow to plan comparison",
+    "Product detail and billing selector",
+    "Service bundle to contact",
+    "Contact validation and local success state",
+    "Password recovery preview",
+    "Insights search, empty state, article navigation",
+    "Reversible local roadmap voting",
+    "Legacy route compatibility",
+    "Mobile navigation, Escape, focus restoration, route change"
+  ],
+  "errors": []
+}

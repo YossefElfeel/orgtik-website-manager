@@ -1,0 +1,1123 @@
+{
+  "$description": "OrgTik DS v2: preserved plum anchors, graphite task surfaces, hybrid radii, shared density/layout and state motion (D-077/D-078).",
+  "color": {
+    "plum": {
+      "50": {
+        "$type": "color",
+        "$value": "#F6F1FA"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#EEE3F7"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#D4B7EC"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#C9A0F3"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#AF7DF3"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#9458F4"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#6C3CAA"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#532C80"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#3B1E59"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#28123B"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#190B25"
+      }
+    },
+    "indigo": {
+      "50": {
+        "$type": "color",
+        "$value": "#F3F4FF"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#E0E3FF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#B9C2FE"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#92A1FB"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#687EFC"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#4157F7"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#394BC6"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#2E3DA7"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#243089"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#181E5E"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#121649"
+      }
+    },
+    "mauve": {
+      "50": {
+        "$type": "color",
+        "$value": "#F7F3FA"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#E9E0F0"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#DCD0E6"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#CFC2DB"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#B5A6C4"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#9D8BAE"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#6E6178"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#4A3A57"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#34283D"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#201824"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#161019"
+      }
+    },
+    "night": {
+      "600": {
+        "$type": "color",
+        "$value": "#3A2A4B"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#2C1B3B"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#21132D"
+      },
+      "850": {
+        "$type": "color",
+        "$value": "#1A0D27"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#120A1B"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0D0814"
+      }
+    },
+    "green": {
+      "50": {
+        "$type": "color",
+        "$value": "#EEFBF1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#DCF4E1"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#BAE8C5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#8BD59F"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#58BD79"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#16A356"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#0C8544"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#086A35"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#025126"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#023819"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#00220C"
+      }
+    },
+    "amber": {
+      "50": {
+        "$type": "color",
+        "$value": "#FFF5EB"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#FDE9D4"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#F9D3AC"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#EEB474"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#DC9235"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#BE7704"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#996010"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#7B4C0B"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#5E3904"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#432600"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#291601"
+      }
+    },
+    "red": {
+      "50": {
+        "$type": "color",
+        "$value": "#FFF4F4"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#FEE6E7"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FECCCF"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FEA4AB"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#F97483"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#E44A63"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#A02544"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#8A1F3A"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#7A122A"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#570B1C"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#37040E"
+      }
+    },
+    "graphite": {
+      "50": {
+        "$type": "color",
+        "$value": "#F8F8F8"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#F1F1F1"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#E0E0E0"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#C8C8C8"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#A0A0A0"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#7D7D7D"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#686868"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#4B4B4B"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#303030"
+      },
+      "850": {
+        "$type": "color",
+        "$value": "#252525"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#1E1E1E"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#151515"
+      }
+    }
+  },
+  "semantic": {
+    "light": {
+      "bg-canvas": {
+        "$type": "color",
+        "$value": "#F8F8F8",
+        "$description": "The page background"
+      },
+      "bg-raised": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Cards, tables, panels"
+      },
+      "bg-sunken": {
+        "$type": "color",
+        "$value": "#F1F1F1",
+        "$description": "Wells, inputs' surroundings, table headers"
+      },
+      "bg-overlay": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Dialogs, menus, popovers"
+      },
+      "bg-chrome": {
+        "$type": "color",
+        "$value": "#190B25",
+        "$description": "The rail and sidebar: plum in both themes"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "#252525",
+        "$description": "Primary text"
+      },
+      "fg-muted": {
+        "$type": "color",
+        "$value": "#4B4B4B",
+        "$description": "Secondary text"
+      },
+      "fg-subtle": {
+        "$type": "color",
+        "$value": "#686868",
+        "$description": "Hints, placeholders, metadata"
+      },
+      "fg-brand": {
+        "$type": "color",
+        "$value": "#6C3CAA",
+        "$description": "Brand-coloured text and links"
+      },
+      "fg-on-chrome": {
+        "$type": "color",
+        "$value": "#F6F1FA",
+        "$description": "Text on the rail and sidebar"
+      },
+      "fg-on-chrome-muted": {
+        "$type": "color",
+        "$value": "#CFC2DB",
+        "$description": "Secondary text on the rail and sidebar"
+      },
+      "action-primary-bg": {
+        "$type": "color",
+        "$value": "#6C3CAA",
+        "$description": "Primary buttons"
+      },
+      "action-primary-fg": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text on primary buttons"
+      },
+      "action-brand-bg": {
+        "$type": "color",
+        "$value": "#190B25",
+        "$description": "The brand pill (with the arrow chip)"
+      },
+      "action-brand-fg": {
+        "$type": "color",
+        "$value": "#F6F1FA",
+        "$description": "Text on the brand pill"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#6C3CAA",
+        "$description": "Focus rings"
+      },
+      "line": {
+        "$type": "color",
+        "$value": "#E0E0E0",
+        "$description": "Dividers and card borders"
+      },
+      "line-strong": {
+        "$type": "color",
+        "$value": "#C8C8C8",
+        "$description": "Stronger separators"
+      },
+      "line-control": {
+        "$type": "color",
+        "$value": "#858585",
+        "$description": "Field and control borders (3:1 required)"
+      },
+      "success-fg": {
+        "$type": "color",
+        "$value": "#086A35",
+        "$description": "Success text and icons"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "#EEFBF1",
+        "$description": "Success badge background"
+      },
+      "success-solid": {
+        "$type": "color",
+        "$value": "#0C8544",
+        "$description": "Success fill"
+      },
+      "warning-fg": {
+        "$type": "color",
+        "$value": "#5E3904",
+        "$description": "Warning text and icons"
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "#FFF5EB",
+        "$description": "Warning badge background"
+      },
+      "warning-solid": {
+        "$type": "color",
+        "$value": "#DC9235",
+        "$description": "Warning fill (dark text on it)"
+      },
+      "danger-fg": {
+        "$type": "color",
+        "$value": "#8A1F3A",
+        "$description": "Danger text and icons"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "#FFF4F4",
+        "$description": "Danger badge background"
+      },
+      "danger-solid": {
+        "$type": "color",
+        "$value": "#A02544",
+        "$description": "Danger fill"
+      },
+      "info-fg": {
+        "$type": "color",
+        "$value": "#394BC6",
+        "$description": "Information text and icons"
+      },
+      "info-subtle": {
+        "$type": "color",
+        "$value": "#F3F4FF",
+        "$description": "Information badge background"
+      },
+      "info-solid": {
+        "$type": "color",
+        "$value": "#394BC6",
+        "$description": "Information fill"
+      },
+      "success-on-solid": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text on the success fill"
+      },
+      "warning-on-solid": {
+        "$type": "color",
+        "$value": "#190B25",
+        "$description": "Text on the warning fill"
+      },
+      "danger-on-solid": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text on the danger fill"
+      },
+      "info-on-solid": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Text on the information fill"
+      },
+      "viz-1": {
+        "$type": "color",
+        "$value": "#6C3CAA",
+        "$description": "Chart series 1 (violet). The first four stay apart under colour-vision deficiencies (scripts/check-viz.mjs); charts also label series and offer a table"
+      },
+      "viz-2": {
+        "$type": "color",
+        "$value": "#BE185D",
+        "$description": "Chart series 2 (pink)"
+      },
+      "viz-3": {
+        "$type": "color",
+        "$value": "#A16207",
+        "$description": "Chart series 3 (yellow)"
+      },
+      "viz-4": {
+        "$type": "color",
+        "$value": "#0E7490",
+        "$description": "Chart series 4 (cyan)"
+      },
+      "viz-5": {
+        "$type": "color",
+        "$value": "#5B5A99",
+        "$description": "Chart series 5 (green)"
+      },
+      "viz-6": {
+        "$type": "color",
+        "$value": "#985B7B",
+        "$description": "Chart series 6 (red)"
+      },
+      "viz-7": {
+        "$type": "color",
+        "$value": "#4B7293",
+        "$description": "Chart series 7 (sky)"
+      },
+      "viz-8": {
+        "$type": "color",
+        "$value": "#5B7468",
+        "$description": "Chart series 8 (teal)"
+      },
+      "viz-sequential-1": {
+        "$type": "color",
+        "$value": "#EEE3F7"
+      },
+      "viz-sequential-2": {
+        "$type": "color",
+        "$value": "#D4B7EC"
+      },
+      "viz-sequential-3": {
+        "$type": "color",
+        "$value": "#AF7DF3"
+      },
+      "viz-sequential-4": {
+        "$type": "color",
+        "$value": "#9458F4"
+      },
+      "viz-sequential-5": {
+        "$type": "color",
+        "$value": "#6C3CAA"
+      },
+      "viz-diverging-1": {
+        "$type": "color",
+        "$value": "#985B7B"
+      },
+      "viz-diverging-2": {
+        "$type": "color",
+        "$value": "#D9A3BD"
+      },
+      "viz-diverging-3": {
+        "$type": "color",
+        "$value": "#C8C8C8"
+      },
+      "viz-diverging-4": {
+        "$type": "color",
+        "$value": "#A8A7E2"
+      },
+      "viz-diverging-5": {
+        "$type": "color",
+        "$value": "#5B5A99"
+      }
+    },
+    "dark": {
+      "bg-canvas": {
+        "$type": "color",
+        "$value": "#151515",
+        "$description": "The page background"
+      },
+      "bg-raised": {
+        "$type": "color",
+        "$value": "#1E1E1E",
+        "$description": "Cards, tables, panels"
+      },
+      "bg-sunken": {
+        "$type": "color",
+        "$value": "#181818",
+        "$description": "Wells, inputs' surroundings, table headers"
+      },
+      "bg-overlay": {
+        "$type": "color",
+        "$value": "#252525",
+        "$description": "Dialogs, menus, popovers"
+      },
+      "bg-chrome": {
+        "$type": "color",
+        "$value": "#190B25",
+        "$description": "The rail and sidebar: plum in both themes"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "#F1F1F1",
+        "$description": "Primary text"
+      },
+      "fg-muted": {
+        "$type": "color",
+        "$value": "#C8C8C8",
+        "$description": "Secondary text"
+      },
+      "fg-subtle": {
+        "$type": "color",
+        "$value": "#A0A0A0",
+        "$description": "Hints, placeholders, metadata"
+      },
+      "fg-brand": {
+        "$type": "color",
+        "$value": "#C9A0F3",
+        "$description": "Brand-coloured text and links"
+      },
+      "fg-on-chrome": {
+        "$type": "color",
+        "$value": "#F6F1FA",
+        "$description": "Text on the rail and sidebar"
+      },
+      "fg-on-chrome-muted": {
+        "$type": "color",
+        "$value": "#CFC2DB",
+        "$description": "Secondary text on the rail and sidebar"
+      },
+      "action-primary-bg": {
+        "$type": "color",
+        "$value": "#C9A0F3",
+        "$description": "Primary buttons"
+      },
+      "action-primary-fg": {
+        "$type": "color",
+        "$value": "#28123B",
+        "$description": "Text on primary buttons"
+      },
+      "action-brand-bg": {
+        "$type": "color",
+        "$value": "#EEE3F7",
+        "$description": "The brand pill (with the arrow chip)"
+      },
+      "action-brand-fg": {
+        "$type": "color",
+        "$value": "#28123B",
+        "$description": "Text on the brand pill"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#B98AF7",
+        "$description": "Focus rings"
+      },
+      "line": {
+        "$type": "color",
+        "$value": "#36363F",
+        "$description": "Dividers and card borders"
+      },
+      "line-strong": {
+        "$type": "color",
+        "$value": "#4B4B4B",
+        "$description": "Stronger separators"
+      },
+      "line-control": {
+        "$type": "color",
+        "$value": "#7D7D7D",
+        "$description": "Field and control borders (3:1 required)"
+      },
+      "success-fg": {
+        "$type": "color",
+        "$value": "#8BD59F",
+        "$description": "Success text and icons"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "#12301F",
+        "$description": "Success badge background"
+      },
+      "success-solid": {
+        "$type": "color",
+        "$value": "#58BD79",
+        "$description": "Success fill"
+      },
+      "warning-fg": {
+        "$type": "color",
+        "$value": "#EEB474",
+        "$description": "Warning text and icons"
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "#33240B",
+        "$description": "Warning badge background"
+      },
+      "warning-solid": {
+        "$type": "color",
+        "$value": "#DC9235",
+        "$description": "Warning fill (dark text on it)"
+      },
+      "danger-fg": {
+        "$type": "color",
+        "$value": "#FEA4AB",
+        "$description": "Danger text and icons"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "#3A1320",
+        "$description": "Danger badge background"
+      },
+      "danger-solid": {
+        "$type": "color",
+        "$value": "#E44A63",
+        "$description": "Danger fill"
+      },
+      "info-fg": {
+        "$type": "color",
+        "$value": "#92A1FB",
+        "$description": "Information text and icons"
+      },
+      "info-subtle": {
+        "$type": "color",
+        "$value": "#171B45",
+        "$description": "Information badge background"
+      },
+      "info-solid": {
+        "$type": "color",
+        "$value": "#687EFC",
+        "$description": "Information fill"
+      },
+      "success-on-solid": {
+        "$type": "color",
+        "$value": "#0D0814",
+        "$description": "Text on the success fill"
+      },
+      "warning-on-solid": {
+        "$type": "color",
+        "$value": "#0D0814",
+        "$description": "Text on the warning fill"
+      },
+      "danger-on-solid": {
+        "$type": "color",
+        "$value": "#0D0814",
+        "$description": "Text on the danger fill"
+      },
+      "info-on-solid": {
+        "$type": "color",
+        "$value": "#0D0814",
+        "$description": "Text on the information fill"
+      },
+      "viz-1": {
+        "$type": "color",
+        "$value": "#B98AF7",
+        "$description": "Chart series 1 (violet, dark theme). The first four stay apart under colour-vision deficiencies (scripts/check-viz.mjs); charts also label series and offer a table"
+      },
+      "viz-2": {
+        "$type": "color",
+        "$value": "#F472B6",
+        "$description": "Chart series 2 (pink, dark theme)"
+      },
+      "viz-3": {
+        "$type": "color",
+        "$value": "#FDE047",
+        "$description": "Chart series 3 (yellow, dark theme)"
+      },
+      "viz-4": {
+        "$type": "color",
+        "$value": "#67E8F9",
+        "$description": "Chart series 4 (cyan, dark theme)"
+      },
+      "viz-5": {
+        "$type": "color",
+        "$value": "#A8A7E2",
+        "$description": "Chart series 5 (green, dark theme)"
+      },
+      "viz-6": {
+        "$type": "color",
+        "$value": "#D9A3BD",
+        "$description": "Chart series 6 (red, dark theme)"
+      },
+      "viz-7": {
+        "$type": "color",
+        "$value": "#99BDE0",
+        "$description": "Chart series 7 (sky, dark theme)"
+      },
+      "viz-8": {
+        "$type": "color",
+        "$value": "#A7C4B5",
+        "$description": "Chart series 8 (teal, dark theme)"
+      },
+      "viz-sequential-1": {
+        "$type": "color",
+        "$value": "#EEE3F7"
+      },
+      "viz-sequential-2": {
+        "$type": "color",
+        "$value": "#D4B7EC"
+      },
+      "viz-sequential-3": {
+        "$type": "color",
+        "$value": "#AF7DF3"
+      },
+      "viz-sequential-4": {
+        "$type": "color",
+        "$value": "#9458F4"
+      },
+      "viz-sequential-5": {
+        "$type": "color",
+        "$value": "#6C3CAA"
+      },
+      "viz-diverging-1": {
+        "$type": "color",
+        "$value": "#985B7B"
+      },
+      "viz-diverging-2": {
+        "$type": "color",
+        "$value": "#D9A3BD"
+      },
+      "viz-diverging-3": {
+        "$type": "color",
+        "$value": "#C8C8C8"
+      },
+      "viz-diverging-4": {
+        "$type": "color",
+        "$value": "#A8A7E2"
+      },
+      "viz-diverging-5": {
+        "$type": "color",
+        "$value": "#5B5A99"
+      }
+    }
+  },
+  "radius": {
+    "pill": {
+      "$type": "dimension",
+      "$value": "999px"
+    },
+    "field": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "card": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "overlay": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "panel": {
+      "$type": "dimension",
+      "$value": "20px"
+    }
+  },
+  "duration": {
+    "instant": {
+      "$type": "duration",
+      "$value": "80ms"
+    },
+    "fast": {
+      "$type": "duration",
+      "$value": "120ms"
+    },
+    "base": {
+      "$type": "duration",
+      "$value": "180ms"
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": "240ms"
+    },
+    "reveal": {
+      "$type": "duration",
+      "$value": "320ms"
+    }
+  },
+  "easing": {
+    "out": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "$description": "The site's main easing (147 uses)"
+    },
+    "out-strong": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ],
+      "$description": "The site's entrance easing"
+    },
+    "standard": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.2,
+        0,
+        0,
+        1
+      ]
+    },
+    "emphasized": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ]
+    },
+    "exit": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.4,
+        0,
+        1,
+        1
+      ]
+    },
+    "spring": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.22,
+        1.2,
+        0.36,
+        1
+      ]
+    }
+  },
+  "font": {
+    "display": {
+      "$type": "fontFamily",
+      "$value": [
+        "OrgTik Arabic",
+        "OrgTik Montserrat",
+        "Montserrat",
+        "sans-serif"
+      ],
+      "$description": "Headings. \"OrgTik Arabic\" is IBM Plex Sans Arabic (D-010) declared for Arabic characters only (dist/fonts.css), so Latin falls through to Montserrat (latin + latin-ext)"
+    },
+    "body": {
+      "$type": "fontFamily",
+      "$value": [
+        "OrgTik Arabic",
+        "OrgTik Plex",
+        "IBM Plex Sans",
+        "sans-serif"
+      ],
+      "$description": "Self-hosted IBM Plex Sans and Arabic for UI, with tabular data."
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": [
+        "ui-monospace",
+        "SFMono-Regular",
+        "Cascadia Code",
+        "Consolas",
+        "Liberation Mono",
+        "monospace"
+      ],
+      "$description": "IDs, codes, logs and figures in tables. The website's case-study stack (--cs-mono, d76ee3b), system fonts only"
+    }
+  },
+  "space": {
+    "1": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "80px"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "96px"
+    }
+  },
+  "layout": {
+    "narrow": {
+      "$type": "dimension",
+      "$value": "720px"
+    },
+    "default": {
+      "$type": "dimension",
+      "$value": "1200px"
+    },
+    "wide": {
+      "$type": "dimension",
+      "$value": "1440px"
+    },
+    "rail": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "sidebar": {
+      "$type": "dimension",
+      "$value": "224px"
+    },
+    "topbar": {
+      "$type": "dimension",
+      "$value": "56px"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "100%"
+    }
+  },
+  "zIndex": {
+    "base": {
+      "$type": "number",
+      "$value": 0
+    },
+    "sticky": {
+      "$type": "number",
+      "$value": 10
+    },
+    "dropdown": {
+      "$type": "number",
+      "$value": 30
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": 50
+    },
+    "toast": {
+      "$type": "number",
+      "$value": 70
+    }
+  },
+  "density": {
+    "comfortable": {
+      "row": "44px",
+      "control": "36px",
+      "font": "14px"
+    },
+    "compact": {
+      "row": "36px",
+      "control": "32px",
+      "font": "13px"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+.plan-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.plan-picker {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--pp-text);
+  font-variant-numeric: tabular-nums;
+}
+.plan-picker--light {
+  --pp-text: #190b25;
+  --pp-muted: #4a3a57;
+  --pp-line: #190b2524;
+  --pp-bg: #ffffff;
+  --pp-bg-on: #ffffff;
+  --pp-hover: #f6f1fa;
+  --pp-accent: #6c3caa;
+  --pp-badge-bg: #6c3caa14;
+  --pp-badge-text: #5a2f92;
+}
+.plan-picker--dark {
+  --pp-text: #f6f1fa;
+  --pp-muted: #cbbbd9;
+  --pp-line: #ffffff26;
+  --pp-bg: #ffffff08;
+  --pp-bg-on: #ffffff14;
+  --pp-hover: #ffffff10;
+  --pp-accent: #d4b7ec;
+  --pp-badge-bg: #eee3f7;
+  --pp-badge-text: #28123b;
+}
+.plan-picker__legend {
+  margin-bottom: 10px;
+  padding: 0;
+  color: var(--pp-muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.plan-picker__options {
+  display: grid;
+  gap: 8px;
+}
+.plan-picker--segments .plan-picker__options {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.plan-picker__option {
+  position: relative;
+  display: block;
+  min-width: 0;
+  cursor: pointer;
+}
+.plan-picker__option input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.plan-picker__card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 2px 12px;
+  min-height: 44px;
+  padding: 12px 14px;
+  border: 1px solid var(--pp-line);
+  border-radius: 16px;
+  background: var(--pp-bg);
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease;
+}
+.plan-picker__option:hover .plan-picker__card {
+  background: var(--pp-hover);
+}
+.plan-picker__option input:checked + .plan-picker__card {
+  border-color: var(--pp-accent);
+  background: var(--pp-bg-on);
+  box-shadow: 0 0 0 1px var(--pp-accent);
+}
+.plan-picker__option input:focus-visible + .plan-picker__card {
+  outline: 2px solid var(--pp-accent);
+  outline-offset: 3px;
+}
+.plan-picker__name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.plan-picker__badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--pp-badge-bg);
+  color: var(--pp-badge-text);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.plan-picker__subtitle {
+  grid-column: 1;
+  color: var(--pp-muted);
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.plan-picker__price {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: end;
+  white-space: nowrap;
+}
+.plan-picker__price small {
+  display: block;
+  color: var(--pp-muted);
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.plan-picker--segments .plan-picker__card {
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  height: 100%;
+  padding: 10px 12px;
+}
+.plan-picker--segments .plan-picker__price {
+  grid-column: 1;
+  grid-row: auto;
+  text-align: start;
+  white-space: normal;
+}
+.plan-picker--segments .plan-picker__subtitle {
+  display: none;
+}
+.plan-picker__why {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0 0;
+  color: var(--pp-muted);
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.plan-picker__why i {
+  flex: none;
+  margin-top: 2px;
+  color: var(--pp-accent);
+  font-size: 16px;
+}
+/* Confirmed promises shown in the cart and on Plans & pricing. */
+.plan-promises {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.plan-promises li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 6px 14px;
+  border: 1px solid #190b251f;
+  border-radius: 999px;
+  background: #ffffff8c;
+  color: #3b1e59;
+  font-size: 12px;
+  font-weight: 600;
+}
+.plan-promises i {
+  color: #6c3caa;
+  font-size: 16px;
+}
+@media (max-width: 540px) {
+  .plan-promises li {
+    padding-inline: 10px;
+    font-size: 11px;
+  }
+}
+/* "Everything in Starter, plus" introduces a plan's additions on plan cards. */
+.service-plan__lead {
+  padding-bottom: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  opacity: 0.86;
+}
+/* Compare and "all plans" links beside plan choices. */
+.plan-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 20px;
+  margin-top: 16px;
+}
+.plan-links button,
+.plan-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 2px;
+  color: #6c3caa;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.plan-links i {
+  font-size: 17px;
+  text-decoration: none;
+}
+.plan-links button:hover,
+.plan-links a:hover {
+  color: #3b1e59;
+}
+.plan-links button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.plan-links :focus-visible {
+  outline: 2px solid #6c3caa;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+.plan-links--dark {
+  margin-top: -4px;
+}
+.plan-links--dark button,
+.plan-links--dark a {
+  color: #e2cff5;
+}
+.plan-links--dark button:hover,
+.plan-links--dark a:hover {
+  color: #ffffff;
+}
+.plan-links--dark :focus-visible {
+  outline-color: #d4b7ec;
+}
+@media (max-width: 480px) {
+  .plan-picker--segments .plan-picker__options {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .plan-picker--segments .plan-picker__card {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .plan-picker--segments .plan-picker__price {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: end;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plan-picker__card {
+    transition: none;
+  }
+}

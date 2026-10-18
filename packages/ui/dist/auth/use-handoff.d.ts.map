@@ -1,0 +1,1 @@
+{"version":3,"file":"use-handoff.d.ts","sourceRoot":"","sources":["../../src/auth/use-handoff.ts"],"names":[],"mappings":"AAEA,OAAO,EAA8B,mBAAmB,EAAE,MAAM,aAAa,CAAC;AAC9E,OAAO,KAAK,EAAE,YAAY,EAAE,QAAQ,EAAE,aAAa,EAAiB,MAAM,YAAY,CAAC;AAEvF,6FAA6F;AAC7F,wBAAgB,iBAAiB,CAAC,IAAI,SAAS,aAAa,EAAE,MAAM,EAAE,MAAM,EAAE,QAAQ,EAAE,QAAQ,EAAE,IAAI,EAAE,MAAM,GAAG,IAAI;;;;;EAiBpH"}

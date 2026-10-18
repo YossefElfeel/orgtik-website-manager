@@ -1,0 +1,1064 @@
+{
+ "pdf_msa_nilefoods": {
+  "file": "originals/pdf_msa_nilefoods.pdf",
+  "mimeType": "application/pdf",
+  "size": 87169,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 2,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_msa_nilefoods/page-1.png",
+     "mimeType": "image/png",
+     "size": 60730
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pdf_msa_nilefoods/page-2.png",
+     "mimeType": "image/png",
+     "size": 10871
+    }
+   ]
+  }
+ },
+ "pdf_sla_gulf": {
+  "file": "originals/pdf_sla_gulf.pdf",
+  "mimeType": "application/pdf",
+  "size": 84761,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_sla_gulf/page-1.png",
+     "mimeType": "image/png",
+     "size": 35639
+    }
+   ]
+  }
+ },
+ "pdf_delta_ar": {
+  "file": "originals/pdf_delta_ar.pdf",
+  "mimeType": "application/pdf",
+  "size": 41918,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_delta_ar/page-1.png",
+     "mimeType": "image/png",
+     "size": 36783
+    }
+   ]
+  }
+ },
+ "pdf_lease": {
+  "file": "originals/pdf_lease.pdf",
+  "mimeType": "application/pdf",
+  "size": 83882,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_lease/page-1.png",
+     "mimeType": "image/png",
+     "size": 35743
+    }
+   ]
+  }
+ },
+ "pdf_brand_guidelines": {
+  "file": "originals/pdf_brand_guidelines.pdf",
+  "mimeType": "application/pdf",
+  "size": 88647,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 2,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_brand_guidelines/page-1.png",
+     "mimeType": "image/png",
+     "size": 12903
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pdf_brand_guidelines/page-2.png",
+     "mimeType": "image/png",
+     "size": 40376
+    }
+   ]
+  }
+ },
+ "pdf_expo_brochure": {
+  "file": "originals/pdf_expo_brochure.pdf",
+  "mimeType": "application/pdf",
+  "size": 84414,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 2,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_expo_brochure/page-1.png",
+     "mimeType": "image/png",
+     "size": 14904
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pdf_expo_brochure/page-2.png",
+     "mimeType": "image/png",
+     "size": 27582
+    }
+   ]
+  }
+ },
+ "pdf_vat_q2": {
+  "file": "originals/pdf_vat_q2.pdf",
+  "mimeType": "application/pdf",
+  "size": 84113,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_vat_q2/page-1.png",
+     "mimeType": "image/png",
+     "size": 24519
+    }
+   ]
+  }
+ },
+ "pdf_handbook": {
+  "file": "originals/pdf_handbook.pdf",
+  "mimeType": "application/pdf",
+  "size": 85262,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 2,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_handbook/page-1.png",
+     "mimeType": "image/png",
+     "size": 13647
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pdf_handbook/page-2.png",
+     "mimeType": "image/png",
+     "size": 38925
+    }
+   ]
+  }
+ },
+ "pdf_handbook_old": {
+  "file": "originals/pdf_handbook_old.pdf",
+  "mimeType": "application/pdf",
+  "size": 80639,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_handbook_old/page-1.png",
+     "mimeType": "image/png",
+     "size": 17556
+    }
+   ]
+  }
+ },
+ "pdf_handoff": {
+  "file": "originals/pdf_handoff.pdf",
+  "mimeType": "application/pdf",
+  "size": 83568,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_handoff/page-1.png",
+     "mimeType": "image/png",
+     "size": 28985
+    }
+   ]
+  }
+ },
+ "pdf_proposal_nilefoods": {
+  "file": "originals/pdf_proposal_nilefoods.pdf",
+  "mimeType": "application/pdf",
+  "size": 88235,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 3,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_proposal_nilefoods/page-1.png",
+     "mimeType": "image/png",
+     "size": 12729
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pdf_proposal_nilefoods/page-2.png",
+     "mimeType": "image/png",
+     "size": 42985
+    },
+    {
+     "key": "page-3.png",
+     "file": "previews/pdf_proposal_nilefoods/page-3.png",
+     "mimeType": "image/png",
+     "size": 6273
+    }
+   ]
+  }
+ },
+ "pdf_architecture": {
+  "file": "originals/pdf_architecture.pdf",
+  "mimeType": "application/pdf",
+  "size": 82710,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_architecture/page-1.png",
+     "mimeType": "image/png",
+     "size": 34587
+    }
+   ]
+  }
+ },
+ "pdf_company_profile": {
+  "file": "originals/pdf_company_profile.pdf",
+  "mimeType": "application/pdf",
+  "size": 84486,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 2,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_company_profile/page-1.png",
+     "mimeType": "image/png",
+     "size": 13829
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pdf_company_profile/page-2.png",
+     "mimeType": "image/png",
+     "size": 30365
+    }
+   ]
+  }
+ },
+ "pdf_board_deck": {
+  "file": "originals/pdf_board_deck.pdf",
+  "mimeType": "application/pdf",
+  "size": 87092,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 5,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_board_deck/page-1.png",
+     "mimeType": "image/png",
+     "size": 5775
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pdf_board_deck/page-2.png",
+     "mimeType": "image/png",
+     "size": 6443
+    },
+    {
+     "key": "page-3.png",
+     "file": "previews/pdf_board_deck/page-3.png",
+     "mimeType": "image/png",
+     "size": 8069
+    },
+    {
+     "key": "page-4.png",
+     "file": "previews/pdf_board_deck/page-4.png",
+     "mimeType": "image/png",
+     "size": 8813
+    },
+    {
+     "key": "page-5.png",
+     "file": "previews/pdf_board_deck/page-5.png",
+     "mimeType": "image/png",
+     "size": 8526
+    }
+   ]
+  }
+ },
+ "pdf_exec_summary": {
+  "file": "originals/pdf_exec_summary.pdf",
+  "mimeType": "application/pdf",
+  "size": 83630,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_exec_summary/page-1.png",
+     "mimeType": "image/png",
+     "size": 28220
+    }
+   ]
+  }
+ },
+ "pdf_old_vendor": {
+  "file": "originals/pdf_old_vendor.pdf",
+  "mimeType": "application/pdf",
+  "size": 79658,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_old_vendor/page-1.png",
+     "mimeType": "image/png",
+     "size": 14199
+    }
+   ]
+  }
+ },
+ "pdf_inv_0098": {
+  "file": "originals/pdf_inv_0098.pdf",
+  "mimeType": "application/pdf",
+  "size": 86630,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_inv_0098/page-1.png",
+     "mimeType": "image/png",
+     "size": 33921
+    }
+   ]
+  }
+ },
+ "pdf_inv_0142": {
+  "file": "originals/pdf_inv_0142.pdf",
+  "mimeType": "application/pdf",
+  "size": 86965,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_inv_0142/page-1.png",
+     "mimeType": "image/png",
+     "size": 34508
+    }
+   ]
+  }
+ },
+ "pdf_inv_0157": {
+  "file": "originals/pdf_inv_0157.pdf",
+  "mimeType": "application/pdf",
+  "size": 86688,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_inv_0157/page-1.png",
+     "mimeType": "image/png",
+     "size": 34091
+    }
+   ]
+  }
+ },
+ "pdf_inv_draft": {
+  "file": "originals/pdf_inv_draft.pdf",
+  "mimeType": "application/pdf",
+  "size": 87138,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pdf_inv_draft/page-1.png",
+     "mimeType": "image/png",
+     "size": 33822
+    }
+   ]
+  }
+ },
+ "docx_nda_riyadh": {
+  "file": "originals/docx_nda_riyadh.docx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "size": 4686,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/docx_nda_riyadh/page-1.png",
+     "mimeType": "image/png",
+     "size": 31774
+    }
+   ]
+  }
+ },
+ "docx_leave_policy_ar": {
+  "file": "originals/docx_leave_policy_ar.docx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "size": 4892,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/docx_leave_policy_ar/page-1.png",
+     "mimeType": "image/png",
+     "size": 29652
+    }
+   ]
+  }
+ },
+ "docx_onboarding": {
+  "file": "originals/docx_onboarding.docx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "size": 4630,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/docx_onboarding/page-1.png",
+     "mimeType": "image/png",
+     "size": 25894
+    }
+   ]
+  }
+ },
+ "docx_campaign_brief": {
+  "file": "originals/docx_campaign_brief.docx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "size": 4676,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/docx_campaign_brief/page-1.png",
+     "mimeType": "image/png",
+     "size": 28819
+    }
+   ]
+  }
+ },
+ "docx_sprint18": {
+  "file": "originals/docx_sprint18.docx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "size": 4605,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/docx_sprint18/page-1.png",
+     "mimeType": "image/png",
+     "size": 23251
+    }
+   ]
+  }
+ },
+ "docx_runbook": {
+  "file": "originals/docx_runbook.docx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "size": 4652,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/docx_runbook/page-1.png",
+     "mimeType": "image/png",
+     "size": 26570
+    }
+   ]
+  }
+ },
+ "docx_minutes_aug": {
+  "file": "originals/docx_minutes_aug.docx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "size": 4655,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/docx_minutes_aug/page-1.png",
+     "mimeType": "image/png",
+     "size": 26651
+    }
+   ]
+  }
+ },
+ "xlsx_contract_tracker": {
+  "file": "originals/xlsx_contract_tracker.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5812,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_contract_tracker/page-1.png",
+     "mimeType": "image/png",
+     "size": 18260
+    }
+   ]
+  }
+ },
+ "xlsx_campaign_calendar": {
+  "file": "originals/xlsx_campaign_calendar.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5674,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_campaign_calendar/page-1.png",
+     "mimeType": "image/png",
+     "size": 15924
+    }
+   ]
+  }
+ },
+ "xlsx_reconciliation": {
+  "file": "originals/xlsx_reconciliation.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5565,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_reconciliation/page-1.png",
+     "mimeType": "image/png",
+     "size": 12733
+    }
+   ]
+  }
+ },
+ "xlsx_payroll": {
+  "file": "originals/xlsx_payroll.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5540,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_payroll/page-1.png",
+     "mimeType": "image/png",
+     "size": 13358
+    }
+   ]
+  }
+ },
+ "xlsx_infra_costs": {
+  "file": "originals/xlsx_infra_costs.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5564,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_infra_costs/page-1.png",
+     "mimeType": "image/png",
+     "size": 10831
+    }
+   ]
+  }
+ },
+ "xlsx_pricing": {
+  "file": "originals/xlsx_pricing.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5422,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_pricing/page-1.png",
+     "mimeType": "image/png",
+     "size": 10210
+    }
+   ]
+  }
+ },
+ "xlsx_campaign_results_2025": {
+  "file": "originals/xlsx_campaign_results_2025.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5366,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_campaign_results_2025/page-1.png",
+     "mimeType": "image/png",
+     "size": 8232
+    }
+   ]
+  }
+ },
+ "xlsx_pricing_draft": {
+  "file": "originals/xlsx_pricing_draft.xlsx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 5193,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/xlsx_pricing_draft/page-1.png",
+     "mimeType": "image/png",
+     "size": 5414
+    }
+   ]
+  }
+ },
+ "pptx_welcome": {
+  "file": "originals/pptx_welcome.pptx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "size": 10941,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 4,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pptx_welcome/page-1.png",
+     "mimeType": "image/png",
+     "size": 6588
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pptx_welcome/page-2.png",
+     "mimeType": "image/png",
+     "size": 7002
+    },
+    {
+     "key": "page-3.png",
+     "file": "previews/pptx_welcome/page-3.png",
+     "mimeType": "image/png",
+     "size": 6876
+    },
+    {
+     "key": "page-4.png",
+     "file": "previews/pptx_welcome/page-4.png",
+     "mimeType": "image/png",
+     "size": 6150
+    }
+   ]
+  }
+ },
+ "pptx_sales_kickoff": {
+  "file": "originals/pptx_sales_kickoff.pptx",
+  "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "size": 10895,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 4,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/pptx_sales_kickoff/page-1.png",
+     "mimeType": "image/png",
+     "size": 5440
+    },
+    {
+     "key": "page-2.png",
+     "file": "previews/pptx_sales_kickoff/page-2.png",
+     "mimeType": "image/png",
+     "size": 5974
+    },
+    {
+     "key": "page-3.png",
+     "file": "previews/pptx_sales_kickoff/page-3.png",
+     "mimeType": "image/png",
+     "size": 5852
+    },
+    {
+     "key": "page-4.png",
+     "file": "previews/pptx_sales_kickoff/page-4.png",
+     "mimeType": "image/png",
+     "size": 6207
+    }
+   ]
+  }
+ },
+ "csv_invoice_register": {
+  "file": "originals/csv_invoice_register.csv",
+  "mimeType": "text/csv",
+  "size": 900,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/csv_invoice_register/page-1.png",
+     "mimeType": "image/png",
+     "size": 17440
+    }
+   ]
+  }
+ },
+ "csv_ad_performance": {
+  "file": "originals/csv_ad_performance.csv",
+  "mimeType": "text/csv",
+  "size": 634,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/csv_ad_performance/page-1.png",
+     "mimeType": "image/png",
+     "size": 15126
+    }
+   ]
+  }
+ },
+ "csv_pipeline": {
+  "file": "originals/csv_pipeline.csv",
+  "mimeType": "text/csv",
+  "size": 604,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/csv_pipeline/page-1.png",
+     "mimeType": "image/png",
+     "size": 14610
+    }
+   ]
+  }
+ },
+ "txt_meeting_notes": {
+  "file": "originals/txt_meeting_notes.txt",
+  "mimeType": "text/plain",
+  "size": 736,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/txt_meeting_notes/page-1.png",
+     "mimeType": "image/png",
+     "size": 26244
+    }
+   ]
+  }
+ },
+ "txt_release_notes": {
+  "file": "originals/txt_release_notes.txt",
+  "mimeType": "text/plain",
+  "size": 609,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/txt_release_notes/page-1.png",
+     "mimeType": "image/png",
+     "size": 19970
+    }
+   ]
+  }
+ },
+ "txt_personal_notes": {
+  "file": "originals/txt_personal_notes.txt",
+  "mimeType": "text/plain",
+  "size": 338,
+  "preview": {
+   "kind": "pages",
+   "pageCount": 1,
+   "assets": [
+    {
+     "key": "page-1.png",
+     "file": "previews/txt_personal_notes/page-1.png",
+     "mimeType": "image/png",
+     "size": 12558
+    }
+   ]
+  }
+ },
+ "png_insta_post": {
+  "file": "originals/png_insta_post.png",
+  "mimeType": "image/png",
+  "size": 85604,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_linkedin_banner": {
+  "file": "originals/png_linkedin_banner.png",
+  "mimeType": "image/png",
+  "size": 56745,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_booth": {
+  "file": "originals/png_booth.png",
+  "mimeType": "image/png",
+  "size": 61866,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_app_home": {
+  "file": "originals/png_app_home.png",
+  "mimeType": "image/png",
+  "size": 64980,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_app_checkout": {
+  "file": "originals/png_app_checkout.png",
+  "mimeType": "image/png",
+  "size": 72945,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_dashboard_dark": {
+  "file": "originals/png_dashboard_dark.png",
+  "mimeType": "image/png",
+  "size": 128129,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_screenshot": {
+  "file": "originals/png_screenshot.png",
+  "mimeType": "image/png",
+  "size": 71905,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_summer_banner": {
+  "file": "originals/png_summer_banner.png",
+  "mimeType": "image/png",
+  "size": 59875,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_old_logo": {
+  "file": "originals/png_old_logo.png",
+  "mimeType": "image/png",
+  "size": 29071,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "jpg_mango": {
+  "file": "originals/jpg_mango.jpg",
+  "mimeType": "image/jpeg",
+  "size": 29218,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "jpg_family_pack": {
+  "file": "originals/jpg_family_pack.jpg",
+  "mimeType": "image/jpeg",
+  "size": 46867,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "jpg_team_iftar": {
+  "file": "originals/jpg_team_iftar.jpg",
+  "mimeType": "image/jpeg",
+  "size": 54153,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "zip_icons": {
+  "file": "originals/zip_icons.zip",
+  "mimeType": "application/zip",
+  "size": 3914,
+  "preview": {
+   "kind": "unsupported"
+  }
+ },
+ "zip_nile_logo": {
+  "file": "originals/zip_nile_logo.zip",
+  "mimeType": "application/zip",
+  "size": 12180,
+  "preview": {
+   "kind": "unsupported"
+  }
+ },
+ "fig_components": {
+  "file": "originals/fig_components.fig",
+  "mimeType": "application/octet-stream",
+  "size": 24012,
+  "preview": {
+   "kind": "unsupported"
+  }
+ },
+ "svg_logo_full": {
+  "file": "originals/svg_logo_full.svg",
+  "mimeType": "image/svg+xml",
+  "size": 6178,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "png_logo_icon": {
+  "file": "originals/png_logo_icon.png",
+  "mimeType": "image/png",
+  "size": 14717,
+  "preview": {
+   "kind": "image"
+  }
+ },
+ "mp4_ramadan_teaser": {
+  "file": "originals/mp4_ramadan_teaser.mp4",
+  "mimeType": "video/mp4",
+  "size": 363632,
+  "preview": {
+   "kind": "hls_video",
+   "entryKey": "index.m3u8",
+   "assets": [
+    {
+     "key": "index.m3u8",
+     "file": "hls/mp4_ramadan_teaser/index.m3u8",
+     "mimeType": "application/vnd.apple.mpegurl",
+     "size": 169
+    },
+    {
+     "key": "segment-0.ts",
+     "file": "hls/mp4_ramadan_teaser/segment-0.ts",
+     "mimeType": "video/mp2t",
+     "size": 247032
+    },
+    {
+     "key": "segment-1.ts",
+     "file": "hls/mp4_ramadan_teaser/segment-1.ts",
+     "mimeType": "video/mp2t",
+     "size": 132916
+    }
+   ]
+  }
+ },
+ "mp4_app_walkthrough": {
+  "file": "originals/mp4_app_walkthrough.mp4",
+  "mimeType": "video/mp4",
+  "size": 233529,
+  "preview": {
+   "kind": "hls_video",
+   "entryKey": "index.m3u8",
+   "assets": [
+    {
+     "key": "index.m3u8",
+     "file": "hls/mp4_app_walkthrough/index.m3u8",
+     "mimeType": "application/vnd.apple.mpegurl",
+     "size": 169
+    },
+    {
+     "key": "segment-0.ts",
+     "file": "hls/mp4_app_walkthrough/segment-0.ts",
+     "mimeType": "video/mp2t",
+     "size": 115996
+    },
+    {
+     "key": "segment-1.ts",
+     "file": "hls/mp4_app_walkthrough/segment-1.ts",
+     "mimeType": "video/mp2t",
+     "size": 128592
+    }
+   ]
+  }
+ },
+ "mp4_product_demo": {
+  "file": "originals/mp4_product_demo.mp4",
+  "mimeType": "video/mp4",
+  "size": 285256,
+  "preview": {
+   "kind": "hls_video",
+   "entryKey": "index.m3u8",
+   "assets": [
+    {
+     "key": "index.m3u8",
+     "file": "hls/mp4_product_demo/index.m3u8",
+     "mimeType": "application/vnd.apple.mpegurl",
+     "size": 169
+    },
+    {
+     "key": "segment-0.ts",
+     "file": "hls/mp4_product_demo/segment-0.ts",
+     "mimeType": "video/mp2t",
+     "size": 232744
+    },
+    {
+     "key": "segment-1.ts",
+     "file": "hls/mp4_product_demo/segment-1.ts",
+     "mimeType": "video/mp2t",
+     "size": 67492
+    }
+   ]
+  }
+ },
+ "svg_whiteboard_sample": {
+  "file": "previews/whiteboard/sample.svg",
+  "mimeType": "image/svg+xml",
+  "size": 791,
+  "preview": { "kind": "image" }
+ }
+}

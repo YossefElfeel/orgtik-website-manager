@@ -1,0 +1,24 @@
+{
+  "name": "orgtik-cinematic-website",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173 --strictPort",
+    "build": "vite build && node scripts/prerender-heads.mjs",
+    "preview": "vite preview",
+    "test:cart": "node tests/cart.test.mjs",
+    "test": "node tests/cart.test.mjs && node tests/suite-session.test.mjs && node --test tests/published-content.test.mjs tests/managed-page.test.mjs",
+    "format": "prettier --write src index.html vite.config.mjs",
+    "format:check": "prettier --check src index.html vite.config.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "vite": "6.4.2"
+  },
+  "devDependencies": {
+    "prettier": "3.9.8"
+  }
+}

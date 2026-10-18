@@ -1,0 +1,338 @@
+@import "./icons-regular.css";
+@import "./icons-fill.css";
+@import "./icons-light.css";
+@import "./states.css";
+@import "./arabic.css";
+
+.roadmap-board-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #a582c3 #251831;
+  overscroll-behavior-inline: contain;
+}
+
+@supports selector(::-webkit-scrollbar) {
+  .roadmap-board-scroll {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+  .roadmap-board-scroll::-webkit-scrollbar {
+    height: 10px;
+  }
+  .roadmap-board-scroll::-webkit-scrollbar-track {
+    background: #251831;
+    border-radius: 999px;
+  }
+  .roadmap-board-scroll::-webkit-scrollbar-thumb {
+    min-width: 48px;
+    border: 2px solid #251831;
+    border-radius: 999px;
+    background: #a582c3;
+  }
+  .roadmap-board-scroll::-webkit-scrollbar-thumb:hover {
+    background: #d4b7ec;
+  }
+  .roadmap-board-scroll::-webkit-scrollbar-thumb:active {
+    background: #c9a0f3;
+  }
+  .roadmap-board-scroll::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("/assets/fonts/montserrat-latin.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  font-family:
+    "OrgTik Arabic", Montserrat, "Montserrat Variable", Arial, sans-serif;
+  color: #f6f1fa;
+  background: #0d0814;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 110px;
+}
+body {
+  margin: 0;
+  min-width: min(320px, 100%);
+  background: #0d0814;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+a {
+  color: #c9a0f3;
+  text-decoration: none;
+}
+a:hover {
+  color: #eee3f7;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+ul {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+::selection {
+  background: #9458f4;
+  color: #fff;
+}
+image-slot[data-logo]::part(frame) {
+  background: transparent;
+}
+image-slot[data-logo]::part(image) {
+  filter: brightness(0) invert(1);
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #b98af7;
+  outline-offset: 5px;
+}
+.skip-link {
+  position: fixed;
+  top: 12px;
+  inset-inline-start: 16px;
+  z-index: 200;
+  padding: 14px 20px;
+  border-radius: 30px;
+  background: #eee3f7;
+  color: #28123b;
+  transform: translateY(-160%);
+}
+.skip-link:focus {
+  transform: none;
+}
+.page-loading {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  color: #d4b7ec;
+}
+.not-found {
+  min-height: 100svh;
+  padding: 15vh 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.not-found img {
+  width: 180px;
+}
+.not-found h1 {
+  font-size: clamp(40px, 7vw, 90px);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Only the three overview pages use full-screen heroes. */
+.content-page {
+  padding-top: 112px;
+}
+.content-page > section:first-of-type {
+  padding-top: 32px !important;
+}
+.content-heading {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px clamp(20px, 4.4vw, 64px) 16px;
+}
+.content-heading p {
+  margin-bottom: 16px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #c9a0f3;
+}
+.content-heading h1 {
+  max-width: 1040px;
+  font-size: clamp(34px, 4.4vw, 62px);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.contact-intro {
+  max-width: 1440px;
+  margin: 0 auto clamp(34px, 3.6vw, 52px);
+  padding: 0 clamp(20px, 4.4vw, 64px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px 64px;
+}
+.contact-intro__title {
+  flex: 1 1 560px;
+  min-width: 0;
+}
+.contact-intro__eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #6e6178;
+  margin: 0;
+  line-height: 1.5;
+}
+.contact-intro h1 {
+  font-size: clamp(34px, 4.4vw, 66px);
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  margin: 22px 0 0;
+  text-wrap: balance;
+}
+.contact-intro h1 span {
+  display: block;
+  color: #6c3caa;
+}
+.contact-intro__subtitle {
+  flex: 0 1 400px;
+  max-width: 400px;
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #4a3a57;
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .contact-intro {
+    gap: 24px;
+  }
+  .contact-intro__title {
+    flex-basis: 100%;
+  }
+  .contact-intro__subtitle {
+    flex-basis: 100%;
+    max-width: none;
+  }
+}
+
+/* Content-first viewport rhythm: natural height is retained for dense sections. */
+:root {
+  --section-space: clamp(32px, 4.5svh, 64px);
+  --section-title-size: clamp(24px, 3vw, 40px);
+}
+main > section {
+  scroll-margin-top: 96px;
+}
+@media (max-width: 760px) {
+  :root {
+    --section-space: 36px;
+  }
+}
+
+.legal-intro .contact-intro__eyebrow {
+  color: #b5a6c4;
+}
+.legal-intro h1 {
+  color: #f6f1fa;
+  font-size: clamp(34px, 4.4vw, 62px);
+}
+.legal-intro h1 span {
+  color: #c9a0f3;
+}
+.legal-intro .contact-intro__subtitle {
+  color: #cfc2db;
+}
+
+.account-modes {
+  flex-wrap: nowrap;
+}
+.account-recovery-link {
+  align-self: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  color: #6c3caa;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 180ms;
+}
+.account-recovery-link:hover {
+  color: #3b1e59;
+}
+.account-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #3b1e59;
+}
+.account-field input {
+  width: 100%;
+  height: 54px;
+  padding: 0 16px;
+  border: 1px solid #190b2526;
+  border-radius: 14px;
+  background: #fff;
+  color: #190b25;
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.closing-cta {
+  --closing-cta-height: min(960px, 100svh);
+  --closing-cta-mark-width: min(860px, 90vw, calc(100svh - 80px));
+  --closing-cta-title-size: clamp(38px, 9vw, 180px);
+}
+
+@media (max-width: 760px) {
+  .closing-cta {
+    --closing-cta-height: min(560px, 80svh);
+  }
+}

@@ -1,0 +1,2577 @@
+{
+  "partners": {
+    "id": "pg_partners",
+    "type": "page",
+    "siteId": "orgtik",
+    "order": 15,
+    "name": "Partners",
+    "slug": {
+      "en": "/legal/partners"
+    },
+    "layout": [
+      {
+        "key": "intro",
+        "kind": "data",
+        "label": "Partners introduction and controls",
+        "node": {
+          "kind": "group",
+          "fields": {
+            "title": {
+              "kind": "text",
+              "label": "title"
+            },
+            "summary": {
+              "kind": "text",
+              "label": "summary"
+            },
+            "badge": {
+              "kind": "text",
+              "label": "badge"
+            },
+            "linkLabel": {
+              "kind": "text",
+              "label": "linkLabel"
+            },
+            "profileLabel": {
+              "kind": "text",
+              "label": "profileLabel"
+            },
+            "scrollLabel": {
+              "kind": "text",
+              "label": "scrollLabel"
+            },
+            "previousLabel": {
+              "kind": "text",
+              "label": "previousLabel"
+            },
+            "nextLabel": {
+              "kind": "text",
+              "label": "nextLabel"
+            },
+            "pauseLabel": {
+              "kind": "text",
+              "label": "pauseLabel"
+            },
+            "playLabel": {
+              "kind": "text",
+              "label": "playLabel"
+            },
+            "websiteLabel": {
+              "kind": "text",
+              "label": "websiteLabel"
+            },
+            "exampleWebsiteLabel": {
+              "kind": "text",
+              "label": "Mock website link label"
+            },
+            "exampleAccountLabel": {
+              "kind": "text",
+              "label": "Mock social profile label prefix"
+            },
+            "externalLabel": {
+              "kind": "text",
+              "label": "External link accessibility hint"
+            }
+          }
+        }
+      },
+      {
+        "key": "partners",
+        "kind": "data",
+        "label": "Partner profiles",
+        "node": {
+          "kind": "list",
+          "label": "Partners",
+          "itemLabel": "Partner",
+          "item": {
+            "kind": "group",
+            "fields": {
+              "id": {
+                "kind": "text",
+                "label": "Anchor ID",
+                "neutral": true
+              },
+              "name": {
+                "kind": "text",
+                "label": "Name"
+              },
+              "category": {
+                "kind": "text",
+                "label": "Category"
+              },
+              "summary": {
+                "kind": "longtext",
+                "label": "Profile description"
+              },
+              "logo": {
+                "kind": "text",
+                "label": "Logo asset path",
+                "neutral": true
+              },
+              "website": {
+                "kind": "text",
+                "label": "Website URL",
+                "neutral": true
+              },
+              "visible": {
+                "kind": "toggle",
+                "label": "Show partner",
+                "neutral": true
+              },
+              "mock": {
+                "kind": "toggle",
+                "label": "Mock partner",
+                "neutral": true
+              },
+              "accounts": {
+                "kind": "list",
+                "label": "Social profiles (optional)",
+                "itemLabel": "Social profile",
+                "item": {
+                  "kind": "group",
+                  "fields": {
+                    "label": {
+                      "kind": "text",
+                      "label": "Platform name"
+                    },
+                    "url": {
+                      "kind": "text",
+                      "label": "Profile URL",
+                      "neutral": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "intro": {
+          "title": "Partners",
+          "summary": "These profiles use fictional names, mock logos and example links for this preview.",
+          "badge": "Mock partners",
+          "linkLabel": "View all partners",
+          "profileLabel": "View mock partner details",
+          "scrollLabel": "Mock partner logos",
+          "previousLabel": "Scroll to previous partners",
+          "nextLabel": "Scroll to next partners",
+          "pauseLabel": "Pause scrolling",
+          "playLabel": "Resume scrolling",
+          "websiteLabel": "Visit website",
+          "exampleWebsiteLabel": "Example website",
+          "exampleAccountLabel": "Example",
+          "externalLabel": "Opens in a new tab"
+        },
+        "partners": [
+          {
+            "id": "northline",
+            "name": "Northline",
+            "category": "Design & strategy",
+            "summary": "An illustrative partner profile for brand strategy and visual identity.",
+            "logo": "/assets/partners/northline.svg",
+            "website": "https://example.com/#northline-website",
+            "visible": true,
+            "mock": true,
+            "accounts": [
+              {
+                "label": "LinkedIn",
+                "url": "https://example.com/#northline-linkedin"
+              },
+              {
+                "label": "Instagram",
+                "url": "https://example.com/#northline-instagram"
+              }
+            ]
+          },
+          {
+            "id": "folio",
+            "name": "Folio",
+            "category": "Business software",
+            "summary": "An illustrative partner profile for business tools and connected workflows.",
+            "logo": "/assets/partners/folio.svg",
+            "website": "https://example.com/#folio-website",
+            "visible": true,
+            "mock": true,
+            "accounts": []
+          },
+          {
+            "id": "everoak",
+            "name": "Everoak",
+            "category": "Hosting & infrastructure",
+            "summary": "An illustrative partner profile for hosting and technical support.",
+            "logo": "/assets/partners/everoak.svg",
+            "website": "",
+            "visible": true,
+            "mock": true,
+            "accounts": [
+              {
+                "label": "LinkedIn",
+                "url": "https://example.com/#everoak-linkedin"
+              }
+            ]
+          },
+          {
+            "id": "aster",
+            "name": "Aster",
+            "category": "Digital experiences",
+            "summary": "An illustrative partner profile for websites, applications and customer experiences.",
+            "logo": "/assets/partners/aster.svg",
+            "website": "https://example.com/#aster-website",
+            "visible": true,
+            "mock": true,
+            "accounts": [
+              {
+                "label": "Instagram",
+                "url": "https://example.com/#aster-instagram"
+              }
+            ]
+          },
+          {
+            "id": "forma",
+            "name": "Forma",
+            "category": "Creative & content",
+            "summary": "An illustrative partner profile for campaigns and thoughtful content.",
+            "logo": "/assets/partners/forma.svg",
+            "website": "",
+            "visible": true,
+            "mock": true,
+            "accounts": []
+          },
+          {
+            "id": "signal-house",
+            "name": "Signal House",
+            "category": "Marketing & communication",
+            "summary": "An illustrative partner profile for audience research and communication.",
+            "logo": "/assets/partners/signal-house.svg",
+            "website": "",
+            "visible": true,
+            "mock": true,
+            "accounts": [
+              {
+                "label": "LinkedIn",
+                "url": "https://example.com/#signal-house-linkedin"
+              },
+              {
+                "label": "Instagram",
+                "url": "https://example.com/#signal-house-instagram"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "seo": {
+      "en": {
+        "robots": "noindex",
+        "inSitemap": true,
+        "title": "Partners | OrgTik",
+        "description": "These profiles use fictional names, mock logos and example links for this preview."
+      }
+    },
+    "workflow": {
+      "state": "published",
+      "visibility": "live",
+      "version": 1,
+      "updatedAt": "2026-10-07T08:15:42.948Z",
+      "updatedBy": "owner-request",
+      "publishedAt": "2026-10-07T08:15:42.948Z"
+    },
+    "translation": {
+      "en": "published",
+      "ar": "not_started",
+      "de": "not_started",
+      "fr": "not_started",
+      "it": "not_started"
+    }
+  },
+  "accountSetup": {
+    "layout": {
+      "key": "b21",
+      "kind": "copy",
+      "label": "Purchase account setup",
+      "slots": [
+        {
+          "key": "s1",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s2",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s3",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s4",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s5",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s6",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s7",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s8",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s9",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        },
+        {
+          "key": "s10",
+          "kind": "message",
+          "context": "post-purchase account setup"
+        }
+      ]
+    },
+    "words": {
+      "s1": "Set up my account",
+      "s2": "Choose a password for {0}. Your billing details are already saved. We’ll then open your dashboard.",
+      "s3": "Password",
+      "s4": "Use at least 8 characters.",
+      "s5": "Continue to my dashboard",
+      "s6": "Your account is created. We couldn’t connect your purchase yet. Try again; you won’t be asked to pay again.",
+      "s7": "Your billing details are unavailable. Create your account to continue with this saved purchase.",
+      "s8": "Your purchase is saved. Set up your account to continue.",
+      "s9": "Sign in to my account",
+      "s10": "Confirm password"
+    }
+  },
+  "footerStart": [
+    {
+      "label": "Build a software plan",
+      "href": "/software"
+    },
+    {
+      "label": "Plans & pricing",
+      "href": "/plans"
+    },
+    {
+      "label": "Tell us about your project",
+      "href": "/contact"
+    },
+    {
+      "label": "Roadmap",
+      "href": "/roadmap"
+    },
+    {
+      "label": "Imprint",
+      "href": "/legal/imprint"
+    }
+  ],
+  "legalIntro": "Find company and partner details, privacy and purchasing information in one place.",
+  "legalLabels": {
+    "s3": "Company information",
+    "s6": "Legal information."
+  },
+  "strings": [
+    {
+      "id": "st_services",
+      "type": "strings",
+      "siteId": "orgtik",
+      "order": 3,
+      "name": "services",
+      "slug": {},
+      "layout": [
+        {
+          "key": "b1",
+          "kind": "copy",
+          "label": "design/brand-development",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "applyScreen · v"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "chf"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "chf"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "renderVals0 · eyebrow"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "renderVals0 · primary"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "renderVals0 · secondary"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "renderVals0 · primary"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": "renderVals0 · eyebrow"
+            },
+            {
+              "key": "s11",
+              "kind": "message",
+              "context": "renderVals0 · l1"
+            },
+            {
+              "key": "s12",
+              "kind": "message",
+              "context": "renderVals0 · acc"
+            },
+            {
+              "key": "s13",
+              "kind": "message",
+              "context": "renderVals0 · body"
+            },
+            {
+              "key": "s14",
+              "kind": "message",
+              "context": "renderVals0 · primary"
+            },
+            {
+              "key": "s15",
+              "kind": "message",
+              "context": "renderVals0 · secondary"
+            },
+            {
+              "key": "s16",
+              "kind": "message",
+              "context": "renderVals0 · panelTitle"
+            },
+            {
+              "key": "s17",
+              "kind": "message",
+              "context": "renderVals0 · panelNote"
+            },
+            {
+              "key": "s18",
+              "kind": "message",
+              "context": "renderVals0 · panelNote"
+            },
+            {
+              "key": "s19",
+              "kind": "message",
+              "context": "renderVals0 · panelNote"
+            },
+            {
+              "key": "s20",
+              "kind": "message",
+              "context": "renderVals0 · panelTitle"
+            },
+            {
+              "key": "s21",
+              "kind": "message",
+              "context": "renderVals0 · panelNote"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "kind": "copy",
+          "label": "Services in …",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "renderVals0 · eyebrow"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "renderVals0 · l1"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "renderVals0 · l1"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "renderVals0 · acc"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "renderVals0 · body"
+            }
+          ]
+        },
+        {
+          "key": "b3",
+          "kind": "copy",
+          "label": "What you get",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "renderVals0 · eyebrow"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "renderVals0 · l1"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "renderVals0 · acc"
+            }
+          ]
+        },
+        {
+          "key": "b4",
+          "kind": "copy",
+          "label": "More in …",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "renderVals0 · eyebrow"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "renderVals0 · eyebrow"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "renderVals0 · l1"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "renderVals0 · l1"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "renderVals0 · acc"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "renderVals0 · acc"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "renderVals0 · body"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "renderVals0 · body"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "renderVals0 · cta.eyebrow"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": "renderVals0 · cta.l1"
+            },
+            {
+              "key": "s11",
+              "kind": "message",
+              "context": "renderVals0 · cta.acc"
+            },
+            {
+              "key": "s12",
+              "kind": "message",
+              "context": "renderVals0 · cta.body"
+            },
+            {
+              "key": "s13",
+              "kind": "message",
+              "context": "renderVals0 · cta.l1"
+            },
+            {
+              "key": "s14",
+              "kind": "message",
+              "context": "renderVals0 · cta.acc"
+            },
+            {
+              "key": "s15",
+              "kind": "message",
+              "context": "renderVals0 · cta.body"
+            },
+            {
+              "key": "s16",
+              "kind": "message",
+              "context": "renderVals0 · cta.second"
+            }
+          ]
+        },
+        {
+          "key": "b5",
+          "kind": "copy",
+          "label": "… Open a service to see what it covers, then explore it in d",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "renderVals0 · ac.body"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "renderVals0 · apEyebrow"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "renderVals0 · apEyebrow"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "renderVals0 · apL1"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "renderVals0 · apL1"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "renderVals0 · apAcc"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "renderVals0 · apAcc"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "placeholder"
+            }
+          ]
+        },
+        {
+          "key": "repeats",
+          "kind": "copy",
+          "label": null,
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "bxItems · foot"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "renderVals0 · cta.eyebrow"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "renderVals0 · tickerLabel"
+            }
+          ]
+        }
+      ],
+      "locales": {
+        "en": {
+          "b1": {
+            "s1": "design/brand-development",
+            "s2": "development/web-development",
+            "s3": "Overview",
+            "s4": "On request",
+            "s5": "CHF {0}",
+            "s6": "Services · {0}",
+            "s7": "View packages",
+            "s8": "Add to a bundle",
+            "s9": "See the services",
+            "s10": "OrgTik Studio · Five disciplines",
+            "s11": "Good ideas deserve",
+            "s12": "great execution.",
+            "s13": "From the first sketch to what comes next: brand, web, marketing, support and hosting, connected around one clear ambition.",
+            "s14": "Explore the services",
+            "s15": "Build a bundle",
+            "s16": "What it covers",
+            "s17": "Explore hosting at orgtik.ch",
+            "s18": "Hosting is purchased at orgtik.ch",
+            "s19": "One package per service · 1, 3, 6 or 12 months",
+            "s20": "Five disciplines",
+            "s21": "Combine services. Hosting is purchased separately."
+          },
+          "b2": {
+            "s1": "Services in {0}",
+            "s2": "One focused service.",
+            "s3": "{0} focused services.",
+            "s4": "One connected team.",
+            "s5": "{0} Choose a starting point, or combine them into one engagement."
+          },
+          "b3": {
+            "s1": "What you get",
+            "s2": "Built around",
+            "s3": "the result."
+          },
+          "b4": {
+            "s1": "More in {0}",
+            "s2": "Explore the studio",
+            "s3": "Works well",
+            "s4": "Other ways",
+            "s5": "alongside it.",
+            "s6": "we can help.",
+            "s7": "Services in the same family share a team, so they combine without extra hand-offs.",
+            "s8": "Hosting pairs naturally with design, development and ongoing support.",
+            "s9": "Ready when you are",
+            "s10": "Let’s shape your",
+            "s11": "first step.",
+            "s12": "Share what needs to work better and we’ll suggest the smallest useful starting point for {0}.",
+            "s13": "What could we",
+            "s14": "build together?",
+            "s15": "Your next idea. Our shared ambition.",
+            "s16": "Explore the software"
+          },
+          "b5": {
+            "s1": "{0} Open a service to see what it covers, then explore it in detail.",
+            "s2": "How we work",
+            "s3": "A practical path",
+            "s4": "One engagement,",
+            "s5": "A practical path,",
+            "s6": "clearly shaped.",
+            "s7": "at every step.",
+            "s8": "Service image — {0}"
+          },
+          "repeats": {
+            "s1": "Explore service",
+            "s2": "Tell us about your project",
+            "s3": "Services"
+          }
+        }
+      },
+      "seo": {},
+      "workflow": {
+        "state": "published",
+        "visibility": "live",
+        "version": 1,
+        "updatedAt": "2026-09-30T08:00:00.000Z",
+        "updatedBy": "seed",
+        "publishedAt": "2026-09-30T08:00:00.000Z"
+      },
+      "translation": {
+        "en": "published",
+        "ar": "not_started",
+        "de": "not_started",
+        "fr": "not_started",
+        "it": "not_started"
+      }
+    },
+    {
+      "id": "st_software",
+      "type": "strings",
+      "siteId": "orgtik",
+      "order": 4,
+      "name": "software",
+      "slug": {},
+      "layout": [
+        {
+          "key": "b1",
+          "kind": "copy",
+          "label": "Overview",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "applyScreen · v"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "chf"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "chf"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "card.sub"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "card.price"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "card.price"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "primary"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "secondary"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": "stripLabel"
+            },
+            {
+              "key": "s11",
+              "kind": "message",
+              "context": "crumb"
+            },
+            {
+              "key": "s12",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s13",
+              "kind": "message",
+              "context": "l1"
+            },
+            {
+              "key": "s14",
+              "kind": "message",
+              "context": "acc"
+            },
+            {
+              "key": "s15",
+              "kind": "message",
+              "context": "body"
+            },
+            {
+              "key": "s16",
+              "kind": "message",
+              "context": "primary"
+            },
+            {
+              "key": "s17",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s18",
+              "kind": "message",
+              "context": "acc"
+            },
+            {
+              "key": "s19",
+              "kind": "message",
+              "context": "body"
+            },
+            {
+              "key": "s20",
+              "kind": "message",
+              "context": "primary"
+            },
+            {
+              "key": "s21",
+              "kind": "message",
+              "context": "secondary"
+            },
+            {
+              "key": "s22",
+              "kind": "message",
+              "context": "panelNote"
+            },
+            {
+              "key": "s23",
+              "kind": "message",
+              "context": "panelNote"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "kind": "copy",
+          "label": "Save up to 15% with longer periods or more products.",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "panelNote"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "cta.eyebrow"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "cta.l1"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "cta.acc"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "cta.body"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "cta.label"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "cta.eyebrow"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "cta.l1"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "cta.acc"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": "cta.body"
+            },
+            {
+              "key": "s11",
+              "kind": "message",
+              "context": "cta.label"
+            },
+            {
+              "key": "s12",
+              "kind": "message",
+              "context": "cta.eyebrow"
+            },
+            {
+              "key": "s13",
+              "kind": "message",
+              "context": "cta.l1"
+            },
+            {
+              "key": "s14",
+              "kind": "message",
+              "context": "cta.acc"
+            },
+            {
+              "key": "s15",
+              "kind": "message",
+              "context": "cta.body"
+            }
+          ]
+        },
+        {
+          "key": "b3",
+          "kind": "copy",
+          "label": "… pieces of context",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "ctxCount"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "flowNow"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "flowNow"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "flowNow"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "flowNow"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "flowNow"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "flowNow"
+            }
+          ]
+        },
+        {
+          "key": "b4",
+          "kind": "copy",
+          "label": "…, made clear.",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "render"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "render"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "placeholder"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "render"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "render"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "placeholder"
+            }
+          ]
+        },
+        {
+          "key": "repeats",
+          "kind": "copy",
+          "label": null,
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "tickerLabel"
+            }
+          ]
+        }
+      ],
+      "locales": {
+        "en": {
+          "b1": {
+            "s1": "Overview",
+            "s2": "On request",
+            "s3": "CHF {0}",
+            "s4": "{0} · Works with {1}",
+            "s5": "Price on request",
+            "s6": "From {0}/mo",
+            "s7": "Software · {0} · {1}",
+            "s8": "View {0} plans",
+            "s9": "Build a bundle",
+            "s10": "Included",
+            "s11": "Your configuration",
+            "s12": "Software · Your configuration",
+            "s13": "One workspace.",
+            "s14": "Built around your team.",
+            "s15": "Choose your products and durations. Every package includes the same capabilities at every duration.",
+            "s16": "Customize your plan",
+            "s17": "OrgTik Software · Modular business suite",
+            "s18": "Built to work together.",
+            "s19": "Start with one module and expand when the business is ready. Every step stays connected to the same, clearer operating picture.",
+            "s20": "Build your plan",
+            "s21": "How it connects",
+            "s22": "Pricing on request",
+            "s23": "From {0}/mo · {1}"
+          },
+          "b2": {
+            "s1": "Save up to 15% with longer periods or more products.",
+            "s2": "Your workspace",
+            "s3": "Put {0}",
+            "s4": "in your workspace.",
+            "s5": "Choose the duration for {0}, review your price, and add it to your cart.",
+            "s6": "Configure {0}",
+            "s7": "A plan shaped around the work",
+            "s8": "Bring it into one",
+            "s9": "connected workspace.",
+            "s10": "Review your products and durations, add them to your cart, and complete your purchase.",
+            "s11": "Configure your plan",
+            "s12": "Not sure where to start?",
+            "s13": "Talk it through",
+            "s14": "with the team.",
+            "s15": "Tell us how your team works today and we’ll suggest the smallest useful starting point."
+          },
+          "b3": {
+            "s1": "{0} pieces of context",
+            "s2": "Sales starts the relationship in CRM.",
+            "s3": "Delivery takes over in Tasks — nothing re-typed.",
+            "s4": "Documents join the same customer in Files.",
+            "s5": "HR keeps the right team available for the work.",
+            "s6": "Marketing plans the next campaign from real context.",
+            "s7": "The website captures the next enquiry — and the loop starts again."
+          },
+          "b4": {
+            "s1": "{0}, made clear.",
+            "s2": "View the {0} demo",
+            "s3": "{0} highlight image",
+            "s4": "Ways to use {0}",
+            "s5": "Choose a common {0} moment to preview how context, ownership and the next action stay connected.",
+            "s6": "Screenshot — {0}"
+          },
+          "repeats": {
+            "s1": "Software"
+          }
+        }
+      },
+      "seo": {},
+      "workflow": {
+        "state": "published",
+        "visibility": "live",
+        "version": 1,
+        "updatedAt": "2026-09-30T08:00:00.000Z",
+        "updatedBy": "seed",
+        "publishedAt": "2026-09-30T08:00:00.000Z"
+      },
+      "translation": {
+        "en": "published",
+        "ar": "not_started",
+        "de": "not_started",
+        "fr": "not_started",
+        "it": "not_started"
+      }
+    },
+    {
+      "id": "st_components",
+      "type": "strings",
+      "siteId": "orgtik",
+      "order": 12,
+      "name": "Components",
+      "slug": {},
+      "layout": [
+        {
+          "key": "b1",
+          "kind": "copy",
+          "label": "How we got there",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "label"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "label"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "label"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "kind": "copy",
+          "label": "Client",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "facts"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "facts"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "facts"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "facts"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "facts"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "label"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b3",
+          "kind": "copy",
+          "label": "Prototype audit",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "aria-label"
+            }
+          ]
+        },
+        {
+          "key": "b4",
+          "kind": "copy",
+          "label": "(baseline)",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "alt"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "LANGUAGES.code"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "LANGUAGES.label"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "LANGUAGES.code"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "LANGUAGES.label"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": "LANGUAGES.code"
+            },
+            {
+              "key": "s11",
+              "kind": "message",
+              "context": "LANGUAGES.label"
+            },
+            {
+              "key": "s12",
+              "kind": "message",
+              "context": "aria-label"
+            }
+          ]
+        }
+      ],
+      "locales": {
+        "en": {
+          "b1": {
+            "s1": "How we got there",
+            "s2": "What we delivered",
+            "s3": "The results"
+          },
+          "b2": {
+            "s1": "Client",
+            "s2": "Sector",
+            "s3": "Timeline",
+            "s4": "Team",
+            "s5": "Status",
+            "s6": "The brief",
+            "s7": "The challenge",
+            "s8": "The goal",
+            "s9": "Our role"
+          },
+          "b3": {
+            "s1": "Prototype audit",
+            "s2": "Technical audit",
+            "s3": "{0}: {1} out of 100"
+          },
+          "b4": {
+            "s1": "(baseline)",
+            "s2": "(campaign)",
+            "s3": "ResizeObserver",
+            "s4": "{0}: {1}. Cutover after week {2}.",
+            "s5": "{0} — project imagery",
+            "s6": "EN",
+            "s7": "English",
+            "s8": "AR",
+            "s9": "العربية",
+            "s10": "DE",
+            "s11": "Deutsch",
+            "s12": "Language, {0}"
+          }
+        }
+      },
+      "seo": {},
+      "workflow": {
+        "state": "published",
+        "visibility": "live",
+        "version": 1,
+        "updatedAt": "2026-09-30T08:00:00.000Z",
+        "updatedBy": "seed",
+        "publishedAt": "2026-09-30T08:00:00.000Z"
+      },
+      "translation": {
+        "en": "published",
+        "ar": "not_started",
+        "de": "not_started",
+        "fr": "not_started",
+        "it": "not_started"
+      }
+    },
+    {
+      "id": "st_commerce",
+      "type": "strings",
+      "siteId": "orgtik",
+      "order": 13,
+      "name": "Purchasing",
+      "slug": {},
+      "layout": [
+        {
+          "key": "b1",
+          "kind": "copy",
+          "label": "Auto-renewal on",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "note"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "title"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "kind": "copy",
+          "label": "Choose duration",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "label"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "displayLabel"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "aria-label"
+            }
+          ]
+        },
+        {
+          "key": "b3",
+          "kind": "copy",
+          "label": "· … in other departments",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "label"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "displayLabel"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "title"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "title"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b4",
+          "kind": "copy",
+          "label": "OrgTik hosting",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "accent"
+            }
+          ]
+        },
+        {
+          "key": "b5",
+          "kind": "copy",
+          "label": "One complete package",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "eyebrow"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "accent"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b6",
+          "kind": "copy",
+          "label": "Duration",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "label"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "action.aria-label"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "action.aria-label"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "action"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "action"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "aria-label"
+            }
+          ]
+        },
+        {
+          "key": "b7",
+          "kind": "copy",
+          "label": "Automatic renewal",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "label"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "checkoutAction"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "checkoutAction"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": "checkoutAction"
+            },
+            {
+              "key": "s11",
+              "kind": "message",
+              "context": "checkoutAction"
+            }
+          ]
+        },
+        {
+          "key": "b8",
+          "kind": "copy",
+          "label": "Saved cart · edits pending",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "note"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "note"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s11",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s12",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b9",
+          "kind": "copy",
+          "label": "Auto-renewal on",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b10",
+          "kind": "copy",
+          "label": "Your email is verified. Continue to your customer account to",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "problems.paymentMethod"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "submit"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "submit"
+            }
+          ]
+        },
+        {
+          "key": "b11",
+          "kind": "copy",
+          "label": "Payment cancelled. Your cart has been kept.",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "submit"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "field"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b12",
+          "kind": "copy",
+          "label": "Signed in as …",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b13",
+          "kind": "copy",
+          "label": "Processing … payment…",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b14",
+          "kind": "copy",
+          "label": "Home",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "LINKS"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "LINKS"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "LINKS"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "LINKS"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "LINKS"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "LINKS"
+            }
+          ]
+        },
+        {
+          "key": "b15",
+          "kind": "copy",
+          "label": "Your account",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "name"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b16",
+          "kind": "copy",
+          "label": "Card details complete. You can pay below.",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b17",
+          "kind": "copy",
+          "label": "Card",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "PAYMENT_METHODS"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b18",
+          "kind": "copy",
+          "label": "Enter one of the example test card numbers.",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b19",
+          "kind": "copy",
+          "label": "Enter a valid email address.",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "ORDER_SESSION_KEY"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "currency"
+            }
+          ]
+        },
+        {
+          "key": "b20",
+          "kind": "copy",
+          "label": "Complete your payment details or approval first.",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "request"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "repeats",
+          "kind": "copy",
+          "label": null,
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": ""
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "aria-label"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "checkoutAction"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": ""
+            }
+          ]
+        },
+        {
+          "key": "b21",
+          "kind": "copy",
+          "label": "Purchase account setup",
+          "slots": [
+            {
+              "key": "s1",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s2",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s3",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s4",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s5",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s6",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s7",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s8",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s9",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            },
+            {
+              "key": "s10",
+              "kind": "message",
+              "context": "post-purchase account setup"
+            }
+          ]
+        }
+      ],
+      "locales": {
+        "en": {
+          "b1": {
+            "s1": "Auto-renewal on",
+            "s2": "Due today · upfront",
+            "s3": "Your selection"
+          },
+          "b2": {
+            "s1": "Choose duration",
+            "s2": "Duration for {0}",
+            "s3": "Duration",
+            "s4": "{0}% {1} saving · {2} saved",
+            "s5": "Monthly base price",
+            "s6": "Automatically renew {0}"
+          },
+          "b3": {
+            "s1": "· {0} in other departments",
+            "s2": "Shared duration",
+            "s3": "Software bundle",
+            "s4": "Choose your duration",
+            "s5": "Start with a bundle",
+            "s6": "Build your own",
+            "s7": "Build your software plan.",
+            "s8": "Build your service plan.",
+            "s9": "Choose your first item"
+          },
+          "b4": {
+            "s1": "OrgTik hosting",
+            "s2": "Department bundles",
+            "s3": "One clear starting point."
+          },
+          "b5": {
+            "s1": "One complete package",
+            "s2": "Choose your duration.",
+            "s3": "Starts after onboarding",
+            "s4": "Activates after payment"
+          },
+          "b6": {
+            "s1": "Duration",
+            "s2": "Save {0}%",
+            "s3": "View {0} in cart",
+            "s4": "Add {0} to cart",
+            "s5": "View in cart",
+            "s6": "Add to cart",
+            "s7": "Remove {0} from cart",
+            "s8": "Cart, {0} {1}"
+          },
+          "b7": {
+            "s1": "Automatic renewal",
+            "s2": "item is",
+            "s3": "Package duration",
+            "s4": "Customize {0}",
+            "s5": "Services",
+            "s6": "Software",
+            "s7": "Saving removes this plan from your cart.",
+            "s8": "Checkout",
+            "s9": "Save edits first",
+            "s10": "Finish editing first",
+            "s11": "Review selections"
+          },
+          "b8": {
+            "s1": "Saved cart · edits pending",
+            "s2": "Due today · upfront",
+            "s3": "Your account access is ready.",
+            "s4": "Payment succeeded. Account setup needs another try.",
+            "s5": "Payment succeeded. We’re preparing account access.",
+            "s6": "View purchases, payments, and invoices in your OrgTik customer account.",
+            "s7": "Your purchase is saved. You will not be asked to pay again.",
+            "s8": "Go to my account",
+            "s9": "Set up my account",
+            "s10": "Preparing account…",
+            "s11": "Retry account setup",
+            "s12": "Check account setup"
+          },
+          "b9": {
+            "s1": "Auto-renewal on",
+            "s2": "Active",
+            "s3": "Awaiting onboarding — period not started"
+          },
+          "b10": {
+            "s1": "Your email is verified. Continue to your customer account to view purchases, payments, and invoices.",
+            "s2": "Verify your email to securely access your customer account.",
+            "s3": "Choose a payment method.",
+            "s4": "Return to the cart and review your selection.",
+            "s5": "ORG-{0}"
+          },
+          "b11": {
+            "s1": "Payment cancelled. Your cart has been kept.",
+            "s2": "(optional)",
+            "s3": "The next step",
+            "s4": "Purchase confirmed.",
+            "s5": "Checkout.",
+            "s6": "Your payment is complete. Continue to your account for purchases, payments, and invoices.",
+            "s7": "Review your order and complete your payment."
+          },
+          "b12": {
+            "s1": "Signed in as {0}",
+            "s2": "Guest checkout",
+            "s3": "Your purchase will be linked to your OrgTik customer account.",
+            "s4": "Your purchase includes an OrgTik customer account where you can view purchases, payments, and invoices. Account access is set up after payment.",
+            "s5": "Full name",
+            "s6": "Email address",
+            "s7": "Company"
+          },
+          "b13": {
+            "s1": "Processing {0} payment…",
+            "s2": "Pay {0}",
+            "s3": "Processing payment. Please wait."
+          },
+          "b14": {
+            "s1": "Home",
+            "s2": "Services",
+            "s3": "Software",
+            "s4": "Work",
+            "s5": "About",
+            "s6": "Insights"
+          },
+          "b15": {
+            "s1": "Your account",
+            "s2": "Account, signed in as {0}",
+            "s3": "Account",
+            "s4": "Card number",
+            "s5": "Expiry (MM/YY)",
+            "s6": "Security code"
+          },
+          "b16": {
+            "s1": "Card details complete. You can pay below.",
+            "s2": "Complete the payment details to enable Pay.",
+            "s3": "Only the example test details are accepted."
+          },
+          "b17": {
+            "s1": "Card",
+            "s2": "Visa or Mastercard",
+            "s3": "Complete your card details below, then pay the amount shown.",
+            "s4": "TWINT",
+            "s5": "Mobile payment",
+            "s6": "Use the Pay button below to complete your test TWINT payment.",
+            "s7": "PayPal",
+            "s8": "PayPal account",
+            "s9": "Use the Pay button below to complete your test PayPal payment.",
+            "s10": "Choose an available payment method."
+          },
+          "b18": {
+            "s1": "Enter one of the example test card numbers.",
+            "s2": "Use the test expiry {0}.",
+            "s3": "Use the test security code {0}.",
+            "s4": "Complete your payment details or approval first."
+          },
+          "b19": {
+            "s1": "Enter a valid email address.",
+            "s2": "orgtik.purchase-preview.v1",
+            "s3": "Enter your name.",
+            "s4": "Enter a valid email address.",
+            "s5": "Review the cart and choose all durations before paying.",
+            "s6": "CHF"
+          },
+          "b20": {
+            "s1": "Complete your payment details or approval first.",
+            "s2": "Complete your billing details.",
+            "s3": "Your cart needs review.",
+            "s4": "Your payment was declined. Your cart is saved; try again.",
+            "s5": "Account setup requires a successful payment."
+          },
+          "repeats": {
+            "s1": "Automatic renewal",
+            "s2": "Remove {0}",
+            "s3": "Customize {0}",
+            "s4": "Remove {0} plan",
+            "s5": "Continue to checkout",
+            "s6": "Your purchase"
+          },
+          "b21": {
+            "s1": "Set up my account",
+            "s2": "Choose a password for {0}. Your billing details are already saved. We’ll then open your dashboard.",
+            "s3": "Password",
+            "s4": "Use at least 8 characters.",
+            "s5": "Continue to my dashboard",
+            "s6": "Your account is created. We couldn’t connect your purchase yet. Try again; you won’t be asked to pay again.",
+            "s7": "Your billing details are unavailable. Create your account to continue with this saved purchase.",
+            "s8": "Your purchase is saved. Set up your account to continue.",
+            "s9": "Sign in to my account",
+            "s10": "Confirm password"
+          }
+        }
+      },
+      "seo": {},
+      "workflow": {
+        "state": "published",
+        "visibility": "live",
+        "version": 1,
+        "updatedAt": "2026-09-30T08:00:00.000Z",
+        "updatedBy": "seed",
+        "publishedAt": "2026-09-30T08:00:00.000Z"
+      },
+      "translation": {
+        "en": "published",
+        "ar": "not_started",
+        "de": "not_started",
+        "fr": "not_started",
+        "it": "not_started"
+      }
+    }
+  ],
+  "redirects": [
+    {
+      "id": "rd_01",
+      "from": "/platform",
+      "to": "/software#plan-builder",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_02",
+      "from": "/pricing",
+      "to": "/software#plan-builder",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_03",
+      "from": "/platform/*",
+      "to": "/software/*",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_04",
+      "from": "/pricing/plans",
+      "to": "/software/plans/*",
+      "note": "Keeps mode, duration and modules from the query, so the browser does this one.",
+      "code": 301,
+      "source": "website",
+      "handledBy": "browser",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_05",
+      "from": "/projects",
+      "to": "/work",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_06",
+      "from": "/projects/*",
+      "to": "/work/*",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_07",
+      "from": "/privacy",
+      "to": "/legal/privacy",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_08",
+      "from": "/terms",
+      "to": "/legal/terms",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "id": "rd_09",
+      "from": "/imprint",
+      "to": "/legal/imprint",
+      "code": 301,
+      "source": "website",
+      "handledBy": "host",
+      "createdAt": "2026-09-30T08:00:00.000Z",
+      "createdBy": "seed",
+      "version": 1
+    }
+  ]
+}

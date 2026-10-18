@@ -1,0 +1,3035 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "route": "/",
+      "h1": 92.25,
+      "h2": [
+        {
+          "text": "One partner.Both sides of your business.",
+          "size": 40
+        },
+        {
+          "text": "We don’t chase attention.We attract it.",
+          "size": 40
+        },
+        {
+          "text": "Good ideas deservegreat execution.",
+          "size": 40
+        },
+        {
+          "text": "Six systems.One bigger picture.",
+          "size": 40
+        },
+        {
+          "text": "A shared direction.At every step.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "What could webuild together?",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services",
+      "h1": 73.152,
+      "h2": [
+        {
+          "text": "One studio.Every way forward.",
+          "size": 40
+        },
+        {
+          "text": "Every service,one clear overview.",
+          "size": 40
+        },
+        {
+          "text": "Combine any services.Across every department.",
+          "size": 40
+        },
+        {
+          "text": "One engagement,clearly shaped.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "What could webuild together?",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software",
+      "h1": 73.152,
+      "h2": [
+        {
+          "text": "Let the context movewith the work.",
+          "size": 40
+        },
+        {
+          "text": "Pick what you need.We’ll apply the savings.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "Talk it throughwith the team.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/work",
+      "h1": 56,
+      "h2": [
+        {
+          "text": "Want to bethe next story?",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "h1": 73.152,
+      "h2": [
+        {
+          "text": "One direction for the businessand the work behind it.",
+          "size": 40
+        },
+        {
+          "text": "From one useful questionto a system that keeps improving.",
+          "size": 40
+        },
+        {
+          "text": "Build the experience.Connect the business behind it.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "Bring the wholeproblem.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/insights",
+      "h1": 56,
+      "h2": [
+        {
+          "text": "Ask the peoplewho write these.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "h1": 63.36,
+      "h2": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/roadmap",
+      "h1": 73.152,
+      "h2": [
+        {
+          "text": "See what moved —and what is moving next.",
+          "size": 40
+        },
+        {
+          "text": "The communityroadmap.",
+          "size": 40
+        },
+        {
+          "text": "Put the useful questionon the map.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/legal",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Imprint",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/sign-in",
+      "h1": 31.824,
+      "h2": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/design",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "3 focused services.One connected team.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/design/graphic-design",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/design/brand-development",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/design/web-and-app-design",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/development",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "2 focused services.One connected team.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/development/web-development",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/development/custom-app-development",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/marketing",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "3 focused services.One connected team.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/marketing/social-media-marketing",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/marketing/digital-advertising-switzerland",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/marketing/seo-services",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/it-support",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "2 focused services.One connected team.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/it-support/website-management",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/it-support/software-support",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/family/hosting",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "One focused service.One connected team.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/services#/service/hosting/managed-hosting",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 40
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 40
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 40
+        },
+        {
+          "text": "Other wayswe can help.",
+          "size": 40
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 40
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/hr",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Bring your people and their work together.HR, made clear.",
+          "size": 40
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 40
+        },
+        {
+          "text": "Choose the rightHR plan.",
+          "size": 40
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 40
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 40
+        },
+        {
+          "text": "Put HRin your workspace.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/crm",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Keep relationships moving forward.CRM, made clear.",
+          "size": 40
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 40
+        },
+        {
+          "text": "Choose the rightCRM plan.",
+          "size": 40
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 40
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 40
+        },
+        {
+          "text": "Put CRMin your workspace.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/files",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Give your business knowledge a home.Files, made clear.",
+          "size": 40
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 40
+        },
+        {
+          "text": "Choose the rightFiles plan.",
+          "size": 40
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 40
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 40
+        },
+        {
+          "text": "Put Filesin your workspace.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/tasks",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Turn priorities into progress.Tasks, made clear.",
+          "size": 40
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 40
+        },
+        {
+          "text": "Choose the rightTasks plan.",
+          "size": 40
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 40
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 40
+        },
+        {
+          "text": "Put Tasksin your workspace.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/marketing",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Make your next move more intentional.Marketing, made clear.",
+          "size": 40
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 40
+        },
+        {
+          "text": "Choose the rightMarketing plan.",
+          "size": 40
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 40
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 40
+        },
+        {
+          "text": "Put Marketingin your workspace.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software#/product/website",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "Make your website easier to manage.Website Manager, made cle",
+          "size": 40
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 40
+        },
+        {
+          "text": "Choose the rightWebsite Manager plan.",
+          "size": 40
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 40
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 40
+        },
+        {
+          "text": "Put Website Managerin your workspace.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/orgtik-identity-system",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 40
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/connected-platform-concept",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 40
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/managed-digital-presence",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 40
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/campaign-growth-system",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 40
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/work#/project/support-continuity-system",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 40
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 40
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 40
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/software#/plans/complete/monthly/hr,crm,files,projects,invoicing,inventory",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "3 products,three ways forward.",
+          "size": 40
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 40
+        },
+        {
+          "text": "Bring it into oneuseful conversation.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/insights#/article/connected-digital-system",
+      "h1": 62,
+      "h2": [
+        {
+          "text": "More ideasworth your time.",
+          "size": 40
+        },
+        {
+          "text": "Turn this intoyour next step.",
+          "size": 40
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "h1": 59.2128,
+      "h2": [
+        {
+          "text": "One partner.Both sides of your business.",
+          "size": 24
+        },
+        {
+          "text": "We don’t chase attention.We attract it.",
+          "size": 24
+        },
+        {
+          "text": "Good ideas deservegreat execution.",
+          "size": 24
+        },
+        {
+          "text": "Six systems.One bigger picture.",
+          "size": 24
+        },
+        {
+          "text": "A shared direction.At every step.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "What could webuild together?",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services",
+      "h1": 39.0144,
+      "h2": [
+        {
+          "text": "One studio.Every way forward.",
+          "size": 24
+        },
+        {
+          "text": "Every service,one clear overview.",
+          "size": 24
+        },
+        {
+          "text": "Combine any services.Across every department.",
+          "size": 24
+        },
+        {
+          "text": "One engagement,clearly shaped.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "What could webuild together?",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software",
+      "h1": 39.0144,
+      "h2": [
+        {
+          "text": "Let the context movewith the work.",
+          "size": 24
+        },
+        {
+          "text": "Pick what you need.We’ll apply the savings.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Talk it throughwith the team.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/work",
+      "h1": 30.72,
+      "h2": [
+        {
+          "text": "Want to bethe next story?",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "h1": 39.0144,
+      "h2": [
+        {
+          "text": "One direction for the businessand the work behind it.",
+          "size": 24
+        },
+        {
+          "text": "From one useful questionto a system that keeps improving.",
+          "size": 24
+        },
+        {
+          "text": "Build the experience.Connect the business behind it.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Bring the wholeproblem.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/insights",
+      "h1": 30.72,
+      "h2": [
+        {
+          "text": "Ask the peoplewho write these.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/contact",
+      "h1": 34,
+      "h2": [],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/roadmap",
+      "h1": 39.0144,
+      "h2": [
+        {
+          "text": "See what moved —and what is moving next.",
+          "size": 24
+        },
+        {
+          "text": "The communityroadmap.",
+          "size": 24
+        },
+        {
+          "text": "Put the useful questionon the map.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/legal",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Imprint",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/sign-in",
+      "h1": 26,
+      "h2": [],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/family/design",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "3 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/design/graphic-design",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/design/brand-development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/design/web-and-app-design",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/family/development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "2 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/development/web-development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/development/custom-app-development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/family/marketing",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "3 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/marketing/social-media-marketing",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/marketing/digital-advertising-switzerland",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/marketing/seo-services",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/family/it-support",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "2 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/it-support/website-management",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/it-support/software-support",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/family/hosting",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "One focused service.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/services#/service/hosting/managed-hosting",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Other wayswe can help.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software#/product/hr",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Bring your people and their work together.HR, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightHR plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put HRin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software#/product/crm",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Keep relationships moving forward.CRM, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightCRM plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put CRMin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software#/product/files",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Give your business knowledge a home.Files, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightFiles plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Filesin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software#/product/tasks",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Turn priorities into progress.Tasks, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightTasks plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Tasksin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software#/product/marketing",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Make your next move more intentional.Marketing, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightMarketing plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Marketingin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software#/product/website",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Make your website easier to manage.Website Manager, made cle",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightWebsite Manager plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Website Managerin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/work#/project/orgtik-identity-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/work#/project/connected-platform-concept",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/work#/project/managed-digital-presence",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/work#/project/campaign-growth-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/work#/project/support-continuity-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/software#/plans/complete/monthly/hr,crm,files,projects,invoicing,inventory",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "3 products,three ways forward.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Bring it into oneuseful conversation.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/insights#/article/connected-digital-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "More ideasworth your time.",
+          "size": 24
+        },
+        {
+          "text": "Turn this intoyour next step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "h1": 32,
+      "h2": [
+        {
+          "text": "One partner.Both sides of your business.",
+          "size": 24
+        },
+        {
+          "text": "We don’t chase attention.We attract it.",
+          "size": 24
+        },
+        {
+          "text": "Good ideas deservegreat execution.",
+          "size": 24
+        },
+        {
+          "text": "Six systems.One bigger picture.",
+          "size": 24
+        },
+        {
+          "text": "A shared direction.At every step.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "What could webuild together?",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services",
+      "h1": 33,
+      "h2": [
+        {
+          "text": "One studio.Every way forward.",
+          "size": 24
+        },
+        {
+          "text": "Every service,one clear overview.",
+          "size": 24
+        },
+        {
+          "text": "Combine any services.Across every department.",
+          "size": 24
+        },
+        {
+          "text": "One engagement,clearly shaped.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "What could webuild together?",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software",
+      "h1": 33,
+      "h2": [
+        {
+          "text": "Let the context movewith the work.",
+          "size": 24
+        },
+        {
+          "text": "Pick what you need.We’ll apply the savings.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Talk it throughwith the team.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/work",
+      "h1": 30,
+      "h2": [
+        {
+          "text": "Want to bethe next story?",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "h1": 33,
+      "h2": [
+        {
+          "text": "One direction for the businessand the work behind it.",
+          "size": 24
+        },
+        {
+          "text": "From one useful questionto a system that keeps improving.",
+          "size": 24
+        },
+        {
+          "text": "Build the experience.Connect the business behind it.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Bring the wholeproblem.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/insights",
+      "h1": 30,
+      "h2": [
+        {
+          "text": "Ask the peoplewho write these.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "h1": 34,
+      "h2": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/roadmap",
+      "h1": 33,
+      "h2": [
+        {
+          "text": "See what moved —and what is moving next.",
+          "size": 24
+        },
+        {
+          "text": "The communityroadmap.",
+          "size": 24
+        },
+        {
+          "text": "Put the useful questionon the map.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/legal",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Imprint",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/sign-in",
+      "h1": 26,
+      "h2": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/design",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "3 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/design/graphic-design",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/design/brand-development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/design/web-and-app-design",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "2 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/development/web-development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/development/custom-app-development",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/marketing",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "3 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/marketing/social-media-marketing",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/marketing/digital-advertising-switzerland",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/marketing/seo-services",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/it-support",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "2 focused services.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/it-support/website-management",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/it-support/software-support",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Works wellalongside it.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/family/hosting",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "One focused service.One connected team.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/services#/service/hosting/managed-hosting",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Built aroundthe result.",
+          "size": 24
+        },
+        {
+          "text": "Choose the engagementthat fits the work.",
+          "size": 24
+        },
+        {
+          "text": "A practical path,at every step.",
+          "size": 24
+        },
+        {
+          "text": "Other wayswe can help.",
+          "size": 24
+        },
+        {
+          "text": "See the thinking.Explore the work.",
+          "size": 24
+        },
+        {
+          "text": "Let’s shape yourfirst step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/hr",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Bring your people and their work together.HR, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightHR plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put HRin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/crm",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Keep relationships moving forward.CRM, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightCRM plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put CRMin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/files",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Give your business knowledge a home.Files, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightFiles plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Filesin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/tasks",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Turn priorities into progress.Tasks, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightTasks plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Tasksin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/marketing",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Make your next move more intentional.Marketing, made clear.",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightMarketing plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Marketingin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software#/product/website",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "Make your website easier to manage.Website Manager, made cle",
+          "size": 24
+        },
+        {
+          "text": "See the work move.One scenario at a time.",
+          "size": 24
+        },
+        {
+          "text": "Choose the rightWebsite Manager plan.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Connect the modulesaround the work.",
+          "size": 24
+        },
+        {
+          "text": "Put Website Managerin your workspace.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/orgtik-identity-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/connected-platform-concept",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/managed-digital-presence",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/campaign-growth-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/work#/project/support-continuity-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "The work,up close.",
+          "size": 24
+        },
+        {
+          "text": "Keepexploring.",
+          "size": 24
+        },
+        {
+          "text": "In our clients’ words.",
+          "size": 24
+        },
+        {
+          "text": "Make the nextstory yours.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/software#/plans/complete/monthly/hr,crm,files,projects,invoicing,inventory",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "3 products,three ways forward.",
+          "size": 24
+        },
+        {
+          "text": "Choose. Review. Discuss.",
+          "size": 24
+        },
+        {
+          "text": "Bring it into oneuseful conversation.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/insights#/article/connected-digital-system",
+      "h1": 34,
+      "h2": [
+        {
+          "text": "More ideasworth your time.",
+          "size": 24
+        },
+        {
+          "text": "Turn this intoyour next step.",
+          "size": 24
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

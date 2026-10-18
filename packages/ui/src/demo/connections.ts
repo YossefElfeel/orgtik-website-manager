@@ -1,0 +1,7 @@
+import type { DemoScene } from "./DemoPanel.js";
+export type DemoRuntime = { apiUrl: string; webUrls: Record<string,string>; sosApiUrl: string };
+export type DemoSearchItem = { id: string; tool: string; title: string; path: string; read?: boolean };
+export type DemoBridgeTask = { id: string; title: string; owner: string; sourceApp: string; workspace: string; status: "todo"; at: string };
+export type DemoBridgeLead = { id: string; name: string; source: string; campaign: string; workspace: string };
+export function demoRuntime(apiUrl?: string, webUrls?: string, sosApiUrl?: string): DemoRuntime | undefined { if(!apiUrl||!webUrls||!sosApiUrl)return;try{return {apiUrl,webUrls:JSON.parse(webUrls),sosApiUrl}}catch{return} }
+export async function demoRequest<T>(runtime: DemoRuntime, scene: DemoScene, path: string, body?: unknown): Promise<T> { const url=new URL(runtime.apiUrl.replace(/\/$/,"")+"/"+path.replace(/^\//,""));url.searchParams.set("workspace",scene.workspace==="current"?"nile":scene.workspace);url.searchParams.set("persona",scene.persona);const response=await fetch(url,{method:body===undefined?"GET":"POST",headers:body===undefined?undefined:{"Content-Type":"application/json"},body:body===undefined?undefined:JSON.stringify(body)});const value=await response.json();if(!response.ok||value.simulated!==true)throw Error("The presentation connection could not complete.");return value.data as T; }

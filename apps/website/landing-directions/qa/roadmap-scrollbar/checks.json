@@ -1,0 +1,71 @@
+{
+  "overrideMatches": 1,
+  "checks": [
+    {
+      "host": "http://localhost:4173",
+      "width": 390,
+      "overflow": true,
+      "track": "rgb(37, 24, 49)",
+      "height": "10px",
+      "buttons": "none",
+      "tabIndex": 0,
+      "pageOverflow": false,
+      "keyboardScroll": 40
+    },
+    {
+      "host": "http://localhost:4173",
+      "width": 1030,
+      "overflow": true,
+      "track": "rgb(37, 24, 49)",
+      "height": "10px",
+      "buttons": "none",
+      "tabIndex": 0,
+      "pageOverflow": false,
+      "keyboardScroll": 40
+    },
+    {
+      "host": "http://localhost:4173",
+      "width": 1440,
+      "overflow": false,
+      "track": "rgb(37, 24, 49)",
+      "height": "10px",
+      "buttons": "none",
+      "tabIndex": 0,
+      "pageOverflow": false,
+      "keyboardScroll": 0
+    },
+    {
+      "host": "http://127.0.0.1:4280",
+      "width": 390,
+      "overflow": true,
+      "track": "rgb(37, 24, 49)",
+      "height": "10px",
+      "buttons": "none",
+      "tabIndex": 0,
+      "pageOverflow": false,
+      "keyboardScroll": 40
+    },
+    {
+      "host": "http://127.0.0.1:4280",
+      "width": 1030,
+      "overflow": true,
+      "track": "rgb(37, 24, 49)",
+      "height": "10px",
+      "buttons": "none",
+      "tabIndex": 0,
+      "pageOverflow": false,
+      "keyboardScroll": 40
+    },
+    {
+      "host": "http://127.0.0.1:4280",
+      "width": 1440,
+      "overflow": false,
+      "track": "rgb(37, 24, 49)",
+      "height": "10px",
+      "buttons": "none",
+      "tabIndex": 0,
+      "pageOverflow": false,
+      "keyboardScroll": 0
+    }
+  ]
+}

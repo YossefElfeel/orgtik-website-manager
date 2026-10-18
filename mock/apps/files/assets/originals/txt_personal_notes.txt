@@ -1,0 +1,9 @@
+To do this week
+- Finish the settings page (dark mode toggle, language switcher)
+- Pair with Youssef on the share-link API contract
+- Review Laila's checkout flow comments
+- Book the Riyadh Expo travel (3-5 Nov)
+
+Ideas
+- Keyboard shortcuts for the file manager (U = upload, N = new folder)
+- Show storage per folder in the details dialog

@@ -1,0 +1,60 @@
+packages:
+  - apps/wm
+  - apps/website/landing-directions
+  - packages/ui
+  - mock
+
+# Every app gets its own copy of @orgtik/ui (like the old .yalc copy), so the library's peer
+# dependencies (react, next) resolve to that app's versions: the apps run React 19.1 to 19.2.4.
+injectWorkspacePackages: true
+# Re-copy the library into the apps after its build writes dist/.
+syncInjectedDepsAfterScripts:
+  - build
+
+# One copy of each package whose types must be identical across the apps and the library
+# (npm used to collapse them; pnpm keeps each requested version apart).
+overrides:
+  '@types/react': 19.3.0
+  '@types/react-dom': 19.3.0
+  '@internationalized/date': 3.12.4
+  # next-intl's plugin compiles with @swc/core; 1.16's native-binary cache fails in some Windows
+  # sandboxes, and every app's old install used 1.15.x (SOS pins 1.15.21).
+  '@swc/core': 1.15.21
+  # Same versions as the suite lockfile: 3.32 wants a newer @tiptap/core than @orgtik/ui pins.
+  '@tiptap/extension-bubble-menu': 3.31.4
+  '@tiptap/extension-floating-menu': 3.31.4
+
+# Packages that use a dependency without declaring it; npm's flat node_modules hid this.
+packageExtensions:
+  '@hookform/resolvers':
+    peerDependencies:
+      zod: '*'
+    peerDependenciesMeta:
+      zod:
+        optional: true
+
+allowBuilds:
+  '@parcel/watcher': false # prebuilt binary via optional dependencies
+  '@swc/core': false # same
+  '@tailwindcss/oxide': false # the native binary arrives as an optional dependency; no postinstall needed
+  esbuild: false # same: the platform binary is an optional dependency
+  msw: false # its postinstall only copies the worker file, which the app commits
+  sharp: false # prebuilt binary via optional dependencies
+  unrs-resolver: false # same
+
+minimumReleaseAgeExclude:
+  - '@next/env@16.3.7'
+  - '@next/swc-darwin-arm64@16.3.7'
+  - '@next/swc-darwin-x64@16.3.7'
+  - '@next/swc-linux-arm64-gnu@16.3.7'
+  - '@next/swc-linux-arm64-musl@16.3.7'
+  - '@next/swc-linux-x64-gnu@16.3.7'
+  - '@next/swc-linux-x64-musl@16.3.7'
+  - '@next/swc-win32-arm64-msvc@16.3.7'
+  - '@next/swc-win32-x64-msvc@16.3.7'
+  - next@16.3.7
+  - '@storybook/builder-vite@10.6.1'
+  - '@storybook/react-dom-shim@10.6.1'
+  - '@storybook/react-vite@10.6.1'
+  - '@storybook/react@10.6.1'
+  - storybook@10.6.1

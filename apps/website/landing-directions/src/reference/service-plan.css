@@ -1,0 +1,84 @@
+.service-plan__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.service-plan__duration {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  padding: 6px 11px;
+  border: 1px solid var(--service-plan-line);
+  border-radius: 999px;
+  color: var(--service-plan-accent);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.service-plan__duration i {
+  font-size: 16px;
+}
+.service-plan-price {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--service-plan-line);
+  font-variant-numeric: tabular-nums;
+}
+.service-plan-price__label {
+  color: var(--service-plan-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+.service-plan-price__rate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 8px;
+  margin-top: 8px;
+}
+.service-plan-price__rate strong {
+  font-size: clamp(25px, 2.1vw, 30px);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.25;
+}
+.service-plan-price__rate small {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.service-plan-price__rate > span {
+  color: var(--service-plan-muted);
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.service-plan-price__period {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 5px 12px;
+  margin: 16px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--service-plan-line);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.service-plan-price__period dt {
+  color: var(--service-plan-muted);
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+}
+.service-plan-price__period dd {
+  margin: 0;
+  font-weight: 600;
+}
+.service-plan-price__note {
+  margin-top: 6px;
+  color: var(--service-plan-muted);
+  font-family: "OrgTik Arabic", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}

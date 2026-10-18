@@ -1,0 +1,93 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "cd ../../.. && npx --yes pnpm@11.3.0 --filter orgtik-cinematic-website... run build",
+  "outputDirectory": "dist/client",
+  "redirects": [
+    {
+      "source": "/platform",
+      "destination": "/software#plan-builder",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/software#plan-builder",
+      "permanent": true
+    },
+    {
+      "source": "/platform/:path*",
+      "destination": "/software/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/projects",
+      "destination": "/work",
+      "permanent": true
+    },
+    {
+      "source": "/projects/:path*",
+      "destination": "/work/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/legal/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/legal/terms",
+      "permanent": true
+    },
+    {
+      "source": "/imprint",
+      "destination": "/legal/imprint",
+      "permanent": true
+    },
+    {
+      "source": "/sample-campaign",
+      "destination": "/services",
+      "permanent": false
+    },
+    {
+      "source": "/sample-renamed",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/sample-retired",
+      "destination": "/services",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/software/plans/:path*",
+      "destination": "/software/plans/index.html"
+    },
+    {
+      "source": "/pricing/plans",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:file*.dc.html",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "installCommand": "node ../../../tools/vercel/validate-env.cjs website && cd ../../.. && npx --yes pnpm@11.3.0 install --frozen-lockfile",
+  "ignoreCommand": "cd ../../.. && npx --yes turbo@2.11.7 query affected --packages orgtik-cinematic-website --exit-code --base \"${VERCEL_GIT_PREVIOUS_SHA:-HEAD^}\"",
+  "git": {
+    "deploymentEnabled": false
+  }
+}

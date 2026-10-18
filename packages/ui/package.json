@@ -1,0 +1,133 @@
+{
+  "name": "@orgtik/ui",
+  "version": "2.0.0-rc.1",
+  "description": "OrgTik's shared design system: tokens, themes, and components for every dashboard.",
+  "type": "module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    "./auth": {
+      "types": "./dist/auth/index.d.ts",
+      "default": "./dist/auth/index.js"
+    },
+    "./provider": {
+      "types": "./dist/provider/OrgtikProvider.d.ts",
+      "default": "./dist/provider/OrgtikProvider.js"
+    },
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./tailwind.css": "./tailwind.css",
+    "./tokens.css": "./dist/tokens.css",
+    "./tokens": {
+      "types": "./dist/tokens.d.ts",
+      "default": "./dist/tokens.js"
+    },
+    "./rhf": {
+      "types": "./dist/rhf/index.d.ts",
+      "default": "./dist/rhf/index.js"
+    },
+    "./table": {
+      "types": "./dist/table/index.d.ts",
+      "default": "./dist/table/index.js"
+    },
+    "./charts": {
+      "types": "./dist/charts/index.d.ts",
+      "default": "./dist/charts/index.js"
+    },
+    "./next": {
+      "types": "./dist/next/index.d.ts",
+      "default": "./dist/next/index.js"
+    },
+    "./fonts.css": "./dist/fonts.css",
+    "./dates": {
+      "types": "./dist/dates/index.d.ts",
+      "default": "./dist/dates/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "fonts",
+    "tailwind.css"
+  ],
+  "scripts": {
+    "tokens": "node scripts/build-tokens.mjs",
+    "build": "node scripts/build-tokens.mjs && node scripts/build-fonts.mjs && tsc -p tsconfig.build.json",
+    "test": "node --test src/auth/client.test.mjs src/auth/access.test.mjs src/table/PaginatedTable.test.mjs src/suite/access.test.mjs",
+    "status": "node scripts/build-status.mjs",
+    "logo": "node scripts/build-logo.mjs",
+    "fonts": "node scripts/build-fonts.mjs",
+    "viz": "node scripts/check-viz.mjs"
+  },
+  "peerDependencies": {
+    "@internationalized/date": ">=3.10",
+    "@phosphor-icons/react": ">=2.1",
+    "@tanstack/react-table": ">=8.20",
+    "@types/react": ">=19",
+    "@types/react-dom": ">=19",
+    "next": ">=15.5 <17",
+    "react": ">=19",
+    "react-aria-components": ">=1.13",
+    "react-dom": ">=19",
+    "react-hook-form": ">=7.50",
+    "recharts": ">=3.2"
+  },
+  "dependencies": {
+    "@base-ui/react": "1.8.0",
+    "@dnd-kit/core": "6.3.1",
+    "@dnd-kit/sortable": "10.0.0",
+    "@dnd-kit/utilities": "3.2.2",
+    "@tiptap/extension-placeholder": "3.31.3",
+    "@tiptap/pm": "3.31.3",
+    "@tiptap/react": "3.31.3",
+    "@tiptap/starter-kit": "3.31.3",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "tailwind-merge": "3.7.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/montserrat": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "5.3.0",
+    "@internationalized/date": "3.12.4",
+    "@phosphor-icons/react": "2.1.10",
+    "@tanstack/react-table": "8.21.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "next": "16.3.7",
+    "react": "19.2.0",
+    "react-aria-components": "1.16.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "7.89.0",
+    "recharts": "3.10.1",
+    "typescript": "5.9.3"
+  },
+  "peerDependenciesMeta": {
+    "react-hook-form": {
+      "optional": true
+    },
+    "@tanstack/react-table": {
+      "optional": true
+    },
+    "next": {
+      "optional": true
+    },
+    "react-aria-components": {
+      "optional": true
+    },
+    "@internationalized/date": {
+      "optional": true
+    },
+    "recharts": {
+      "optional": true
+    },
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    }
+  }
+}

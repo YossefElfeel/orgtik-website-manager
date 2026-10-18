@@ -1,0 +1,23 @@
+{
+  "name": "orgtik-website-manager-standalone",
+  "private": true,
+  "packageManager": "pnpm@11.3.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev --filter=orgtik-local-dev --filter=orgtik-website-manager --filter=orgtik-cinematic-website",
+    "dev:api": "pnpm --filter orgtik-local-dev dev",
+    "dev:wm": "pnpm --filter orgtik-website-manager dev",
+    "dev:website": "pnpm --filter orgtik-cinematic-website dev",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "i18n:check": "turbo run i18n:check",
+    "ui:build": "turbo run build --filter=@orgtik/ui"
+  },
+  "devDependencies": {
+    "turbo": "^2.11.7"
+  },
+  "description": "The OrgTik website and its Website Manager dashboard, copied out of the orgtik-suite monorepo to run on their own."
+}

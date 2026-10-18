@@ -1,0 +1,39 @@
+{
+  "name": "orgtik-website-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Website Manager: the internal CMS for orgtik.ch (plan Phase 2, D-002, D-034).",
+  "scripts": {
+    "dev": "next dev -p 3007",
+    "build": "next build",
+    "start": "next start -p 3007",
+    "typecheck": "node ../../tools/next-env.cjs && tsc --noEmit",
+    "i18n:check": "node ../../tools/i18n/check-catalogs.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "5.2.2",
+    "@internationalized/date": "3.12.4",
+    "@orgtik/ui": "workspace:*",
+    "@phosphor-icons/react": "2.1.10",
+    "@reduxjs/toolkit": "2.11.2",
+    "@tanstack/react-table": "8.21.3",
+    "next": "16.3.7",
+    "next-intl": "4.12.0",
+    "react": "19.2.0",
+    "react-aria-components": "1.16.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "7.89.0",
+    "react-redux": "9.2.0",
+    "recharts": "3.10.1",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@swc/core": "1.15.21",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "20.19.9",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  }
+}

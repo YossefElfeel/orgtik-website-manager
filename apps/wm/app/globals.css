@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "@orgtik/ui/tailwind.css";
+
+/* The Website Manager is built on @orgtik/ui from its first line: no bridge, no local palette. */
+html,
+body {
+  background: var(--ot-bg-canvas);
+  color: var(--ot-fg);
+  font-family: var(--ot-font-body);
+}
+
+/* Local manager layout; shared components and the public website stay untouched. */
+.wm-table-filters { display: flex; align-items: flex-end; gap: .75rem; width: 100%; }
+.wm-table-filters > * { min-width: 0; flex: 0 1 12rem; }
+.wm-table-filters > .wm-search { flex: 1 1 18rem; width: auto; align-self: flex-end; }
+@media (max-width: 767px) { .wm-table-filters { flex-wrap: wrap; } .wm-table-filters > * { flex: 1 1 9rem; } .wm-table-filters > .wm-search { flex-basis: 100%; } }

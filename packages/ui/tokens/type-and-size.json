@@ -1,0 +1,92 @@
+{
+  "$description": "Type roles and control sizes. Latin values; Arabic gets tracking 0 and taller lines (arabic below). Sizes from the website's inventory and the D-010 specimen.",
+  "type": {
+    "display": {
+      "size": "36px",
+      "line": 1.2,
+      "weight": 700,
+      "tracking": "-0.03em",
+      "family": "display"
+    },
+    "title-lg": {
+      "size": "30px",
+      "line": 1.25,
+      "weight": 600,
+      "tracking": "-0.02em",
+      "family": "display"
+    },
+    "title": {
+      "size": "24px",
+      "line": 1.35,
+      "weight": 600,
+      "tracking": "-0.01em",
+      "family": "display"
+    },
+    "title-sm": {
+      "size": "18px",
+      "line": 1.4,
+      "weight": 600,
+      "tracking": "0em",
+      "family": "display"
+    },
+    "body-lg": {
+      "size": "16px",
+      "line": 1.6,
+      "weight": 400,
+      "tracking": "0em",
+      "family": "body"
+    },
+    "body": {
+      "size": "14px",
+      "line": 1.55,
+      "weight": 400,
+      "tracking": "0em",
+      "family": "body"
+    },
+    "body-sm": {
+      "size": "13px",
+      "line": 1.5,
+      "weight": 400,
+      "tracking": "0em",
+      "family": "body"
+    },
+    "label": {
+      "size": "13px",
+      "line": 1.4,
+      "weight": 600,
+      "tracking": "0em",
+      "family": "body"
+    },
+    "caption": {
+      "size": "12px",
+      "line": 1.45,
+      "weight": 400,
+      "tracking": "0em",
+      "family": "body"
+    },
+    "eyebrow": {
+      "size": "12px",
+      "line": 1.3,
+      "weight": 600,
+      "tracking": "0.16em",
+      "family": "display"
+    },
+    "micro": {
+      "size": "11px",
+      "line": 1.35,
+      "weight": 600,
+      "tracking": "0em",
+      "family": "body"
+    }
+  },
+  "arabic": {
+    "lineScale": 1.15
+  },
+  "control": {
+    "xs": "28px",
+    "sm": "32px",
+    "md": "36px",
+    "lg": "40px",
+    "xl": "44px"
+  }
+}

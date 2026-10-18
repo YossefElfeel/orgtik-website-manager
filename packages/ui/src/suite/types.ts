@@ -1,0 +1,15 @@
+import type { ReactNode } from "react";
+import type { WorkspaceContext, ToolKey, AuthEnvelope } from "../auth/types.js";
+export type { ToolKey } from "../auth/types.js";
+export type SuiteConnector = { id: string; source: ToolKey; target: ToolKey; enabled: boolean; accessMode?: "projection"; title?: string; data?: string[] };
+export type SuitePreferences = { theme?: "light" | "dark"; density?: "comfortable" | "compact"; language?: string; notificationPreferences?: Record<string, boolean>; savedViews?: Record<string, { id: string; name: string; filters: Record<string, string> }[]> };
+export type SuiteSnapshot = WorkspaceContext & { connectors?: SuiteConnector[]; preferences?: SuitePreferences; now?: string; toolPlans?: Partial<Record<ToolKey, { name: string; limits: Record<string, number>; usage: Record<string, number>; trialEndsAt?: string }>> };
+export type SuiteOptions = { snapshot?: SuiteSnapshot | null; apiUrl?: string; sosUrl?: string; currentTool?: ToolKey; loading?: boolean; error?: string };
+export type SuiteProviderProps = SuiteOptions & { children: ReactNode };
+export type SuiteSearchItem = { id: string; title: string; tool: ToolKey | "account" | "admin" | "wm"; path: string; subtitle?: string };
+export type SuiteNotification = SuiteSearchItem & { read: boolean; at: string };
+export type SuiteActivity = { id: string; title: string; description?: string; actor?: string; at: string; href?: string; tone?: "neutral" | "success" | "warning" | "danger" };
+export type SuitePerson = { id: string; name: string; email?: string; avatar?: string };
+export type SuiteToolAdminData = { tool: ToolKey; plan?: { name: string; limits: Record<string, number>; usage: Record<string, number> }; seats: { capacity: number | null; assigned: number; reserved: number; available: number | null }; roles: string[]; members: { id: string; userId?: number; name: string; assigned: boolean; roles: string[]; allowedRoles: string[] }[]; connectors: SuiteConnector[]; settings: { name?: string; description?: string }; canWrite: boolean };
+export type SuiteSession = AuthEnvelope;
+export type ConnectionState = "available" | "not_subscribed" | "no_access" | "read_only" | "role_denied" | "disabled";

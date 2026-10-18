@@ -1,0 +1,1450 @@
+{
+  "provenance": {
+    "source": "apps/chats/mock/seed.ts",
+    "sourceCommit": "6032161",
+    "sourceSha256": "f6307f27e967b28251a5672e75e166beb7c5a3bccda6bf0d26f91c23f1bcb86d",
+    "seedAt": "2026-10-07T09:00:00Z"
+  },
+  "ME": "u-yousef",
+  "users": [
+    {
+      "id": "u-yousef",
+      "name": "Yousef El Fil",
+      "role": "owner",
+      "title": "Lead Product Designer",
+      "initials": "YE",
+      "tint": 0,
+      "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "u-sara",
+      "name": "Sara Lindqvist",
+      "role": "admin",
+      "title": "Engineering Lead",
+      "initials": "SL",
+      "tint": 1,
+      "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "u-omar",
+      "name": "Omar Haddad",
+      "role": "member",
+      "title": "Backend Engineer",
+      "initials": "OH",
+      "tint": 2,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "id": "u-lena",
+      "name": "Lena Brunner",
+      "role": "member",
+      "title": "Account Manager",
+      "initials": "LB",
+      "tint": 3,
+      "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "u-marc",
+      "name": "Marc Oberholzer",
+      "role": "admin",
+      "title": "Managing Director",
+      "initials": "MO",
+      "tint": 4,
+      "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "u-tomas",
+      "name": "Tomás Rebelo",
+      "role": "member",
+      "title": "Frontend Engineer",
+      "initials": "TR",
+      "tint": 5,
+      "timezone": "Europe/Lisbon"
+    },
+    {
+      "id": "u-nadia",
+      "name": "Nadia Kovač",
+      "role": "member",
+      "title": "Product Manager",
+      "initials": "NK",
+      "tint": 6,
+      "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "u-ines",
+      "name": "Inés Caballero",
+      "role": "member",
+      "title": "Brand Designer",
+      "initials": "IC",
+      "tint": 7,
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "id": "u-jonas",
+      "name": "Jonas Weber",
+      "role": "member",
+      "title": "Finance",
+      "initials": "JW",
+      "tint": 8,
+      "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "u-priya",
+      "name": "Priya Raghunathan",
+      "role": "member",
+      "title": "QA Engineer",
+      "initials": "PR",
+      "tint": 9,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "id": "u-felix",
+      "name": "Felix Amsler",
+      "role": "member",
+      "title": "Support",
+      "initials": "FA",
+      "tint": 10,
+      "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "u-maya",
+      "name": "Maya Toussaint",
+      "role": "member",
+      "title": "Marketing",
+      "initials": "MT",
+      "tint": 11,
+      "timezone": "Europe/Paris"
+    }
+  ],
+  "floor": {
+    "id": "fl-1",
+    "template": "team",
+    "rooms": [
+      {
+        "id": "r-desks",
+        "name": "Desks",
+        "kind": "desk",
+        "capacity": 16,
+        "locked": false,
+        "rect": {
+          "x": 4,
+          "y": 6,
+          "w": 44,
+          "h": 52
+        }
+      },
+      {
+        "id": "r-library",
+        "name": "Library",
+        "kind": "focus",
+        "capacity": 4,
+        "locked": true,
+        "rect": {
+          "x": 4,
+          "y": 63,
+          "w": 25,
+          "h": 31
+        }
+      },
+      {
+        "id": "r-a",
+        "name": "Room A",
+        "kind": "meeting",
+        "capacity": 8,
+        "locked": false,
+        "rect": {
+          "x": 52,
+          "y": 6,
+          "w": 24,
+          "h": 34
+        },
+        "purpose": "Client calls and reviews",
+        "guestsAllowed": true
+      },
+      {
+        "id": "r-b",
+        "name": "Room B",
+        "kind": "meeting",
+        "capacity": 6,
+        "locked": false,
+        "rect": {
+          "x": 80,
+          "y": 6,
+          "w": 16,
+          "h": 34
+        },
+        "purpose": "Standups and quick syncs"
+      },
+      {
+        "id": "r-prayer",
+        "name": "Prayer Room",
+        "kind": "prayer",
+        "capacity": 6,
+        "locked": false,
+        "rect": {
+          "x": 32,
+          "y": 63,
+          "w": 16,
+          "h": 31
+        },
+        "purpose": "Prayer and reflection"
+      },
+      {
+        "id": "r-quiet",
+        "name": "Quiet Room",
+        "kind": "focus",
+        "capacity": 3,
+        "locked": false,
+        "rect": {
+          "x": 52,
+          "y": 44,
+          "w": 20,
+          "h": 50
+        },
+        "purpose": "Heads-down work. Walking in sets you to Focus.",
+        "entryStatus": "focus"
+      },
+      {
+        "id": "r-lounge",
+        "name": "Kitchen",
+        "kind": "lounge",
+        "capacity": 10,
+        "locked": false,
+        "rect": {
+          "x": 76,
+          "y": 44,
+          "w": 20,
+          "h": 50
+        },
+        "purpose": "Coffee, lunch, no agenda"
+      }
+    ]
+  },
+  "presence": [
+    {
+      "userId": "u-yousef",
+      "status": "available",
+      "roomId": "r-desks",
+      "position": {
+        "x": 15,
+        "y": 22
+      },
+      "since": "2026-10-07T08:56:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-sara",
+      "status": "available",
+      "roomId": "r-desks",
+      "position": {
+        "x": 27,
+        "y": 31
+      },
+      "since": "2026-10-07T08:19:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-lena",
+      "status": "available",
+      "roomId": "r-desks",
+      "position": {
+        "x": 38,
+        "y": 20
+      },
+      "since": "2026-10-07T07:57:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-tomas",
+      "status": "available",
+      "roomId": "r-desks",
+      "position": {
+        "x": 20,
+        "y": 45
+      },
+      "since": "2026-10-07T08:48:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-ines",
+      "status": "busy",
+      "customText": "Client review, back at 11",
+      "roomId": "r-desks",
+      "position": {
+        "x": 39,
+        "y": 43
+      },
+      "since": "2026-10-07T08:34:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-nadia",
+      "status": "in_meeting",
+      "roomId": "r-b",
+      "position": {
+        "x": 85,
+        "y": 18
+      },
+      "since": "2026-10-07T08:41:00.000Z",
+      "speaking": true
+    },
+    {
+      "userId": "u-marc",
+      "status": "in_meeting",
+      "roomId": "r-b",
+      "position": {
+        "x": 90,
+        "y": 30
+      },
+      "since": "2026-10-07T08:41:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-omar",
+      "status": "focus",
+      "customText": "Shipping the export job",
+      "focusUntil": "2026-10-07T09:48:00.000Z",
+      "roomId": "r-quiet",
+      "position": {
+        "x": 61,
+        "y": 62
+      },
+      "since": "2026-10-07T08:12:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-priya",
+      "status": "away",
+      "roomId": "r-lounge",
+      "position": {
+        "x": 85,
+        "y": 62
+      },
+      "since": "2026-10-07T08:51:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-jonas",
+      "status": "offline",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "since": "2026-10-06T18:20:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-felix",
+      "status": "offline",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "since": "2026-10-06T16:00:00.000Z",
+      "speaking": false
+    },
+    {
+      "userId": "u-maya",
+      "status": "offline",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "since": "2026-10-06T20:20:00.000Z",
+      "speaking": false
+    }
+  ],
+  "channels": [
+    {
+      "id": "c-general",
+      "name": "general",
+      "kind": "public",
+      "topic": "Company-wide announcements",
+      "memberIds": [
+        "u-yousef",
+        "u-sara",
+        "u-omar",
+        "u-lena",
+        "u-marc",
+        "u-tomas",
+        "u-nadia",
+        "u-ines",
+        "u-jonas",
+        "u-priya",
+        "u-felix",
+        "u-maya"
+      ],
+      "unread": 0,
+      "mentions": 0,
+      "archived": false,
+      "notify": "mentions"
+    },
+    {
+      "id": "c-design",
+      "name": "design",
+      "kind": "public",
+      "topic": "Design critique and handoff",
+      "memberIds": [
+        "u-yousef",
+        "u-ines",
+        "u-nadia",
+        "u-tomas"
+      ],
+      "unread": 4,
+      "mentions": 1,
+      "archived": false,
+      "notify": "mentions"
+    },
+    {
+      "id": "c-engineering",
+      "name": "engineering",
+      "kind": "public",
+      "topic": "Builds, reviews, incidents",
+      "memberIds": [
+        "u-yousef",
+        "u-sara",
+        "u-omar",
+        "u-tomas",
+        "u-priya"
+      ],
+      "unread": 11,
+      "mentions": 0,
+      "archived": false,
+      "notify": "mentions"
+    },
+    {
+      "id": "c-clients",
+      "name": "clients",
+      "kind": "private",
+      "topic": "Account conversations",
+      "memberIds": [
+        "u-yousef",
+        "u-lena",
+        "u-marc",
+        "u-nadia"
+      ],
+      "unread": 2,
+      "mentions": 1,
+      "archived": false,
+      "notify": "mentions"
+    },
+    {
+      "id": "c-hiring",
+      "name": "hiring",
+      "kind": "private",
+      "topic": "Open roles and candidates",
+      "memberIds": [
+        "u-yousef",
+        "u-marc",
+        "u-sara"
+      ],
+      "unread": 0,
+      "mentions": 0,
+      "archived": false,
+      "notify": "none"
+    },
+    {
+      "id": "c-random",
+      "name": "random",
+      "kind": "public",
+      "topic": "Non-work",
+      "memberIds": [
+        "u-yousef",
+        "u-sara",
+        "u-omar",
+        "u-lena",
+        "u-marc",
+        "u-tomas",
+        "u-nadia",
+        "u-ines",
+        "u-jonas",
+        "u-priya",
+        "u-felix",
+        "u-maya"
+      ],
+      "unread": 7,
+      "mentions": 0,
+      "archived": false,
+      "notify": "none"
+    },
+    {
+      "id": "c-2025-rebrand",
+      "name": "2025-rebrand",
+      "kind": "public",
+      "topic": "Archived after launch",
+      "memberIds": [
+        "u-yousef",
+        "u-ines"
+      ],
+      "unread": 0,
+      "mentions": 0,
+      "archived": true,
+      "notify": "mentions"
+    },
+    {
+      "id": "dm-sara",
+      "name": "Sara Lindqvist",
+      "kind": "dm",
+      "memberIds": [
+        "u-yousef",
+        "u-sara"
+      ],
+      "unread": 2,
+      "mentions": 2,
+      "archived": false,
+      "notify": "mentions"
+    },
+    {
+      "id": "dm-lena",
+      "name": "Lena Brunner",
+      "kind": "dm",
+      "memberIds": [
+        "u-yousef",
+        "u-lena"
+      ],
+      "unread": 0,
+      "mentions": 0,
+      "archived": false,
+      "notify": "mentions"
+    },
+    {
+      "id": "dm-omar",
+      "name": "Omar Haddad",
+      "kind": "dm",
+      "memberIds": [
+        "u-yousef",
+        "u-omar"
+      ],
+      "unread": 0,
+      "mentions": 0,
+      "archived": false,
+      "notify": "mentions"
+    },
+    {
+      "id": "gdm-launch",
+      "name": "Launch crew",
+      "kind": "group",
+      "memberIds": [
+        "u-yousef",
+        "u-nadia",
+        "u-ines",
+        "u-maya"
+      ],
+      "unread": 1,
+      "mentions": 0,
+      "archived": false,
+      "notify": "mentions"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-1",
+      "channelId": "c-general",
+      "authorId": "u-marc",
+      "text": "Morning. Reminder that Thursday is a half day for the office move, so anything client-facing should land Wednesday.",
+      "createdAt": "2026-10-07T05:54:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "u-sara",
+            "u-lena",
+            "u-nadia",
+            "u-tomas"
+          ]
+        }
+      ],
+      "attachments": [],
+      "pinned": true
+    },
+    {
+      "id": "m-2",
+      "channelId": "c-general",
+      "authorId": "u-maya",
+      "text": "The new case study is live. Took the Baumgartner numbers out at their request, so it reads a bit thinner than the draft.",
+      "createdAt": "2026-10-07T06:52:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-3",
+      "channelId": "c-general",
+      "authorId": "u-sara",
+      "text": "Deploy at 14:00 today. Should be invisible, but if search gets slow that is me.",
+      "createdAt": "2026-10-07T08:16:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-10",
+      "channelId": "c-design",
+      "authorId": "u-ines",
+      "text": "Pushed the second pass on the invoice template. The alignment issue on the totals block is fixed.",
+      "createdAt": "2026-10-07T07:23:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [
+        {
+          "id": "f-1",
+          "name": "invoice-template-v2.fig",
+          "size": "4.2 MB",
+          "kind": "doc"
+        }
+      ],
+      "pinned": false
+    },
+    {
+      "id": "m-11",
+      "channelId": "c-design",
+      "authorId": "u-nadia",
+      "text": "This is much better. One thing: the due date is still competing with the amount for attention.",
+      "createdAt": "2026-10-07T07:29:00.000Z",
+      "replyCount": 3,
+      "replyUserIds": [
+        "u-ines",
+        "u-yousef"
+      ],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-12",
+      "channelId": "c-design",
+      "authorId": "u-tomas",
+      "text": "I can build the totals block today if the spacing is settled.",
+      "createdAt": "2026-10-07T07:58:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-13",
+      "channelId": "c-design",
+      "authorId": "u-ines",
+      "text": "@Yousef El Fil can you look at the empty state before I send this on? It is the last piece.",
+      "createdAt": "2026-10-07T08:22:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-13b",
+      "channelId": "c-engineering",
+      "authorId": "u-sara",
+      "text": "Deploy notes for tonight are in the repo: https://github.com/somion/hq-gateway/pull/482 - a review by 17:00 would be good.",
+      "createdAt": "2026-10-07T06:29:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-20",
+      "channelId": "c-engineering",
+      "authorId": "u-omar",
+      "text": "The export job is running about four times slower since the region change. Looking at it now.",
+      "createdAt": "2026-10-07T06:28:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-21",
+      "channelId": "c-engineering",
+      "authorId": "u-sara",
+      "text": "Is it the job itself or the storage round trip?",
+      "createdAt": "2026-10-07T06:31:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-22",
+      "channelId": "c-engineering",
+      "authorId": "u-omar",
+      "text": "Storage round trip. Every file is crossing the region boundary twice.",
+      "createdAt": "2026-10-07T06:33:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [
+        {
+          "emoji": "😩",
+          "userIds": [
+            "u-sara",
+            "u-priya"
+          ]
+        }
+      ],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-23",
+      "channelId": "c-engineering",
+      "authorId": "u-priya",
+      "text": "I can reproduce it on staging with anything over about 40 MB.",
+      "createdAt": "2026-10-07T06:59:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-24",
+      "channelId": "c-engineering",
+      "authorId": "u-tomas",
+      "text": "Front end is fine, it just waits longer. No changes needed on my side.",
+      "createdAt": "2026-10-07T07:32:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-30",
+      "channelId": "c-clients",
+      "authorId": "u-lena",
+      "text": "Baumgartner asked whether we can do the review call at 11 instead of 15:00. I said yes.",
+      "createdAt": "2026-10-07T07:46:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-31",
+      "channelId": "c-clients",
+      "authorId": "u-marc",
+      "text": "@Yousef El Fil are you joining that one? Anna wants to see the invoice work.",
+      "createdAt": "2026-10-07T07:49:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-ctx-task-t-4471",
+      "channelId": "c-clients",
+      "authorId": "u-lena",
+      "text": "Starting a thread on this so the rate change does not get lost again.",
+      "createdAt": "2026-10-07T07:02:00.000Z",
+      "replyCount": 2,
+      "replyUserIds": [
+        "u-marc",
+        "u-yousef"
+      ],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false,
+      "contextRef": {
+        "type": "task",
+        "id": "t-4471",
+        "title": "Renew Baumgartner AG retainer",
+        "status": "In progress",
+        "owner": "u-marc",
+        "module": "Task Manager",
+        "state": "live"
+      }
+    },
+    {
+      "id": "m-40",
+      "channelId": "dm-sara",
+      "authorId": "u-sara",
+      "text": "Do you have ten minutes before the deploy? I want to walk through the search change with you.",
+      "createdAt": "2026-10-07T08:27:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-41",
+      "channelId": "dm-sara",
+      "authorId": "u-sara",
+      "text": "No rush, whenever you surface.",
+      "createdAt": "2026-10-07T08:29:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-42",
+      "channelId": "dm-lena",
+      "authorId": "u-yousef",
+      "text": "Sent the retainer numbers over. Shout if the rate change looks wrong.",
+      "createdAt": "2026-10-07T05:00:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-43",
+      "channelId": "dm-lena",
+      "authorId": "u-lena",
+      "text": "Got them, thank you. Looks right to me.",
+      "createdAt": "2026-10-07T05:04:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-50",
+      "channelId": "gdm-launch",
+      "authorId": "u-maya",
+      "text": "Launch post is scheduled for Tuesday 09:00. Last chance to change the headline is Monday afternoon.",
+      "createdAt": "2026-10-07T08:05:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-60",
+      "channelId": "c-random",
+      "authorId": "u-felix",
+      "text": "Someone has left a very good cardamom bun in the kitchen and I need to know whose it is before I make a decision.",
+      "createdAt": "2026-10-07T05:30:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [
+        {
+          "emoji": "😂",
+          "userIds": [
+            "u-lena",
+            "u-tomas",
+            "u-priya",
+            "u-ines"
+          ]
+        }
+      ],
+      "attachments": [],
+      "pinned": false
+    },
+    {
+      "id": "m-61",
+      "channelId": "c-random",
+      "authorId": "u-priya",
+      "text": "It is mine and it is spoken for.",
+      "createdAt": "2026-10-07T05:35:00.000Z",
+      "replyCount": 0,
+      "replyUserIds": [],
+      "reactions": [],
+      "attachments": [],
+      "pinned": false
+    }
+  ],
+  "threadReplies": {
+    "m-ctx-task-t-4471": [
+      {
+        "id": "m-ctx-r1",
+        "channelId": "c-clients",
+        "authorId": "u-marc",
+        "text": "The July rate is the one. I will sign once Lena has it in the document.",
+        "createdAt": "2026-10-07T07:08:00.000Z",
+        "replyCount": 0,
+        "replyUserIds": [],
+        "reactions": [],
+        "attachments": [],
+        "pinned": false,
+        "threadId": "m-ctx-task-t-4471"
+      },
+      {
+        "id": "m-ctx-r2",
+        "channelId": "c-clients",
+        "authorId": "u-yousef",
+        "text": "Updated the figures. Ready for you whenever.",
+        "createdAt": "2026-10-07T07:16:00.000Z",
+        "replyCount": 0,
+        "replyUserIds": [],
+        "reactions": [],
+        "attachments": [],
+        "pinned": false,
+        "threadId": "m-ctx-task-t-4471"
+      }
+    ],
+    "m-11": [
+      {
+        "id": "m-11-r1",
+        "channelId": "c-design",
+        "authorId": "u-ines",
+        "text": "Fair. I could drop the due date to the same weight as the reference line.",
+        "createdAt": "2026-10-07T07:31:00.000Z",
+        "replyCount": 0,
+        "replyUserIds": [],
+        "reactions": [],
+        "attachments": [],
+        "pinned": false,
+        "threadId": "m-11"
+      },
+      {
+        "id": "m-11-r2",
+        "channelId": "c-design",
+        "authorId": "u-yousef",
+        "text": "Or keep the weight and move it under the amount. It only competes because they are side by side.",
+        "createdAt": "2026-10-07T07:34:00.000Z",
+        "replyCount": 0,
+        "replyUserIds": [],
+        "reactions": [],
+        "attachments": [],
+        "pinned": false,
+        "threadId": "m-11"
+      },
+      {
+        "id": "m-11-r3",
+        "channelId": "c-design",
+        "authorId": "u-nadia",
+        "text": "That reads better to me. Try it and we look at it in critique.",
+        "createdAt": "2026-10-07T07:36:00.000Z",
+        "replyCount": 0,
+        "replyUserIds": [],
+        "reactions": [],
+        "attachments": [],
+        "pinned": false,
+        "threadId": "m-11"
+      }
+    ]
+  },
+  "meetings": [
+    {
+      "id": "mt-1",
+      "title": "Baumgartner AG - invoice review",
+      "startsAt": "2026-10-07T09:12:00.000Z",
+      "endsAt": "2026-10-07T09:57:00.000Z",
+      "roomId": "r-a",
+      "participantIds": [
+        "u-yousef",
+        "u-lena",
+        "u-marc"
+      ],
+      "guests": [
+        {
+          "name": "Anna Baumgartner",
+          "email": "a.baumgartner@baumgartner.ch",
+          "company": "Baumgartner AG",
+          "state": "invited"
+        }
+      ],
+      "recordingState": "none",
+      "contextRef": {
+        "type": "client",
+        "id": "cl-baum",
+        "title": "Baumgartner AG",
+        "status": "Active retainer",
+        "module": "Sales CRM",
+        "state": "live",
+        "owner": "u-lena"
+      }
+    },
+    {
+      "id": "mt-2",
+      "title": "Design critique",
+      "startsAt": "2026-10-07T13:00:00.000Z",
+      "endsAt": "2026-10-07T14:00:00.000Z",
+      "roomId": "r-a",
+      "participantIds": [
+        "u-yousef",
+        "u-ines",
+        "u-nadia",
+        "u-tomas"
+      ],
+      "guests": [],
+      "recordingState": "none"
+    },
+    {
+      "id": "mt-3",
+      "title": "Weekly engineering sync",
+      "startsAt": "2026-10-07T15:00:00.000Z",
+      "endsAt": "2026-10-07T15:30:00.000Z",
+      "roomId": "r-b",
+      "participantIds": [
+        "u-sara",
+        "u-omar",
+        "u-priya",
+        "u-tomas"
+      ],
+      "guests": [],
+      "recordingState": "none"
+    }
+  ],
+  "pastMeetings": [
+    {
+      "id": "mt-p1",
+      "title": "Baumgartner AG - scope call",
+      "startsAt": "2026-10-01T09:00:00.000Z",
+      "endsAt": "2026-10-01T09:55:00.000Z",
+      "roomId": "r-a",
+      "participantIds": [
+        "u-yousef",
+        "u-lena",
+        "u-marc"
+      ],
+      "guests": [
+        {
+          "name": "Anna Baumgartner",
+          "email": "a.baumgartner@baumgartner.ch",
+          "company": "Baumgartner AG",
+          "state": "admitted"
+        }
+      ],
+      "recordingState": "ready",
+      "contextRef": {
+        "type": "client",
+        "id": "cl-baum",
+        "title": "Baumgartner AG",
+        "status": "Active retainer",
+        "module": "Sales CRM",
+        "state": "live",
+        "owner": "u-lena"
+      },
+      "notes": "Agreed the retainer renews at the revised rate. Anna sends the signed scope by Friday."
+    },
+    {
+      "id": "mt-p2",
+      "title": "Q3 planning",
+      "startsAt": "2026-09-26T09:00:00.000Z",
+      "endsAt": "2026-09-26T10:28:00.000Z",
+      "roomId": "r-a",
+      "participantIds": [
+        "u-yousef",
+        "u-marc",
+        "u-sara",
+        "u-nadia"
+      ],
+      "guests": [],
+      "recordingState": "ready"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1",
+      "kind": "mention",
+      "refId": "c-design",
+      "actorId": "u-ines",
+      "title": "Inés Caballero mentioned you",
+      "body": "can you look at the empty state before I send this on?",
+      "read": false,
+      "createdAt": "2026-10-07T08:22:00.000Z"
+    },
+    {
+      "id": "n-2",
+      "kind": "dm",
+      "refId": "dm-sara",
+      "actorId": "u-sara",
+      "title": "Sara Lindqvist",
+      "body": "Do you have ten minutes before the deploy?",
+      "read": false,
+      "createdAt": "2026-10-07T08:27:00.000Z"
+    },
+    {
+      "id": "n-3",
+      "kind": "mention",
+      "refId": "c-clients",
+      "actorId": "u-marc",
+      "title": "Marc Oberholzer mentioned you",
+      "body": "are you joining that one? Anna wants to see the invoice work.",
+      "read": false,
+      "createdAt": "2026-10-07T07:49:00.000Z"
+    },
+    {
+      "id": "n-4",
+      "kind": "reminder",
+      "refId": "mt-1",
+      "title": "Baumgartner AG - invoice review",
+      "body": "Starts in 10 minutes in Room A",
+      "read": true,
+      "createdAt": "2026-10-07T08:58:00.000Z"
+    }
+  ],
+  "insight": {
+    "week": "2026-W37",
+    "presenceHoursByHour": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        7,
+        9,
+        10,
+        9,
+        5,
+        8,
+        9,
+        8,
+        6,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        4,
+        8,
+        11,
+        11,
+        10,
+        4,
+        9,
+        10,
+        9,
+        7,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        9,
+        10,
+        11,
+        9,
+        5,
+        9,
+        9,
+        8,
+        5,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        5,
+        8,
+        10,
+        9,
+        8,
+        4,
+        7,
+        8,
+        7,
+        5,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        6,
+        8,
+        8,
+        6,
+        3,
+        5,
+        6,
+        4,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "meetingHoursByDay": [
+      6.5,
+      11.25,
+      7,
+      9.75,
+      3.5,
+      0,
+      0
+    ],
+    "roomUsage": [
+      {
+        "roomId": "r-a",
+        "hours": 18.5
+      },
+      {
+        "roomId": "r-b",
+        "hours": 11.25
+      },
+      {
+        "roomId": "r-quiet",
+        "hours": 26
+      },
+      {
+        "roomId": "r-lounge",
+        "hours": 7.75
+      },
+      {
+        "roomId": "r-library",
+        "hours": 2.5
+      }
+    ],
+    "cohortSize": 12,
+    "previous": {
+      "meetingHours": 41.5,
+      "presentHours": 372,
+      "roomHours": 71.5,
+      "busiestHourHeadcount": 9
+    },
+    "history": [
+      {
+        "week": "2026-W30",
+        "meetingHours": 33,
+        "presentHours": 340
+      },
+      {
+        "week": "2026-W31",
+        "meetingHours": 36.5,
+        "presentHours": 355
+      },
+      {
+        "week": "2026-W32",
+        "meetingHours": 44,
+        "presentHours": 366
+      },
+      {
+        "week": "2026-W33",
+        "meetingHours": 39.25,
+        "presentHours": 351
+      },
+      {
+        "week": "2026-W34",
+        "meetingHours": 47.5,
+        "presentHours": 379
+      },
+      {
+        "week": "2026-W35",
+        "meetingHours": 45,
+        "presentHours": 384
+      },
+      {
+        "week": "2026-W36",
+        "meetingHours": 41.5,
+        "presentHours": 372
+      },
+      {
+        "week": "2026-W37",
+        "meetingHours": 38,
+        "presentHours": 388
+      }
+    ],
+    "meetingSizes": [
+      {
+        "band": "2",
+        "count": 14,
+        "hours": 8.5
+      },
+      {
+        "band": "3-4",
+        "count": 11,
+        "hours": 14.25
+      },
+      {
+        "band": "5-8",
+        "count": 6,
+        "hours": 11.75
+      },
+      {
+        "band": "9+",
+        "count": 2,
+        "hours": 3.5
+      }
+    ],
+    "roomCapacityHours": 250
+  },
+  "myTime": {
+    "week": "2026-W37",
+    "presenceHoursByDay": [
+      7.25,
+      8,
+      6.5,
+      7.75,
+      4.25,
+      0,
+      0
+    ],
+    "meetingHoursByDay": [
+      1.5,
+      3.25,
+      1,
+      2.5,
+      0.5,
+      0,
+      0
+    ],
+    "focusHoursByDay": [
+      2,
+      1.5,
+      3.25,
+      1.75,
+      1,
+      0,
+      0
+    ]
+  },
+  "settings": {
+    "name": "Somion",
+    "template": "team",
+    "guestsAllowed": true,
+    "retentionDays": null,
+    "recordingAllowed": true,
+    "soundsEnabled": true,
+    "notifyOn": "mentions_dms",
+    "quietHours": {
+      "from": "19:00",
+      "to": "08:00"
+    },
+    "autoAwayMinutes": 10,
+    "inactivitySignOutMinutes": 30,
+    "activation": {
+      "state": "trial",
+      "tier": "business",
+      "userCap": 30,
+      "trialEndsAt": "2026-10-21T09:00:00.000Z"
+    },
+    "integrations": {
+      "google": "off",
+      "microsoft": "error",
+      "account": "info@somion.org"
+    },
+    "focusDefaultMinutes": 25,
+    "earshot": "normal",
+    "daylight": true,
+    "idleMotion": true,
+    "roomHoverCards": true,
+    "defaultView": "floor",
+    "channelNotifyDefault": "mentions",
+    "editWindowMinutes": null,
+    "meetingDefaultMinutes": 30,
+    "lobby": "manual",
+    "canCreateChannels": "everyone",
+    "canInviteGuests": "everyone",
+    "canRecord": "everyone",
+    "language": "en",
+    "minCohort": 5
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "pg_home": {
+    "body": [
+      "hero",
+      "two-sides",
+      "partners",
+      "work",
+      "services",
+      "software",
+      "approach",
+      "faqs",
+      "reviews",
+      "closing"
+    ],
+    "groups": {
+      "services": [
+        "services",
+        "homeServices"
+      ]
+    },
+    "references": {
+      "partners": "/content/pages/pg_partners",
+      "reviews": "/content/reviews"
+    }
+  },
+  "pg_services": {
+    "body": [
+      "hero",
+      "families",
+      "all-services",
+      "reviews"
+    ],
+    "groups": {},
+    "views": [
+      "services-list"
+    ],
+    "references": {
+      "reviews": "/content/reviews"
+    }
+  },
+  "pg_software": {
+    "body": [
+      "hero",
+      "workspace",
+      "capabilities",
+      "reviews"
+    ],
+    "groups": {
+      "workspace": [
+        "workspace",
+        "context",
+        "flow"
+      ]
+    },
+    "references": {
+      "reviews": "/content/reviews"
+    }
+  },
+  "pg_work": {
+    "body": [
+      "projects",
+      "reviews"
+    ],
+    "groups": {},
+    "views": [
+      "hero"
+    ],
+    "references": {
+      "reviews": "/content/reviews"
+    }
+  },
+  "pg_about": {
+    "body": [
+      "hero",
+      "purpose",
+      "journey",
+      "reviews"
+    ],
+    "groups": {
+      "journey": [
+        "journey",
+        "journeySteps"
+      ]
+    },
+    "references": {
+      "reviews": "/content/reviews"
+    }
+  },
+  "pg_insights": {
+    "body": [
+      "articles"
+    ],
+    "groups": {},
+    "views": [
+      "article",
+      "hero"
+    ],
+    "references": {}
+  },
+  "pg_contact": {
+    "body": [
+      "hero"
+    ],
+    "groups": {
+      "hero": [
+        "hero",
+        "enquiry",
+        "paths",
+        "topics"
+      ]
+    }
+  },
+  "pg_roadmap": {
+    "body": [
+      "hero",
+      "timeline",
+      "community",
+      "submit-idea"
+    ],
+    "groups": {},
+    "dialogs": [
+      "section-1"
+    ]
+  },
+  "pg_legal": {
+    "body": [
+      "hero"
+    ],
+    "groups": {
+      "hero": [
+        "hero",
+        "legal"
+      ]
+    }
+  },
+  "pg_signIn": {
+    "body": [
+      "signin"
+    ],
+    "groups": {}
+  },
+  "pg_faq": {
+    "body": [
+      "hero",
+      "questions"
+    ],
+    "groups": {}
+  },
+  "pg_partners": {
+    "body": [
+      "intro",
+      "partners"
+    ],
+    "groups": {}
+  },
+  "pg_plans": {
+    "body": [],
+    "shared": {
+      "record": "gl_commerce",
+      "prefixes": [
+        "purchasePlans-",
+        "purchaseUI-",
+        "purchaseControls-"
+      ]
+    },
+    "dependentSteps": true
+  },
+  "pg_cart": {
+    "body": [],
+    "shared": {
+      "record": "gl_commerce",
+      "prefixes": [
+        "purchaseCart-",
+        "purchaseControls-"
+      ]
+    },
+    "dependentSteps": true
+  },
+  "pg_checkout": {
+    "body": [],
+    "shared": {
+      "record": "gl_commerce",
+      "prefixes": [
+        "purchaseCheckout-",
+        "paymentDetails-"
+      ]
+    },
+    "dependentSteps": true
+  },
+  "pg_signUp": {
+    "body": [],
+    "shared": {
+      "record": "pg_signIn",
+      "prefixes": [
+        "signin"
+      ]
+    },
+    "dependentSteps": true
+  },
+  "gl_header": {
+    "body": [],
+    "groups": {},
+    "consumers": [
+      "navigation",
+      "header",
+      "menu"
+    ]
+  },
+  "gl_footer": {
+    "body": [],
+    "groups": {
+      "footer": [
+        "footer",
+        "explore",
+        "start"
+      ]
+    },
+    "consumers": [
+      "shared footers"
+    ]
+  },
+  "gl_components": {
+    "body": [],
+    "groups": {
+      "caseStudy-header": [
+        "caseStudy-header",
+        "caseStudy-intro",
+        "caseStudy-story"
+      ]
+    },
+    "consumers": [
+      "CaseStudy",
+      "ServiceWork"
+    ]
+  },
+  "gl_commerce": {
+    "body": [],
+    "groups": {},
+    "consumers": [
+      "PurchasePlans",
+      "PurchaseCart",
+      "PurchaseCheckout",
+      "PurchaseControls",
+      "CommerceLayout",
+      "SiteHeader",
+      "AccountControl",
+      "PaymentDetails"
+    ]
+  },
+  "gl_socials": {
+    "body": [],
+    "groups": {},
+    "consumers": [
+      "header",
+      "footer"
+    ]
+  },
+  "gl_process": {
+    "body": [],
+    "groups": {},
+    "consumers": [
+      "Home",
+      "Services"
+    ]
+  },
+  "gl_caseFormats": {
+    "body": [],
+    "groups": {},
+    "consumers": [
+      "CaseStudy"
+    ]
+  }
+}
